@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9b6e4efe270ec893b9152705b6860e51 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_9b6e4efe270ec893b9152705b6860e51" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_9b6e4efe270ec893b9152705b6860e51 = L.map(
+                "map_9b6e4efe270ec893b9152705b6860e51",
+                {
+                    center: [50.0, 10.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 5,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_5494c381e72bf4b7269dc7d5a059b1bb = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_5494c381e72bf4b7269dc7d5a059b1bb.addTo(map_9b6e4efe270ec893b9152705b6860e51);
+        
+    
+            var marker_800a311c280e1518c7a8bc992a0d1a38 = L.marker(
+                [38.89037, -77.009],
+                {
+}
+            ).addTo(map_9b6e4efe270ec893b9152705b6860e51);
+        
+    
+            var icon_112cfd86f2951da9502ef773bf872b06 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_daaf9b279466f244c5699598fb362c75 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_77c891882a33b06fe2505a7e9c510f8f = $(`<div id="html_77c891882a33b06fe2505a7e9c510f8f" style="width: 100.0%; height: 100.0%;">         <div style="width: 250px; font-family: 'Inter', sans-serif; padding: 5px;">             <h4 style="margin-top: 0; margin-bottom: 8px; color: #333; font-weight: bold;">Trump's 'One Big Beautiful Bill Act' Nears Passage, Set to Define Second Term</h4>             <details style="border: 1px solid #ccc; border-radius: 5px; padding: 8px; background-color: #f9f9f9;">                 <summary style="font-weight: bold; cursor: pointer; color: #007bff;">Click for Details</summary>                 <ul style="list-style-type: none; padding: 0; margin-top: 10px;">                              <li style="margin-bottom: 5px;">                         <strong style="color: #555;">summary:</strong> President Donald Trump's 'One Big Beautiful Bill Act,' a sweeping legislative package, is poised to pass Congress by July Fourth. The bill combines significant tax cuts, primarily benefiting the wealthy, with reductions in social safety-net spending, particularly Medicaid, and allocates funds for border security while slashing green energy initiatives. Despite being deeply unpopular with the public and facing Democratic opposition over its impact on healthcare and wealth redistribution, the legislation is critical to Trump's second-term agenda and legacy, with its passage seen as highly probable despite some internal Republican disagreements.                     </li>                                  <li style="margin-bottom: 5px;">                         <strong style="color: #555;">location:</strong> United States                     </li>                                  <li style="margin-bottom: 5px;">                         <strong style="color: #555;">date:</strong> 2025-06-30                     </li>                                  <li style="margin-bottom: 5px;">                         <strong style="color: #555;">url:</strong> https://edition.cnn.com/2025/06/30/politics/trump-tax-spending-bill-congress                     </li>                              </ul>             </details>         </div>         </div>`)[0];
+                popup_daaf9b279466f244c5699598fb362c75.setContent(html_77c891882a33b06fe2505a7e9c510f8f);
+            
+        
+
+        marker_800a311c280e1518c7a8bc992a0d1a38.bindPopup(popup_daaf9b279466f244c5699598fb362c75)
+        ;
+
+        
+    
+    
+            marker_800a311c280e1518c7a8bc992a0d1a38.bindTooltip(
+                `<div>
+                     Trump's 'One Big Beautiful Bill Act' Nears Passage, Set to Define Second Term
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_800a311c280e1518c7a8bc992a0d1a38.setIcon(icon_112cfd86f2951da9502ef773bf872b06);
+            
+</script>
+</html>
