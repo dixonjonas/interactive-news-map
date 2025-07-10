@@ -16,6 +16,8 @@ def create_interactive_map_with_pins(processed_articles: list) -> None:
 
     # Add Pins to the Map
     for article_data in processed_articles:
+        if article_data == "":
+            continue
         article_data = json.loads(article_data)
         title = article_data["title"]
         coords = article_data["coords"]
@@ -60,7 +62,3 @@ def create_interactive_map_with_pins(processed_articles: list) -> None:
     output_filename = "interactive_map.html"
     m.save(output_filename)
     print(f"Map saved to {output_filename}")
-
-# --- Execute the function to create the map ---
-if __name__ == "__main__":
-    create_interactive_map_with_pins()

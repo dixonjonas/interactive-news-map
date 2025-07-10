@@ -6,6 +6,10 @@ import datetime
 load_dotenv()
 
 def process_article(article: str, publish_date: datetime.datetime, url: str) -> str:
+
+    if publish_date.strftime("%Y-%m-%d") != datetime.datetime.now().strftime("%Y-%m-%d"):
+        return ""
+
     SYSTEM_PROMPT = """
     You are a helpful assistant that can summarize news articles into the following JSON format:
     {
@@ -49,4 +53,4 @@ def process_article(article: str, publish_date: datetime.datetime, url: str) -> 
     )
     print(response.text)
 
-    return response.text
+    return response.text if response.text else ""

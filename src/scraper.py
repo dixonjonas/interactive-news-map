@@ -1,27 +1,61 @@
-from newspaper import Article
-from bs4 import BeautifulSoup
 import requests
+from bs4 import BeautifulSoup
+from bs4.element import Tag
+from newspaper import Article
+import datetime
 
-def get_article_urls(base_url: str) -> list:
-    response = requests.get(base_url)
-    soup = BeautifulSoup(response.text, "html.parser")
-
-    urls = set()
-
-    for a_tag in soup.find_all("a", href=True):
-        href = a_tag["href"]
-        if href.startswith("/2025/07/08") and not href.endswith(".html"):
-            full_url = "https://edition.cnn.com" + href
-            urls.add(full_url)
-
-    return list(urls)
-
-def scrape_article(url: str) -> list:
+def scrape_article(url: str) -> list | None:
     try:
         article = Article(url)
         article.download()
         article.parse()
         return [article.text, article.publish_date, article.url]
     except Exception as e:
-        print(f"Error scraping article {url}: {e}")
+        print(f"Error scraping {url}: {e}")
         return None
+
+def get_cnn_urls() -> list[str]:
+    base_url = "https://edition.cnn.com/world"
+    response = requests.get(base_url)
+    soup = BeautifulSoup(response.text, "html.parser")
+
+    urls = set()
+    for a_tag in soup.find_all("a", href=True):
+        if isinstance(a_tag, Tag):
+            href = a_tag.get("href")
+            if isinstance(href, str) and href.startswith("/" + datetime.datetime.now().strftime("%Y/%m/%d")): 
+                urls.add("https://edition.cnn.com" + href)
+    return list(urls)
+
+def get_ap_urls() -> list[str]:
+    base_url = "https://apnews.com/world-news"
+    response = requests.get(base_url)
+    soup = BeautifulSoup(response.text, "html.parser")
+
+    urls = set()
+    for a_tag in soup.find_all("a", href=True):
+        if isinstance(a_tag, Tag):
+            href = a_tag.get("href")
+            if isinstance(href, str) and href.startswith("https://apnews.com/article/"):
+                urls.add(href)
+    return list(urls)
+
+def get_reuters_urls() -> list[str]:
+    base_url = "https://www.reuters.com/world/"
+    response = requests.get(base_url)
+    soup = BeautifulSoup(response.text, "html.parser")
+
+    urls = set()
+    for a_tag in soup.find_all("a", href=True):
+        if isinstance(a_tag, Tag):
+            href = a_tag.get("href")
+            if isinstance(href, str) and href.endswith(datetime.datetime.now().strftime("%Y-%m-%d") + "/"):
+                urls.add("https://www.reuters.com" + href)
+    return list(urls)
+
+def get_all_article_urls() -> list[str]:
+    urls = set()
+    urls.update(get_cnn_urls())
+    urls.update(get_ap_urls())
+    urls.update(get_reuters_urls())
+    return list(urls)
