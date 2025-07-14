@@ -6,3 +6,4 @@ sqlalchemy
 python-dotenv
 folium
 google-generativeai
+schedule
