@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_ae9b9865209688b10c01d2e07075badd {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_ae9b9865209688b10c01d2e07075badd" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_ae9b9865209688b10c01d2e07075badd = L.map(
+                "map_ae9b9865209688b10c01d2e07075badd",
+                {
+                    center: [50.0, 10.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 5,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_5733b364a6c46e350b96ced6747f5e8b = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_5733b364a6c46e350b96ced6747f5e8b.addTo(map_ae9b9865209688b10c01d2e07075badd);
+        
+    
+            var marker_dc4cc28c5bc2ae17c7f90717351f5b37 = L.marker(
+                [23.0225, 72.5714],
+                {
+}
+            ).addTo(map_ae9b9865209688b10c01d2e07075badd);
+        
+    
+            var icon_6f13575f7a82c253c07bcd62b2b5c139 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_87eb501855fbec422bc83eb61653391d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_73f6f3362cdc8d6ecf866ad43cf1843a = $(`<div id="html_73f6f3362cdc8d6ecf866ad43cf1843a" style="width: 100.0%; height: 100.0%;">         <div style="width: 250px; font-family: 'Inter', sans-serif; padding: 5px;">             <h4 style="margin-top: 0; margin-bottom: 8px; color: #333; font-weight: bold;">Preliminary Report on Deadly Air India Crash in Ahmedabad Reveals Fuel Cutoff, Raises New Questions</h4>             <details style="border: 1px solid #ccc; border-radius: 5px; padding: 8px; background-color: #f9f9f9;">                 <summary style="font-weight: bold; cursor: pointer; color: #007bff;">Click for Details</summary>                 <ul style="list-style-type: none; padding: 0; margin-top: 10px;">                              <li style="margin-bottom: 5px;">                         <strong style="color: #555;">summary:</strong> A preliminary report by India's Aircraft Accident Investigation Bureau (AAIB) into the Air India flight AI171 crash in Ahmedabad, which killed 242 on board and 19 on the ground, revealed that fuel supply to both engines was cut off during the aircraft's ascent. The black box recorded pilots discussing who flipped the switches. While the engines were briefly relit, it was too late to prevent the descent. The report clarifies the direct cause of power loss but leaves unanswered how the fuel switches were moved to the cutoff position, with experts finding accidental activation unlikely due to their design. A full report is still pending.                     </li>                                  <li style="margin-bottom: 5px;">                         <strong style="color: #555;">location:</strong> Ahmedabad, India                     </li>                                  <li style="margin-bottom: 5px;">                         <strong style="color: #555;">date:</strong> 2025-07-12                     </li>                                  <li style="margin-bottom: 5px;">                         <strong style="color: #555;">url:</strong> https://edition.cnn.com/2025/07/12/india/air-india-crash-questions-intl                     </li>                              </ul>             </details>         </div>         </div>`)[0];
+                popup_87eb501855fbec422bc83eb61653391d.setContent(html_73f6f3362cdc8d6ecf866ad43cf1843a);
+            
+        
+
+        marker_dc4cc28c5bc2ae17c7f90717351f5b37.bindPopup(popup_87eb501855fbec422bc83eb61653391d)
+        ;
+
+        
+    
+    
+            marker_dc4cc28c5bc2ae17c7f90717351f5b37.bindTooltip(
+                `<div>
+                     Preliminary Report on Deadly Air India Crash in Ahmedabad Reveals Fuel Cutoff, Raises New Questions
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_dc4cc28c5bc2ae17c7f90717351f5b37.setIcon(icon_6f13575f7a82c253c07bcd62b2b5c139);
+            
+    
+            var marker_957db14c8a17d27f8ea50b3ce83d20d0 = L.marker(
+                [23.113592, -82.366597],
+                {
+}
+            ).addTo(map_ae9b9865209688b10c01d2e07075badd);
+        
+    
+            var icon_bacc627a889b44db3ef5ba3cd7341f04 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cba18431ed148eac96811ff999c86a72 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6bf26c1e0429d88efb02b43329900f21 = $(`<div id="html_6bf26c1e0429d88efb02b43329900f21" style="width: 100.0%; height: 100.0%;">         <div style="width: 250px; font-family: 'Inter', sans-serif; padding: 5px;">             <h4 style="margin-top: 0; margin-bottom: 8px; color: #333; font-weight: bold;">US Sanctions Cuban President and Officials Over Human Rights Violations</h4>             <details style="border: 1px solid #ccc; border-radius: 5px; padding: 8px; background-color: #f9f9f9;">                 <summary style="font-weight: bold; cursor: pointer; color: #007bff;">Click for Details</summary>                 <ul style="list-style-type: none; padding: 0; margin-top: 10px;">                              <li style="margin-bottom: 5px;">                         <strong style="color: #555;">summary:</strong> The United States government announced sanctions against Cuban President Miguel Díaz-Canel, Defense Minister Álvaro López Miera, and Interior Minister Lázaro Álvarez Casas, along with visa restrictions on judicial and prison officials, for human rights violations related to the suppression of the July 2021 protests. The sanctions were imposed on the anniversary of the protests, which highlighted Cuba's economic crisis. U.S. Secretary of State Marco Rubio emphasized continued U.S. support for human rights in Cuba, while Cuba's Foreign Ministry denounced the sanctions.                     </li>                                  <li style="margin-bottom: 5px;">                         <strong style="color: #555;">location:</strong> Cuba                     </li>                                  <li style="margin-bottom: 5px;">                         <strong style="color: #555;">date:</strong> 2025-07-12                     </li>                                  <li style="margin-bottom: 5px;">                         <strong style="color: #555;">url:</strong> https://apnews.com/article/cuba-us-diazcanel-rubio-visas-4d158a947e5690500325359205b2adce                     </li>                              </ul>             </details>         </div>         </div>`)[0];
+                popup_cba18431ed148eac96811ff999c86a72.setContent(html_6bf26c1e0429d88efb02b43329900f21);
+            
+        
+
+        marker_957db14c8a17d27f8ea50b3ce83d20d0.bindPopup(popup_cba18431ed148eac96811ff999c86a72)
+        ;
+
+        
+    
+    
+            marker_957db14c8a17d27f8ea50b3ce83d20d0.bindTooltip(
+                `<div>
+                     US Sanctions Cuban President and Officials Over Human Rights Violations
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_957db14c8a17d27f8ea50b3ce83d20d0.setIcon(icon_bacc627a889b44db3ef5ba3cd7341f04);
+            
+    
+            var marker_efe8a5a40f1e01ed9d806fb94aac9058 = L.marker(
+                [39.1438, 127.4243],
+                {
+}
+            ).addTo(map_ae9b9865209688b10c01d2e07075badd);
+        
+    
+            var icon_e93e3fd759e12c6367a8f4c7dd419bee = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8984286beec080154ef71dca381be5d3 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_66cc05c954c1e5d030f1ca3058fc38b3 = $(`<div id="html_66cc05c954c1e5d030f1ca3058fc38b3" style="width: 100.0%; height: 100.0%;">         <div style="width: 250px; font-family: 'Inter', sans-serif; padding: 5px;">             <h4 style="margin-top: 0; margin-bottom: 8px; color: #333; font-weight: bold;">Rusia advierte a EE. UU., Corea del Sur y Japón contra alianza de seguridad en Asia, mientras Lavrov visita Corea del Norte</h4>             <details style="border: 1px solid #ccc; border-radius: 5px; padding: 8px; background-color: #f9f9f9;">                 <summary style="font-weight: bold; cursor: pointer; color: #007bff;">Click for Details</summary>                 <ul style="list-style-type: none; padding: 0; margin-top: 10px;">                              <li style="margin-bottom: 5px;">                         <strong style="color: #555;">summary:</strong> El ministro de Relaciones Exteriores de Rusia, Serguéi Lavrov, visitó Wonsan, Corea del Norte, para reunirse con Kim Jong Un y su homóloga Choe Son Hui, advirtiendo a Estados Unidos, Corea del Sur y Japón que no formen una alianza de seguridad contra Corea del Norte. La visita busca solidificar la cooperación militar y económica entre Rusia y Corea del Norte, con Pyongyang reafirmando su apoyo a la guerra de Rusia en Ucrania. Lavrov expresó comprensión por el desarrollo nuclear norcoreano, mientras las potencias occidentales y sus aliados en la región aumentan los ejercicios militares en respuesta a las crecientes amenazas de Pyongyang.                     </li>                                  <li style="margin-bottom: 5px;">                         <strong style="color: #555;">location:</strong> Corea del Norte                     </li>                                  <li style="margin-bottom: 5px;">                         <strong style="color: #555;">date:</strong> 2025-07-12                     </li>                                  <li style="margin-bottom: 5px;">                         <strong style="color: #555;">url:</strong> https://apnews.com/article/norcorea-rusia-lavrov-eeuu-japon-29d7ade72307a1f9f0373a3f43b7a78d                     </li>                              </ul>             </details>         </div>         </div>`)[0];
+                popup_8984286beec080154ef71dca381be5d3.setContent(html_66cc05c954c1e5d030f1ca3058fc38b3);
+            
+        
+
+        marker_efe8a5a40f1e01ed9d806fb94aac9058.bindPopup(popup_8984286beec080154ef71dca381be5d3)
+        ;
+
+        
+    
+    
+            marker_efe8a5a40f1e01ed9d806fb94aac9058.bindTooltip(
+                `<div>
+                     Rusia advierte a EE. UU., Corea del Sur y Japón contra alianza de seguridad en Asia, mientras Lavrov visita Corea del Norte
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_efe8a5a40f1e01ed9d806fb94aac9058.setIcon(icon_e93e3fd759e12c6367a8f4c7dd419bee);
+            
+    
+            var marker_3c3eeb2e8be4910d7b58865cf3193f7a = L.marker(
+                [50.4501, 30.5234],
+                {
+}
+            ).addTo(map_ae9b9865209688b10c01d2e07075badd);
+        
+    
+            var icon_4e926eaa9c9a87d65416cfbf51e1a9d5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ee2d44136521248d80d2980247bbaf84 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8c1359196197beb60d23c1640b28b66b = $(`<div id="html_8c1359196197beb60d23c1640b28b66b" style="width: 100.0%; height: 100.0%;">         <div style="width: 250px; font-family: 'Inter', sans-serif; padding: 5px;">             <h4 style="margin-top: 0; margin-bottom: 8px; color: #333; font-weight: bold;">Russia Unleashes Massive Drone and Missile Barrage Across Ukraine, Killing Six</h4>             <details style="border: 1px solid #ccc; border-radius: 5px; padding: 8px; background-color: #f9f9f9;">                 <summary style="font-weight: bold; cursor: pointer; color: #007bff;">Click for Details</summary>                 <ul style="list-style-type: none; padding: 0; margin-top: 10px;">                              <li style="margin-bottom: 5px;">                         <strong style="color: #555;">summary:</strong> Russia conducted a large-scale overnight and Saturday bombing campaign against Ukraine, firing hundreds of drones and missiles that killed at least six people and wounded dozens across various regions including Chernivtsi, Lviv, Kharkiv, Dnipropetrovsk, and Sumy. This stepped-up long-range attack coincides with Russia's efforts to breach the 1,000-kilometer front line, prompting Poland to scramble jets. Ukraine also reported drone strikes on Russia's Belgorod and Kursk regions.                     </li>                                  <li style="margin-bottom: 5px;">                         <strong style="color: #555;">location:</strong> Ukraine                     </li>                                  <li style="margin-bottom: 5px;">                         <strong style="color: #555;">date:</strong> 2025-07-12                     </li>                                  <li style="margin-bottom: 5px;">                         <strong style="color: #555;">url:</strong> https://apnews.com/article/russia-ukraine-drones-war-cruise-missiles-9dd97f34ea780d84c08bbe3e25abfc67                     </li>                              </ul>             </details>         </div>         </div>`)[0];
+                popup_ee2d44136521248d80d2980247bbaf84.setContent(html_8c1359196197beb60d23c1640b28b66b);
+            
+        
+
+        marker_3c3eeb2e8be4910d7b58865cf3193f7a.bindPopup(popup_ee2d44136521248d80d2980247bbaf84)
+        ;
+
+        
+    
+    
+            marker_3c3eeb2e8be4910d7b58865cf3193f7a.bindTooltip(
+                `<div>
+                     Russia Unleashes Massive Drone and Missile Barrage Across Ukraine, Killing Six
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_3c3eeb2e8be4910d7b58865cf3193f7a.setIcon(icon_4e926eaa9c9a87d65416cfbf51e1a9d5);
+            
+</script>
+</html>

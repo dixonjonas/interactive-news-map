@@ -1,7 +1,8 @@
 import folium
 import json
+from io import StringIO
 
-def create_interactive_map_with_pins(processed_articles: list) -> None:
+def create_interactive_map_with_pins(processed_articles: list) -> str:
     """
     Generates an interactive Folium map with custom markers that display
     expandable "dropdown" information when clicked.
@@ -59,6 +60,5 @@ def create_interactive_map_with_pins(processed_articles: list) -> None:
         ).add_to(m)
 
     # --- 4. Save the Map to an HTML File ---
-    output_filename = "interactive_map.html"
-    m.save(output_filename)
-    print(f"Map saved to {output_filename}")
+    html = m.get_root().render()
+    return html

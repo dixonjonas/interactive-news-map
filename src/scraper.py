@@ -23,7 +23,7 @@ def get_cnn_urls() -> list[str]:
     for a_tag in soup.find_all("a", href=True):
         if isinstance(a_tag, Tag):
             href = a_tag.get("href")
-            if isinstance(href, str) and href.startswith("/" + datetime.datetime.now().strftime("%Y/%m/%d")): 
+            if isinstance(href, str) and href.startswith("/" + datetime.datetime.now().strftime("%Y/%m/%d")):
                 urls.add("https://edition.cnn.com" + href)
     return list(urls)
 

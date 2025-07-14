@@ -1,59 +1,31 @@
-from scraper import get_all_article_urls, scrape_article
-from llm_processor import process_article
+from flask import Flask, render_template, request
+from db import Session, Article
 from map_generator import create_interactive_map_with_pins
-from db import Article, Session
 import json
-import time
-from datetime import datetime
 
+app = Flask(__name__)
 session = Session()
 
-scraped_urls = get_all_article_urls()
-print(f"Found {len(scraped_urls)} articles across all sources")
+@app.route('/', methods=['GET'])
+def index():
+    selected_date = request.args.get('date')
+    
+    query = session.query(Article)
+    if selected_date:
+        query = query.filter(Article.publish_date == selected_date)
 
-for url in scraped_urls:
-    result = scrape_article(url)
-    if result:
-        text, publish_date, final_url = result
-        try:
-            processed = process_article(text, publish_date, final_url)
-            if not processed or (isinstance(processed, str) and processed.strip() == ""):
-                print(f"Skipped empty processed result for: {url}")
-                continue
+    articles = query.all()
+    raw_jsons = [a.raw_json for a in articles]
+    map_html = create_interactive_map_with_pins(raw_jsons)
 
-            try:
-                article_data = json.loads(processed) if isinstance(processed, str) else processed
-            except json.JSONDecodeError:
-                print(f"Invalid JSON returned from process_article for: {url}")
-                continue
-            
-            # Skip if already in DB (based on URL)
-            if session.query(Article).filter_by(url=final_url).first():
-                print(f"Already in DB: {final_url}")
-                continue
+    # Write map HTML to static file for iframe use
+    with open("static/map.html", "w", encoding="utf-8") as f:
+        f.write(map_html)
 
-            new_article = Article(
-                title=article_data["title"],
-                url=final_url,
-                summary=article_data["info"].get("summary", ""),
-                publish_date=publish_date,
-                latitude=article_data["coords"][0],
-                longitude=article_data["coords"][1],
-                location=article_data["info"].get("location", ""),
-                raw_json=processed
-            )
+    # Get all unique publish dates for dropdown
+    all_dates = sorted({a.publish_date.strftime('%Y-%m-%d') for a in session.query(Article).all()}, reverse=True)
 
-            session.add(new_article)
-            session.commit()
-            print(f"Added: {article_data['title']}")
-        except Exception as e:
-            print(f"Error processing article {url}: {e}")
-    time.sleep(7)
+    return render_template("index.html", all_dates=all_dates, selected_date=selected_date)
 
-all_articles = session.query(Article).all()
-processed_articles = [a.raw_json for a in all_articles]
-
-if processed_articles:
-    create_interactive_map_with_pins(processed_articles)
-else:
-    print("No articles processed.")
+if __name__ == '__main__':
+    app.run(debug=True)

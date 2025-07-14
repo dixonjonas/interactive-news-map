@@ -1,0 +1,8 @@
+flask
+newspaper3k
+beautifulsoup4
+requests
+sqlalchemy
+python-dotenv
+folium
+google-generativeai
