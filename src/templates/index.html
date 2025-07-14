@@ -20,6 +20,16 @@
         </select>
     </form>
 
+    <form method="get" action="/">
+        <label for="source">Filter by Source:</label>
+        <select name="source" id="source" onchange="this.form.submit()">
+            <option value="">-- Show All --</option>
+            <option value="https://edition.cnn.com" {% if selected_source == 'https://edition.cnn.com' %}selected{% endif %}>CNN</option>
+            <option value="https://apnews.com" {% if selected_source == 'https://apnews.com' %}selected{% endif %}>AP News</option>
+            <option value="https://www.reuters.com" {% if selected_source == 'https://www.reuters.com' %}selected{% endif %}>Reuters</option>
+        </select>
+    </form>
+
     <iframe src="{{ url_for('static', filename='map.html') }}"></iframe>
 </body>
 </html>

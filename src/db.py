@@ -16,6 +16,7 @@ class Article(Base):
     latitude = Column(Float)
     longitude = Column(Float)
     location = Column(String)
+    source_url = Column(String)
     raw_json = Column(Text)
 
 # Setup

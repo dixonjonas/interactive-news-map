@@ -14,7 +14,7 @@ print(f"Found {len(scraped_urls)} articles across all sources")
 for url in scraped_urls[:20]:
     result = scrape_article(url)
     if result:
-        text, publish_date, final_url = result
+        text, publish_date, final_url, source_url = result
         try:
             processed = process_article(text, publish_date, final_url)
             if not processed or (isinstance(processed, str) and processed.strip() == ""):
@@ -40,6 +40,7 @@ for url in scraped_urls[:20]:
                 latitude=article_data["coords"][0],
                 longitude=article_data["coords"][1],
                 location=article_data["info"].get("location", ""),
+                source_url=source_url,
                 raw_json=processed
             )
 

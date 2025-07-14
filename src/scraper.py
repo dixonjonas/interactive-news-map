@@ -1,7 +1,10 @@
 import requests
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.chrome.options import Options
 from bs4 import BeautifulSoup
 from bs4.element import Tag
-from newspaper import Article
+from newspaper import Article, Config
 import datetime
 
 def scrape_article(url: str) -> list | None:
@@ -9,7 +12,7 @@ def scrape_article(url: str) -> list | None:
         article = Article(url)
         article.download()
         article.parse()
-        return [article.text, article.publish_date, article.url]
+        return [article.text, article.publish_date, article.url, article.source_url]
     except Exception as e:
         print(f"Error scraping {url}: {e}")
         return None
