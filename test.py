@@ -53,5 +53,15 @@ def get_reuters_urls() -> list[str]:
     print(list(urls))
     return list(urls)
 
+def get_url(url: str):
+    try:
+        article = Article(url)
+        article.download()
+        article.parse()
+        print([article.text, article.publish_date, article.url, article.source_url])
+    except Exception as e:
+        print(f"Error scraping {url}: {e}")
+        return []
+
 # Test the function
-get_reuters_urls()
+get_url("https://www.nbcnews.com/world/middle-east/children-killed-israel-strike-gaza-health-clinic-rcna217989")

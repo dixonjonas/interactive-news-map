@@ -9,9 +9,10 @@ from datetime import datetime
 session = Session()
 
 scraped_urls = get_all_article_urls()
+print(scraped_urls)
 print(f"Found {len(scraped_urls)} articles across all sources")
 
-for url in scraped_urls[:20]:
+for url in scraped_urls:
     result = scrape_article(url)
     if result:
         text, publish_date, final_url, source_url = result
