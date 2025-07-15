@@ -14,7 +14,6 @@ def index():
     query = session.query(Article)
     if selected_date:
         query = query.filter(Article.publish_date == selected_date)
-
     if selected_source:
         query = query.filter(Article.source_url == selected_source)
 

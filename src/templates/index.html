@@ -4,32 +4,36 @@
     <title>World News Map</title>
     <style>
         body { font-family: Arial, sans-serif; margin: 20px; }
+        .filters { margin-bottom: 20px; display: flex; gap: 30px; align-items: center; }
         iframe { border: none; width: 100%; height: 80vh; margin-top: 20px; }
     </style>
 </head>
 <body>
     <h1>World News Map</h1>
 
-    <form method="get" action="/">
-        <label for="date">Filter by Date:</label>
-        <select name="date" id="date" onchange="this.form.submit()">
-            <option value="">-- Show All --</option>
-            {% for date in all_dates %}
-                <option value="{{ date }}" {% if date == selected_date %}selected{% endif %}>{{ date }}</option>
-            {% endfor %}
-        </select>
-    </form>
+    <form method="get" action="/" id="filter-form" class="filters">
+        <div>
+            <label for="date">Filter by Date:</label>
+            <select name="date" id="date" onchange="this.form.submit()">
+                <option value="">-- Show All --</option>
+                {% for date in all_dates %}
+                    <option value="{{ date }}" {% if date == selected_date %}selected{% endif %}>{{ date }}</option>
+                {% endfor %}
+            </select>
+        </div>
 
-    <form method="get" action="/">
-        <label for="source">Filter by Source:</label>
-        <select name="source" id="source" onchange="this.form.submit()">
-            <option value="">-- Show All --</option>
-            <option value="https://edition.cnn.com" {% if selected_source == 'https://edition.cnn.com' %}selected{% endif %}>CNN</option>
-            <option value="https://apnews.com" {% if selected_source == 'https://apnews.com' %}selected{% endif %}>AP News</option>
-            <option value="https://www.reuters.com" {% if selected_source == 'https://www.reuters.com' %}selected{% endif %}>Reuters</option>
-        </select>
+        <div>
+            <label for="source">Filter by Source:</label>
+            <select name="source" id="source" onchange="this.form.submit()">
+                <option value="">-- Show All --</option>
+                <option value="https://edition.cnn.com" {% if selected_source == 'https://edition.cnn.com' %}selected{% endif %}>CNN</option>
+                <option value="https://apnews.com" {% if selected_source == 'https://apnews.com' %}selected{% endif %}>AP News</option>
+                <option value="https://www.reuters.com" {% if selected_source == 'https://www.reuters.com' %}selected{% endif %}>Reuters</option>
+            </select>
+        </div>
     </form>
 
     <iframe src="{{ url_for('static', filename='map.html') }}"></iframe>
+
 </body>
 </html>
