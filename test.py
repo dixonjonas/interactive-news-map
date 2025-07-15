@@ -1,6 +1,9 @@
+import requests
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
+from bs4 import BeautifulSoup
+from bs4.element import Tag
 from newspaper import Article, Config
 import datetime
 
@@ -36,5 +39,19 @@ def scrape_article_with_selenium(url: str) -> list | None:
         if 'driver' in locals() and driver:
             driver.quit() 
 
+def get_reuters_urls() -> list[str]:
+    base_url = "https://www.reuters.com/world/"
+    response = requests.get(base_url)
+    soup = BeautifulSoup(response.text, "html.parser")
+
+    urls = set()
+    for a_tag in soup.find_all("a", href=True):
+        if isinstance(a_tag, Tag):
+            href = a_tag.get("href")
+            if isinstance(href, str) and href.endswith(datetime.datetime.now().strftime("%Y-%m-%d") + "/"):
+                urls.add("https://www.reuters.com" + href)
+    print(list(urls))
+    return list(urls)
+
 # Test the function
-scrape_article_with_selenium("https://www.reuters.com/world/trump-tariffs-live-eu-trade-ministers-meeting-discuss-new-us-30-rate-2025-07-14/")
+get_reuters_urls()
