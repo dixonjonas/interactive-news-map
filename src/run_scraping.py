@@ -1,10 +1,10 @@
 from scraper import get_all_article_urls, scrape_article
 from llm_processor import process_article
-from map_generator import create_interactive_map_with_pins
 from db import Article, Session
 import json
 import time
 import logging
+#from map_generator import create_interactive_map_with_pins
 
 logging.basicConfig(
     level=logging.INFO, 

@@ -115,3 +115,144 @@
 2025-07-16 14:35:29,881 - llm_processor - INFO - Article from 2025-07-15 is not from today, skipping. URL: https://apnews.com/article/iraq-oil-field-drone-strike-hkn-7f00523af694254b43079ea0511d5278
 2025-07-16 14:35:29,881 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/iraq-oil-field-drone-strike-hkn-7f00523af694254b43079ea0511d5278
 2025-07-16 14:35:29,881 - __main__ - INFO - --- Scraping process finished ---
+2025-07-16 15:25:02,314 - __main__ - INFO - --- Starting scraping process ---
+2025-07-16 15:25:04,024 - __main__ - INFO - Found 179 unique articles across all sources.
+2025-07-16 15:25:04,024 - __main__ - INFO - Processing URL: https://apnews.com/article/britain-economy-inflation-interest-rates-690e1637d9ff854fedaeea488723df47
+2025-07-16 15:25:04,552 - llm_processor - INFO - Sending article to LLM for processing. URL: https://apnews.com/article/britain-economy-inflation-interest-rates-690e1637d9ff854fedaeea488723df47
+2025-07-16 15:25:04,623 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-16 15:25:07,837 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-16 15:25:07,841 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-16 15:25:07,841 - llm_processor - INFO - LLM processing successful for URL: https://apnews.com/article/britain-economy-inflation-interest-rates-690e1637d9ff854fedaeea488723df47
+2025-07-16 15:25:07,859 - __main__ - INFO - SUCCESS: Added: UK Inflation Reaches Near 18-Month High in June, Potentially Slowing Interest Rate Cuts
+2025-07-16 15:25:14,864 - __main__ - INFO - Processing URL: https://apnews.com/article/eating-fast-tips-to-slow-down-4ba7e9760ac5903fe29dc38a4205d701
+2025-07-16 15:25:15,401 - llm_processor - INFO - Article from 2025-03-24 is not from today, skipping. URL: https://apnews.com/article/eating-fast-tips-to-slow-down-4ba7e9760ac5903fe29dc38a4205d701
+2025-07-16 15:25:15,401 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/eating-fast-tips-to-slow-down-4ba7e9760ac5903fe29dc38a4205d701
+2025-07-16 15:25:15,401 - __main__ - INFO - Processing URL: https://apnews.com/article/oldest-marathon-runner-fauja-singh-17216ee3f466dea8c5f74324ec67ca95
+2025-07-16 15:25:15,987 - llm_processor - INFO - Article from 2025-07-15 is not from today, skipping. URL: https://apnews.com/article/oldest-marathon-runner-fauja-singh-17216ee3f466dea8c5f74324ec67ca95
+2025-07-16 15:25:15,987 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/oldest-marathon-runner-fauja-singh-17216ee3f466dea8c5f74324ec67ca95
+2025-07-16 15:25:15,987 - __main__ - INFO - Processing URL: https://apnews.com/article/michigan-bear-neck-lid-31cfc1e0e19186f2ac666bbac8034cc4
+2025-07-16 15:25:16,571 - llm_processor - INFO - Article from 2025-06-18 is not from today, skipping. URL: https://apnews.com/article/michigan-bear-neck-lid-31cfc1e0e19186f2ac666bbac8034cc4
+2025-07-16 15:25:16,571 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/michigan-bear-neck-lid-31cfc1e0e19186f2ac666bbac8034cc4
+2025-07-16 15:25:16,571 - __main__ - INFO - Processing URL: https://apnews.com/article/italy-pompeii-artwork-find-stolen-wwii-germany-cefd48bbdef050d6f70b0b2065784c19
+2025-07-16 15:25:17,191 - llm_processor - INFO - Article from 2025-07-15 is not from today, skipping. URL: https://apnews.com/article/italy-pompeii-artwork-find-stolen-wwii-germany-cefd48bbdef050d6f70b0b2065784c19
+2025-07-16 15:25:17,192 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/italy-pompeii-artwork-find-stolen-wwii-germany-cefd48bbdef050d6f70b0b2065784c19
+2025-07-16 15:25:17,192 - __main__ - INFO - Processing URL: https://apnews.com/article/swans-stolen-eaten-new-york-manlius-602b5235ef3a055992cafd79a895ccd5
+2025-07-16 15:25:17,833 - llm_processor - INFO - Article from 2023-05-31 is not from today, skipping. URL: https://apnews.com/article/swans-stolen-eaten-new-york-manlius-602b5235ef3a055992cafd79a895ccd5
+2025-07-16 15:25:17,833 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/swans-stolen-eaten-new-york-manlius-602b5235ef3a055992cafd79a895ccd5
+2025-07-16 15:25:17,833 - __main__ - INFO - Processing URL: https://www.nbcnews.com/news/us-news/trump-admin-restarts-third-country-deportations-flight-eswatini-rcna219041
+2025-07-16 15:25:18,451 - llm_processor - INFO - Sending article to LLM for processing. URL: https://www.nbcnews.com/news/us-news/trump-admin-restarts-third-country-deportations-flight-eswatini-rcna219041
+2025-07-16 15:25:18,462 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-16 15:25:23,260 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-16 15:25:23,262 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-16 15:25:23,262 - llm_processor - INFO - LLM processing successful for URL: https://www.nbcnews.com/news/us-news/trump-admin-restarts-third-country-deportations-flight-eswatini-rcna219041
+2025-07-16 15:25:23,267 - __main__ - INFO - SUCCESS: Added: DHS Resumes Third-Country Deportations, Five Immigrants Sent to Eswatini
+2025-07-16 15:25:30,273 - __main__ - INFO - Processing URL: https://edition.cnn.com/2025/07/16/style/erotic-fresco-nazi-wwii-pompeii-intl-scli
+2025-07-16 15:25:31,149 - llm_processor - INFO - Sending article to LLM for processing. URL: https://edition.cnn.com/2025/07/16/style/erotic-fresco-nazi-wwii-pompeii-intl-scli
+2025-07-16 15:25:31,159 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-16 15:25:35,321 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-16 15:25:35,325 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-16 15:25:35,325 - llm_processor - INFO - LLM processing successful for URL: https://edition.cnn.com/2025/07/16/style/erotic-fresco-nazi-wwii-pompeii-intl-scli
+2025-07-16 15:25:35,333 - __main__ - INFO - SUCCESS: Added: Erotic mosaic stolen by Nazi captain during WWII returned to Pompeii
+2025-07-16 15:25:42,338 - __main__ - INFO - Processing URL: https://apnews.com/article/waltz-hegseth-signal-chat-investigation-b3f6daf02b284a000bc109ba6f9e2045
+2025-07-16 15:25:42,977 - llm_processor - INFO - Article from 2025-07-15 is not from today, skipping. URL: https://apnews.com/article/waltz-hegseth-signal-chat-investigation-b3f6daf02b284a000bc109ba6f9e2045
+2025-07-16 15:25:42,977 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/waltz-hegseth-signal-chat-investigation-b3f6daf02b284a000bc109ba6f9e2045
+2025-07-16 15:25:42,977 - __main__ - INFO - Processing URL: https://apnews.com/article/cfpb-vought-trump-rohit-chopra-banks-consumers-fef24aa0d7fdf46967df8041586743bd
+2025-07-16 15:25:43,637 - llm_processor - INFO - Article from 2025-07-15 is not from today, skipping. URL: https://apnews.com/article/cfpb-vought-trump-rohit-chopra-banks-consumers-fef24aa0d7fdf46967df8041586743bd
+2025-07-16 15:25:43,637 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/cfpb-vought-trump-rohit-chopra-banks-consumers-fef24aa0d7fdf46967df8041586743bd
+2025-07-16 15:25:43,637 - __main__ - INFO - Processing URL: https://apnews.com/article/russia-ukraine-war-putin-trump-zelenskyy-eb878d323d03656d9496d927ebb9e1c4
+2025-07-16 15:25:44,345 - llm_processor - INFO - Sending article to LLM for processing. URL: https://apnews.com/article/russia-ukraine-war-putin-trump-zelenskyy-eb878d323d03656d9496d927ebb9e1c4
+2025-07-16 15:25:44,357 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-16 15:25:49,852 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-16 15:25:49,857 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-16 15:25:49,857 - llm_processor - INFO - LLM processing successful for URL: https://apnews.com/article/russia-ukraine-war-putin-trump-zelenskyy-eb878d323d03656d9496d927ebb9e1c4
+2025-07-16 15:25:49,866 - __main__ - INFO - SUCCESS: Added: Russia's Ukraine Offensive Advances Slowly Amid Trump's Ultimatum and Fierce Resistance
+2025-07-16 15:25:56,866 - __main__ - INFO - Processing URL: https://www.nbcnews.com/news/us-news/ice-detains-soon-father-washington-state-pregnant-wife-pleads-just-wan-rcna218855
+2025-07-16 15:25:59,556 - llm_processor - INFO - Article from 2025-07-15 is not from today, skipping. URL: https://www.nbcnews.com/news/us-news/ice-detains-soon-father-washington-state-pregnant-wife-pleads-just-wan-rcna218855
+2025-07-16 15:25:59,556 - __main__ - INFO - Skipped empty processed result for: https://www.nbcnews.com/news/us-news/ice-detains-soon-father-washington-state-pregnant-wife-pleads-just-wan-rcna218855
+2025-07-16 15:25:59,556 - __main__ - INFO - Processing URL: https://apnews.com/article/jeffrey-epstein-bondi-bongino-trump-justice-269d9526d270e6342e82ecae27fe6189
+2025-07-16 15:26:00,234 - llm_processor - INFO - Article from 2025-07-15 is not from today, skipping. URL: https://apnews.com/article/jeffrey-epstein-bondi-bongino-trump-justice-269d9526d270e6342e82ecae27fe6189
+2025-07-16 15:26:00,234 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/jeffrey-epstein-bondi-bongino-trump-justice-269d9526d270e6342e82ecae27fe6189
+2025-07-16 15:26:00,234 - __main__ - INFO - Processing URL: https://apnews.com/article/trump-republicans-budget-cuts-pepfar-pbs-npr-b224d4dd5962f141b23e76a4893e0d39
+2025-07-16 15:26:00,810 - llm_processor - INFO - Article from 2025-07-15 is not from today, skipping. URL: https://apnews.com/article/trump-republicans-budget-cuts-pepfar-pbs-npr-b224d4dd5962f141b23e76a4893e0d39
+2025-07-16 15:26:00,811 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/trump-republicans-budget-cuts-pepfar-pbs-npr-b224d4dd5962f141b23e76a4893e0d39
+2025-07-16 15:26:00,811 - __main__ - INFO - Processing URL: https://apnews.com/article/us-philippines-palawan-boats-south-china-sea-37f8012c949f40cf043478a9c8cc7cc1
+2025-07-16 15:26:01,340 - llm_processor - INFO - Sending article to LLM for processing. URL: https://apnews.com/article/us-philippines-palawan-boats-south-china-sea-37f8012c949f40cf043478a9c8cc7cc1
+2025-07-16 15:26:01,354 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-16 15:26:06,488 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-16 15:26:06,505 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-16 15:26:06,505 - llm_processor - INFO - LLM processing successful for URL: https://apnews.com/article/us-philippines-palawan-boats-south-china-sea-37f8012c949f40cf043478a9c8cc7cc1
+2025-07-16 15:26:06,518 - __main__ - INFO - SUCCESS: Added: US and Philippines Conduct Joint Maritime Drills Near Palawan in South China Sea
+2025-07-16 15:26:13,523 - __main__ - INFO - Processing URL: https://www.nbcnews.com/world/middle-east/children-killed-israel-strike-gaza-health-clinic-rcna217989
+2025-07-16 15:26:14,130 - llm_processor - INFO - Article from 2025-07-10 is not from today, skipping. URL: https://www.nbcnews.com/world/middle-east/children-killed-israel-strike-gaza-health-clinic-rcna217989
+2025-07-16 15:26:14,130 - __main__ - INFO - Skipped empty processed result for: https://www.nbcnews.com/world/middle-east/children-killed-israel-strike-gaza-health-clinic-rcna217989
+2025-07-16 15:26:14,130 - __main__ - INFO - Processing URL: https://www.nbcnews.com/world/gaza/gaza-israel-babies-fuel-hospital-at-risk-blockade-rcna218201
+2025-07-16 15:26:14,812 - llm_processor - INFO - Article from 2025-07-11 is not from today, skipping. URL: https://www.nbcnews.com/world/gaza/gaza-israel-babies-fuel-hospital-at-risk-blockade-rcna218201
+2025-07-16 15:26:14,812 - __main__ - INFO - Skipped empty processed result for: https://www.nbcnews.com/world/gaza/gaza-israel-babies-fuel-hospital-at-risk-blockade-rcna218201
+2025-07-16 15:26:14,812 - __main__ - INFO - Processing URL: https://www.nbcnews.com/news/us-news/mike-johnson-epstein-files-ice-memos-deportation-morning-rundown-rcna219034
+2025-07-16 15:26:15,150 - llm_processor - INFO - Sending article to LLM for processing. URL: https://www.nbcnews.com/news/us-news/mike-johnson-epstein-files-ice-memos-deportation-morning-rundown-rcna219034
+2025-07-16 15:26:15,160 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-16 15:26:26,998 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-16 15:26:27,008 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-16 15:26:27,008 - llm_processor - INFO - LLM processing successful for URL: https://www.nbcnews.com/news/us-news/mike-johnson-epstein-files-ice-memos-deportation-morning-rundown-rcna219034
+2025-07-16 15:26:27,018 - __main__ - INFO - SUCCESS: Added: Donald Trump Brushes Off Jeffrey Epstein Case as Mike Johnson Calls for Documents
+2025-07-16 15:26:34,024 - __main__ - INFO - Processing URL: https://apnews.com/article/trump-travel-ban-refugees-lawsuit-44ff62623ac10ef287710f0ebcf5904b
+2025-07-16 15:26:34,668 - llm_processor - INFO - Article from 2025-07-15 is not from today, skipping. URL: https://apnews.com/article/trump-travel-ban-refugees-lawsuit-44ff62623ac10ef287710f0ebcf5904b
+2025-07-16 15:26:34,668 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/trump-travel-ban-refugees-lawsuit-44ff62623ac10ef287710f0ebcf5904b
+2025-07-16 15:26:34,668 - __main__ - INFO - Processing URL: https://www.nbcnews.com/news/us-news/suspected-los-angeles-arsonist-run-former-college-football-player-rcna218911
+2025-07-16 15:26:35,109 - llm_processor - INFO - Sending article to LLM for processing. URL: https://www.nbcnews.com/news/us-news/suspected-los-angeles-arsonist-run-former-college-football-player-rcna218911
+2025-07-16 15:26:35,121 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-16 15:26:38,240 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-16 15:26:38,242 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-16 15:26:38,243 - llm_processor - INFO - LLM processing successful for URL: https://www.nbcnews.com/news/us-news/suspected-los-angeles-arsonist-run-former-college-football-player-rcna218911
+2025-07-16 15:26:38,250 - __main__ - INFO - SUCCESS: Added: Former College Football Player Chases Down Arson Suspect in Los Angeles Hills
+2025-07-16 15:26:45,255 - __main__ - INFO - Processing URL: https://edition.cnn.com/2025/07/16/europe/georgia-protests-russia-china-iran-influence-intl-cmd
+2025-07-16 15:26:46,054 - llm_processor - INFO - Sending article to LLM for processing. URL: https://edition.cnn.com/2025/07/16/europe/georgia-protests-russia-china-iran-influence-intl-cmd
+2025-07-16 15:26:46,063 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-16 15:26:52,347 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-16 15:26:52,350 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-16 15:26:52,350 - llm_processor - INFO - LLM processing successful for URL: https://edition.cnn.com/2025/07/16/europe/georgia-protests-russia-china-iran-influence-intl-cmd
+2025-07-16 15:26:52,356 - __main__ - INFO - Already in DB: https://edition.cnn.com/2025/07/16/europe/georgia-protests-russia-china-iran-influence-intl-cmd
+2025-07-16 15:26:52,356 - __main__ - INFO - Processing URL: https://apnews.com/article/shower-basics-tiktok-social-media-dermatologist-8a96743d7b86c329703f7736a7306961
+2025-07-16 15:26:52,907 - llm_processor - INFO - Article from 2025-07-09 is not from today, skipping. URL: https://apnews.com/article/shower-basics-tiktok-social-media-dermatologist-8a96743d7b86c329703f7736a7306961
+2025-07-16 15:26:52,907 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/shower-basics-tiktok-social-media-dermatologist-8a96743d7b86c329703f7736a7306961
+2025-07-16 15:26:52,907 - __main__ - INFO - Processing URL: https://www.nbcnews.com/world/asia/china-restaurant-criticized-offering-tea-lion-cub-hugs-rcna219042
+2025-07-16 15:26:53,452 - llm_processor - INFO - Sending article to LLM for processing. URL: https://www.nbcnews.com/world/asia/china-restaurant-criticized-offering-tea-lion-cub-hugs-rcna219042
+2025-07-16 15:26:53,462 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-16 15:26:56,784 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-16 15:26:56,789 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-16 15:26:56,789 - llm_processor - INFO - LLM processing successful for URL: https://www.nbcnews.com/world/asia/china-restaurant-criticized-offering-tea-lion-cub-hugs-rcna219042
+2025-07-16 15:26:56,797 - __main__ - INFO - SUCCESS: Added: Chinese Restaurant Criticized for Offering Lion Cub Hugs with Tea
+2025-07-16 15:27:03,802 - __main__ - INFO - Processing URL: https://apnews.com/article/israel-gaza-mideast-wars-latest-july-2025-25843c0eb9dcaae624de39cf383d186d
+2025-07-16 15:27:04,725 - llm_processor - INFO - Sending article to LLM for processing. URL: https://apnews.com/article/israel-gaza-mideast-wars-latest-july-2025-25843c0eb9dcaae624de39cf383d186d
+2025-07-16 15:27:04,739 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-16 15:27:18,767 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-16 15:27:18,771 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-16 15:27:18,771 - llm_processor - INFO - LLM processing successful for URL: https://apnews.com/article/israel-gaza-mideast-wars-latest-july-2025-25843c0eb9dcaae624de39cf383d186d
+2025-07-16 15:27:18,779 - __main__ - INFO - Already in DB: https://apnews.com/article/israel-gaza-mideast-wars-latest-july-2025-25843c0eb9dcaae624de39cf383d186d
+2025-07-16 15:27:18,779 - __main__ - INFO - Processing URL: https://apnews.com/article/bolivia-sarampion-brote-santa-cruz-vacunas-a01cee70486283b70d649add194adbbb
+2025-07-16 15:27:19,343 - llm_processor - INFO - Article from 2025-06-18 is not from today, skipping. URL: https://apnews.com/article/bolivia-sarampion-brote-santa-cruz-vacunas-a01cee70486283b70d649add194adbbb
+2025-07-16 15:27:19,343 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/bolivia-sarampion-brote-santa-cruz-vacunas-a01cee70486283b70d649add194adbbb
+2025-07-16 15:27:19,343 - __main__ - INFO - Processing URL: https://apnews.com/article/immigration-detention-ice-trump-e1c2322c3f88c1f7d7e83c8c42109cb6
+2025-07-16 15:27:19,958 - llm_processor - INFO - Article from 2025-07-15 is not from today, skipping. URL: https://apnews.com/article/immigration-detention-ice-trump-e1c2322c3f88c1f7d7e83c8c42109cb6
+2025-07-16 15:27:19,958 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/immigration-detention-ice-trump-e1c2322c3f88c1f7d7e83c8c42109cb6
+2025-07-16 15:27:19,958 - __main__ - INFO - Processing URL: https://apnews.com/article/russia-ukraine-attack-trump-ultimatum-50-days-7388ae351bc78e42c9ab844be6b93942
+2025-07-16 15:27:20,865 - llm_processor - INFO - Sending article to LLM for processing. URL: https://apnews.com/article/russia-ukraine-attack-trump-ultimatum-50-days-7388ae351bc78e42c9ab844be6b93942
+2025-07-16 15:27:20,875 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-16 15:27:25,120 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-16 15:27:25,124 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-16 15:27:25,125 - llm_processor - INFO - LLM processing successful for URL: https://apnews.com/article/russia-ukraine-attack-trump-ultimatum-50-days-7388ae351bc78e42c9ab844be6b93942
+2025-07-16 15:27:25,133 - __main__ - INFO - SUCCESS: Added: Russia Pummels Ukrainian Cities Amid Trump's Peace Deal Deadline
+2025-07-16 15:27:32,139 - __main__ - INFO - Processing URL: https://edition.cnn.com/2025/07/16/europe/russia-ukraine-400-drones-attack-intl-hnk
+2025-07-16 15:27:32,874 - llm_processor - INFO - Sending article to LLM for processing. URL: https://edition.cnn.com/2025/07/16/europe/russia-ukraine-400-drones-attack-intl-hnk
+2025-07-16 15:27:32,884 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-16 15:27:36,995 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-16 15:27:36,997 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-16 15:27:36,997 - llm_processor - INFO - LLM processing successful for URL: https://edition.cnn.com/2025/07/16/europe/russia-ukraine-400-drones-attack-intl-hnk
+2025-07-16 15:27:37,005 - __main__ - INFO - SUCCESS: Added: Russia Launches Massive Drone Attack Across Ukraine, Targeting Zelensky's Hometown
+2025-07-16 15:27:44,010 - __main__ - INFO - Processing URL: https://www.nbcnews.com/politics/politics-news/trumps-texas-sized-redistricting-dreams-politics-desk-rcna218981
+2025-07-16 15:27:45,688 - llm_processor - INFO - Article from 2025-07-15 is not from today, skipping. URL: https://www.nbcnews.com/politics/politics-news/trumps-texas-sized-redistricting-dreams-politics-desk-rcna218981
+2025-07-16 15:27:45,688 - __main__ - INFO - Skipped empty processed result for: https://www.nbcnews.com/politics/politics-news/trumps-texas-sized-redistricting-dreams-politics-desk-rcna218981
+2025-07-16 15:27:45,688 - __main__ - INFO - Processing URL: https://apnews.com/article/russia-ukraine-war-mariupol-descends-into-despair-708cb8f4a171ce3f1c1b0b8d090e38e3
+2025-07-16 15:27:46,869 - llm_processor - INFO - Article from 2022-03-16 is not from today, skipping. URL: https://apnews.com/article/russia-ukraine-war-mariupol-descends-into-despair-708cb8f4a171ce3f1c1b0b8d090e38e3
+2025-07-16 15:27:46,869 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/russia-ukraine-war-mariupol-descends-into-despair-708cb8f4a171ce3f1c1b0b8d090e38e3
+2025-07-16 15:27:46,869 - __main__ - INFO - --- Scraping process finished ---

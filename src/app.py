@@ -1,14 +1,12 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, jsonify
 from db import Session, Article
-from map_generator import create_interactive_map_with_pins
 import logging
 from logging.handlers import RotatingFileHandler
 import os
 
-# TODO: Test logger for app and scraper
+# TODO: Fix a better frontend, maybe react, and cluster pins on map, and make map not infinite
 
 app = Flask(__name__)
-session = Session()
 
 if not app.debug:
     # In production, log to a file.
@@ -23,33 +21,52 @@ if not app.debug:
     app.logger.setLevel(logging.INFO)
     app.logger.info('News Map startup')
 
+@app.teardown_appcontext
+def shutdown_session(exception=None):
+    """Closes the database session at the end of the request."""
+    Session.remove()
+
 @app.route('/', methods=['GET'])
 def index():
+    """Renders the main map page."""
+    all_dates = sorted({a.publish_date.strftime('%Y-%m-%d') for a in Session.query(Article.publish_date).all()}, reverse=True)
+    all_sources = sorted({a.source_url for a in Session.query(Article.source_url).distinct()})
+    
+    app.logger.info("Serving main index.html page.")
+    return render_template("index.html", all_dates=all_dates, all_sources=all_sources)
+
+@app.route('/api/articles', methods=['GET'])
+def get_articles():
+    """Provides article data as JSON based on query filters."""
     selected_date = request.args.get('date')
     selected_source = request.args.get('source')
-
-    app.logger.info(f"Request received for map with filters: date='{selected_date}', source='{selected_source}'")
     
-    query = session.query(Article)
+    app.logger.info(f"API request for articles with filters: date='{selected_date}', source='{selected_source}'")
+    
+    query = Session.query(Article)
     if selected_date:
         query = query.filter(Article.publish_date == selected_date)
     if selected_source:
         query = query.filter(Article.source_url == selected_source)
 
     articles = query.all()
-    app.logger.info(f"Found {len(articles)} articles matching filters.")
-
-    raw_jsons = [a.raw_json for a in articles]
-    map_html = create_interactive_map_with_pins(raw_jsons)
-
-    # Write map HTML to static file for iframe use
-    with open("static/map.html", "w", encoding="utf-8") as f:
-        f.write(map_html)
-
-    # Get all unique publish dates for dropdown
-    all_dates = sorted({a.publish_date.strftime('%Y-%m-%d') for a in session.query(Article).all()}, reverse=True)
-
-    return render_template("index.html", all_dates=all_dates, selected_date=selected_date, selected_source=selected_source)
+    
+    articles_data = []
+    for article in articles:
+        articles_data.append({
+            "title": article.title,
+            "coords": [article.latitude, article.longitude],
+            "info": {
+                "summary": article.summary,
+                "location": article.location,
+                "date": article.publish_date.strftime('%Y-%m-%d'),
+                "url": article.url,
+            },
+            "source": article.source_url
+        })
+        
+    app.logger.info(f"API sending {len(articles_data)} articles.")
+    return jsonify(articles_data)
 
 if __name__ == '__main__':
     app.run(debug=True)
