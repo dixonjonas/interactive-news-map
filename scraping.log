@@ -1,0 +1,117 @@
+2025-07-16 14:33:54,900 - __main__ - INFO - --- Starting scraping process ---
+2025-07-16 14:33:56,073 - __main__ - INFO - Found 176 unique articles across all sources.
+2025-07-16 14:33:56,073 - __main__ - INFO - Processing URL: https://apnews.com/article/waltz-hegseth-signal-chat-investigation-b3f6daf02b284a000bc109ba6f9e2045
+2025-07-16 14:33:56,656 - llm_processor - INFO - Article from 2025-07-15 is not from today, skipping. URL: https://apnews.com/article/waltz-hegseth-signal-chat-investigation-b3f6daf02b284a000bc109ba6f9e2045
+2025-07-16 14:33:56,656 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/waltz-hegseth-signal-chat-investigation-b3f6daf02b284a000bc109ba6f9e2045
+2025-07-16 14:33:56,656 - __main__ - INFO - Processing URL: https://www.nbcnews.com/tech/security/national-guard-was-hacked-chinas-salt-typhoon-group-dhs-says-rcna218648
+2025-07-16 14:33:56,925 - llm_processor - INFO - Article from 2025-07-15 is not from today, skipping. URL: https://www.nbcnews.com/tech/security/national-guard-was-hacked-chinas-salt-typhoon-group-dhs-says-rcna218648
+2025-07-16 14:33:56,925 - __main__ - INFO - Skipped empty processed result for: https://www.nbcnews.com/tech/security/national-guard-was-hacked-chinas-salt-typhoon-group-dhs-says-rcna218648
+2025-07-16 14:33:56,925 - __main__ - INFO - Processing URL: https://apnews.com/article/federal-reserve-building-renovations-trump-powell-70cfb70f2c09105c2a144179d5d92e69
+2025-07-16 14:33:57,465 - llm_processor - INFO - Sending article to LLM for processing. URL: https://apnews.com/article/federal-reserve-building-renovations-trump-powell-70cfb70f2c09105c2a144179d5d92e69
+2025-07-16 14:33:57,526 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-16 14:34:02,835 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-16 14:34:02,839 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-16 14:34:02,839 - llm_processor - INFO - LLM processing successful for URL: https://apnews.com/article/federal-reserve-building-renovations-trump-powell-70cfb70f2c09105c2a144179d5d92e69
+2025-07-16 14:34:02,854 - __main__ - INFO - SUCCESS: Added: Trump Seeks to Oust Fed Chair Powell Over 'Disgraceful' $2.5 Billion Building Renovation
+2025-07-16 14:34:09,857 - __main__ - INFO - Processing URL: https://apnews.com/article/cfpb-trump-zelle-navy-federal-overdrafts-walmart-a35873d36fed83f5db76feaa844a1fb8
+2025-07-16 14:34:10,514 - llm_processor - INFO - Article from 2025-07-15 is not from today, skipping. URL: https://apnews.com/article/cfpb-trump-zelle-navy-federal-overdrafts-walmart-a35873d36fed83f5db76feaa844a1fb8
+2025-07-16 14:34:10,514 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/cfpb-trump-zelle-navy-federal-overdrafts-walmart-a35873d36fed83f5db76feaa844a1fb8
+2025-07-16 14:34:10,514 - __main__ - INFO - Processing URL: https://www.nbcnews.com/news/us-news/paranormal-investigator-dan-rivera-dies-tour-annabelle-allegedly-haunt-rcna219043
+2025-07-16 14:34:10,860 - llm_processor - INFO - Sending article to LLM for processing. URL: https://www.nbcnews.com/news/us-news/paranormal-investigator-dan-rivera-dies-tour-annabelle-allegedly-haunt-rcna219043
+2025-07-16 14:34:10,871 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-16 14:34:15,388 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-16 14:34:15,392 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-16 14:34:15,392 - llm_processor - INFO - LLM processing successful for URL: https://www.nbcnews.com/news/us-news/paranormal-investigator-dan-rivera-dies-tour-annabelle-allegedly-haunt-rcna219043
+2025-07-16 14:34:15,400 - __main__ - INFO - SUCCESS: Added: Paranormal Investigator Dan Rivera, Annabelle Doll Handler, Dies in Gettysburg
+2025-07-16 14:34:22,406 - __main__ - INFO - Processing URL: https://www.nbcnews.com/information/nbc-news-info/closed-captioning-n1307063
+2025-07-16 14:34:22,968 - llm_processor - INFO - Article from 2023-08-21 is not from today, skipping. URL: https://www.nbcnews.com/information/nbc-news-info/closed-captioning-n1307063
+2025-07-16 14:34:22,968 - __main__ - INFO - Skipped empty processed result for: https://www.nbcnews.com/information/nbc-news-info/closed-captioning-n1307063
+2025-07-16 14:34:22,968 - __main__ - INFO - Processing URL: https://apnews.com/article/hong-kong-car-hailing-uber-regulations-5803a3fc42c8c0fdf03104a9e869b300
+2025-07-16 14:34:23,574 - llm_processor - INFO - Article from 2025-07-15 is not from today, skipping. URL: https://apnews.com/article/hong-kong-car-hailing-uber-regulations-5803a3fc42c8c0fdf03104a9e869b300
+2025-07-16 14:34:23,574 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/hong-kong-car-hailing-uber-regulations-5803a3fc42c8c0fdf03104a9e869b300
+2025-07-16 14:34:23,574 - __main__ - INFO - Processing URL: https://apnews.com/article/west-bank-settler-violence-taybeh-palestinians-israelis-9a2e01963d8c9a313c85b1b9c1b4ab27
+2025-07-16 14:34:24,259 - llm_processor - INFO - Article from 2025-07-14 is not from today, skipping. URL: https://apnews.com/article/west-bank-settler-violence-taybeh-palestinians-israelis-9a2e01963d8c9a313c85b1b9c1b4ab27
+2025-07-16 14:34:24,259 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/west-bank-settler-violence-taybeh-palestinians-israelis-9a2e01963d8c9a313c85b1b9c1b4ab27
+2025-07-16 14:34:24,259 - __main__ - INFO - Processing URL: https://www.nbcnews.com/politics/congress/senate-republicans-shrink-trumps-spending-cut-package-ahead-key-vote-rcna218962
+2025-07-16 14:34:24,584 - llm_processor - INFO - Sending article to LLM for processing. URL: https://www.nbcnews.com/politics/congress/senate-republicans-shrink-trumps-spending-cut-package-ahead-key-vote-rcna218962
+2025-07-16 14:34:24,593 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-16 14:34:28,733 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-16 14:34:28,736 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-16 14:34:28,736 - llm_processor - INFO - LLM processing successful for URL: https://www.nbcnews.com/politics/congress/senate-republicans-shrink-trumps-spending-cut-package-ahead-key-vote-rcna218962
+2025-07-16 14:34:28,746 - __main__ - INFO - SUCCESS: Added: Senate Republicans Advance Trump's Spending Cut Package After Removing PEPFAR Cuts
+2025-07-16 14:34:35,751 - __main__ - INFO - Processing URL: https://apnews.com/article/trump-rally-shooting-fact-focus-election-c02bcff9f4210e890c0003a1f85044f7
+2025-07-16 14:34:36,446 - llm_processor - INFO - Article from 2024-07-15 is not from today, skipping. URL: https://apnews.com/article/trump-rally-shooting-fact-focus-election-c02bcff9f4210e890c0003a1f85044f7
+2025-07-16 14:34:36,446 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/trump-rally-shooting-fact-focus-election-c02bcff9f4210e890c0003a1f85044f7
+2025-07-16 14:34:36,446 - __main__ - INFO - Processing URL: https://apnews.com/article/israel-gaza-mideast-wars-latest-july-2025-25843c0eb9dcaae624de39cf383d186d
+2025-07-16 14:34:37,162 - llm_processor - INFO - Sending article to LLM for processing. URL: https://apnews.com/article/israel-gaza-mideast-wars-latest-july-2025-25843c0eb9dcaae624de39cf383d186d
+2025-07-16 14:34:37,173 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-16 14:34:44,148 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-16 14:34:44,151 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-16 14:34:44,151 - llm_processor - INFO - LLM processing successful for URL: https://apnews.com/article/israel-gaza-mideast-wars-latest-july-2025-25843c0eb9dcaae624de39cf383d186d
+2025-07-16 14:34:44,160 - __main__ - INFO - SUCCESS: Added: Deadly Stampede at Gaza Food Distribution Site Kills 20 Amid Ongoing Conflict
+2025-07-16 14:34:51,165 - __main__ - INFO - Processing URL: https://apnews.com/article/british-open-royal-portrush-name-open-championship-cd9a43962aeca2e9e055843625d93d86
+2025-07-16 14:34:52,065 - llm_processor - INFO - Article from 2025-07-15 is not from today, skipping. URL: https://apnews.com/article/british-open-royal-portrush-name-open-championship-cd9a43962aeca2e9e055843625d93d86
+2025-07-16 14:34:52,065 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/british-open-royal-portrush-name-open-championship-cd9a43962aeca2e9e055843625d93d86
+2025-07-16 14:34:52,065 - __main__ - INFO - Processing URL: https://apnews.com/article/uk-economy-reeves-financial-services-d9e32246f9f68b7a75fbc0c1c0161acf
+2025-07-16 14:34:52,959 - llm_processor - INFO - Article from 2025-07-15 is not from today, skipping. URL: https://apnews.com/article/uk-economy-reeves-financial-services-d9e32246f9f68b7a75fbc0c1c0161acf
+2025-07-16 14:34:52,960 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/uk-economy-reeves-financial-services-d9e32246f9f68b7a75fbc0c1c0161acf
+2025-07-16 14:34:52,960 - __main__ - INFO - Processing URL: https://apnews.com/article/france-public-holidays-budget-6df3e8e238356c1131e099662868dbcd
+2025-07-16 14:34:53,800 - llm_processor - INFO - Article from 2025-07-15 is not from today, skipping. URL: https://apnews.com/article/france-public-holidays-budget-6df3e8e238356c1131e099662868dbcd
+2025-07-16 14:34:53,800 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/france-public-holidays-budget-6df3e8e238356c1131e099662868dbcd
+2025-07-16 14:34:53,800 - __main__ - INFO - Processing URL: https://www.nbcnews.com/news/nbc-news-now-live-audio-listen-live-news-audio-day-rcna70163
+2025-07-16 14:34:54,491 - llm_processor - INFO - Article from 2023-02-16 is not from today, skipping. URL: https://www.nbcnews.com/news/nbc-news-now-live-audio-listen-live-news-audio-day-rcna70163
+2025-07-16 14:34:54,491 - __main__ - INFO - Skipped empty processed result for: https://www.nbcnews.com/news/nbc-news-now-live-audio-listen-live-news-audio-day-rcna70163
+2025-07-16 14:34:54,491 - __main__ - INFO - Processing URL: https://apnews.com/article/oldest-marathon-runner-fauja-singh-17216ee3f466dea8c5f74324ec67ca95
+2025-07-16 14:34:55,096 - llm_processor - INFO - Article from 2025-07-15 is not from today, skipping. URL: https://apnews.com/article/oldest-marathon-runner-fauja-singh-17216ee3f466dea8c5f74324ec67ca95
+2025-07-16 14:34:55,096 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/oldest-marathon-runner-fauja-singh-17216ee3f466dea8c5f74324ec67ca95
+2025-07-16 14:34:55,096 - __main__ - INFO - Processing URL: https://apnews.com/article/americans-voters-2024-election-ae4587c3b109bc9c0e2d39074ea62d6c
+2025-07-16 14:34:55,908 - llm_processor - INFO - Article from 2024-08-30 is not from today, skipping. URL: https://apnews.com/article/americans-voters-2024-election-ae4587c3b109bc9c0e2d39074ea62d6c
+2025-07-16 14:34:55,908 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/americans-voters-2024-election-ae4587c3b109bc9c0e2d39074ea62d6c
+2025-07-16 14:34:55,908 - __main__ - INFO - Processing URL: https://apnews.com/article/shower-basics-tiktok-social-media-dermatologist-8a96743d7b86c329703f7736a7306961
+2025-07-16 14:34:56,471 - llm_processor - INFO - Article from 2025-07-09 is not from today, skipping. URL: https://apnews.com/article/shower-basics-tiktok-social-media-dermatologist-8a96743d7b86c329703f7736a7306961
+2025-07-16 14:34:56,471 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/shower-basics-tiktok-social-media-dermatologist-8a96743d7b86c329703f7736a7306961
+2025-07-16 14:34:56,471 - __main__ - INFO - Processing URL: https://apnews.com/article/equatorial-guinea-france-mansion-un-court-e0123d76caac2b8d6a557fc19849312c
+2025-07-16 14:34:57,090 - llm_processor - INFO - Article from 2025-07-15 is not from today, skipping. URL: https://apnews.com/article/equatorial-guinea-france-mansion-un-court-e0123d76caac2b8d6a557fc19849312c
+2025-07-16 14:34:57,090 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/equatorial-guinea-france-mansion-un-court-e0123d76caac2b8d6a557fc19849312c
+2025-07-16 14:34:57,090 - __main__ - INFO - Processing URL: https://edition.cnn.com/2025/07/16/middleeast/israel-gaza-aid-site-crush-deaths-intl
+2025-07-16 14:34:58,020 - llm_processor - INFO - Sending article to LLM for processing. URL: https://edition.cnn.com/2025/07/16/middleeast/israel-gaza-aid-site-crush-deaths-intl
+2025-07-16 14:34:58,030 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-16 14:35:03,288 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-16 14:35:03,291 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-16 14:35:03,291 - llm_processor - INFO - LLM processing successful for URL: https://edition.cnn.com/2025/07/16/middleeast/israel-gaza-aid-site-crush-deaths-intl
+2025-07-16 14:35:03,304 - __main__ - INFO - SUCCESS: Added: Twenty People Killed in Crowd Crush at Gaza Aid Site
+2025-07-16 14:35:10,309 - __main__ - INFO - Processing URL: https://apnews.com/article/trump-republicans-budget-cuts-pepfar-pbs-npr-b224d4dd5962f141b23e76a4893e0d39
+2025-07-16 14:35:10,971 - llm_processor - INFO - Article from 2025-07-15 is not from today, skipping. URL: https://apnews.com/article/trump-republicans-budget-cuts-pepfar-pbs-npr-b224d4dd5962f141b23e76a4893e0d39
+2025-07-16 14:35:10,971 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/trump-republicans-budget-cuts-pepfar-pbs-npr-b224d4dd5962f141b23e76a4893e0d39
+2025-07-16 14:35:10,971 - __main__ - INFO - Processing URL: https://apnews.com/article/healthy-snacking-workplace-nutrition-eating-chips-fruits-vegetables-protein-436535e7e6b942cbe542cc3e1b9738dd
+2025-07-16 14:35:11,596 - llm_processor - INFO - Article from 2025-07-10 is not from today, skipping. URL: https://apnews.com/article/healthy-snacking-workplace-nutrition-eating-chips-fruits-vegetables-protein-436535e7e6b942cbe542cc3e1b9738dd
+2025-07-16 14:35:11,597 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/healthy-snacking-workplace-nutrition-eating-chips-fruits-vegetables-protein-436535e7e6b942cbe542cc3e1b9738dd
+2025-07-16 14:35:11,597 - __main__ - INFO - Processing URL: https://apnews.com/article/virgin-australia-snake-plane-melbourne-brisbane-9fec54edc5a7c7f6f9734fa76e0d3e45
+2025-07-16 14:35:12,270 - llm_processor - INFO - Article from 2025-07-02 is not from today, skipping. URL: https://apnews.com/article/virgin-australia-snake-plane-melbourne-brisbane-9fec54edc5a7c7f6f9734fa76e0d3e45
+2025-07-16 14:35:12,270 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/virgin-australia-snake-plane-melbourne-brisbane-9fec54edc5a7c7f6f9734fa76e0d3e45
+2025-07-16 14:35:12,270 - __main__ - INFO - Processing URL: https://apnews.com/article/israel-netanyahu-government-gaza-war-elections-e207f3519314012df4c489fe1eaafa33
+2025-07-16 14:35:12,840 - llm_processor - INFO - Article from 2025-07-15 is not from today, skipping. URL: https://apnews.com/article/israel-netanyahu-government-gaza-war-elections-e207f3519314012df4c489fe1eaafa33
+2025-07-16 14:35:12,840 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/israel-netanyahu-government-gaza-war-elections-e207f3519314012df4c489fe1eaafa33
+2025-07-16 14:35:12,840 - __main__ - INFO - Processing URL: https://edition.cnn.com/2025/07/16/europe/georgia-protests-russia-china-iran-influence-intl-cmd
+2025-07-16 14:35:13,562 - llm_processor - INFO - Sending article to LLM for processing. URL: https://edition.cnn.com/2025/07/16/europe/georgia-protests-russia-china-iran-influence-intl-cmd
+2025-07-16 14:35:13,573 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-16 14:35:19,012 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-16 14:35:19,015 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-16 14:35:19,015 - llm_processor - INFO - LLM processing successful for URL: https://edition.cnn.com/2025/07/16/europe/georgia-protests-russia-china-iran-influence-intl-cmd
+2025-07-16 14:35:19,023 - __main__ - INFO - SUCCESS: Added: Democracy in Georgia Under Threat as Russian, Chinese, and Iranian Influence Grows
+2025-07-16 14:35:26,029 - __main__ - INFO - Processing URL: https://apnews.com/article/trump-congress-house-republicans-texas-redistricting-d18e8280a32872d9eefcbb26f66a0331
+2025-07-16 14:35:26,868 - llm_processor - INFO - Article from 2025-07-15 is not from today, skipping. URL: https://apnews.com/article/trump-congress-house-republicans-texas-redistricting-d18e8280a32872d9eefcbb26f66a0331
+2025-07-16 14:35:26,868 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/trump-congress-house-republicans-texas-redistricting-d18e8280a32872d9eefcbb26f66a0331
+2025-07-16 14:35:26,868 - __main__ - INFO - Processing URL: https://apnews.com/article/emmy-2025-nominations-snubs-surprises-4ff53ba1291c6689ddb16cdd7d7218b8
+2025-07-16 14:35:27,630 - llm_processor - INFO - Article from 2025-07-15 is not from today, skipping. URL: https://apnews.com/article/emmy-2025-nominations-snubs-surprises-4ff53ba1291c6689ddb16cdd7d7218b8
+2025-07-16 14:35:27,630 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/emmy-2025-nominations-snubs-surprises-4ff53ba1291c6689ddb16cdd7d7218b8
+2025-07-16 14:35:27,630 - __main__ - INFO - Processing URL: https://apnews.com/article/energized-democrats-conservative-villages-harris-emhoff-320a1cff9d66d806c41bc3dee9210975
+2025-07-16 14:35:28,526 - llm_processor - INFO - Article from 2024-09-24 is not from today, skipping. URL: https://apnews.com/article/energized-democrats-conservative-villages-harris-emhoff-320a1cff9d66d806c41bc3dee9210975
+2025-07-16 14:35:28,526 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/energized-democrats-conservative-villages-harris-emhoff-320a1cff9d66d806c41bc3dee9210975
+2025-07-16 14:35:28,526 - __main__ - INFO - Processing URL: https://apnews.com/article/wnba-portland-fire-expansion-ae020b04b8bc950ca614879e15c6234c
+2025-07-16 14:35:29,233 - llm_processor - INFO - Article from 2025-07-15 is not from today, skipping. URL: https://apnews.com/article/wnba-portland-fire-expansion-ae020b04b8bc950ca614879e15c6234c
+2025-07-16 14:35:29,233 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/wnba-portland-fire-expansion-ae020b04b8bc950ca614879e15c6234c
+2025-07-16 14:35:29,234 - __main__ - INFO - Processing URL: https://apnews.com/article/iraq-oil-field-drone-strike-hkn-7f00523af694254b43079ea0511d5278
+2025-07-16 14:35:29,881 - llm_processor - INFO - Article from 2025-07-15 is not from today, skipping. URL: https://apnews.com/article/iraq-oil-field-drone-strike-hkn-7f00523af694254b43079ea0511d5278
+2025-07-16 14:35:29,881 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/iraq-oil-field-drone-strike-hkn-7f00523af694254b43079ea0511d5278
+2025-07-16 14:35:29,881 - __main__ - INFO - --- Scraping process finished ---

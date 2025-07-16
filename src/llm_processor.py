@@ -2,12 +2,15 @@ from google import genai
 import os
 from dotenv import load_dotenv
 import datetime
+import logging
 
+logger = logging.getLogger(__name__)
 load_dotenv()
 
 def process_article(article: str, publish_date: datetime.datetime, url: str) -> str:
 
     if publish_date.strftime("%Y-%m-%d") != datetime.datetime.now().strftime("%Y-%m-%d"):
+        logger.info(f"Article from {publish_date.strftime('%Y-%m-%d')} is not from today, skipping. URL: {url}")
         return ""
 
     SYSTEM_PROMPT = """
@@ -42,15 +45,21 @@ def process_article(article: str, publish_date: datetime.datetime, url: str) -> 
     }
     """
 
-    client = genai.Client(api_key=os.getenv("GOOGLE_API_KEY"))
-    model = "gemini-2.5-flash"
-    response = client.models.generate_content(
-        model=model,
-        contents=SYSTEM_PROMPT + "\n\n" + article + "\n\n" + publish_date.strftime('%Y-%m-%d') + "\n\n" + url,
-        config={
-            "response_mime_type": "application/json"
-        }
-    )
-    print(response.text)
+    try:
+        logger.info(f"Sending article to LLM for processing. URL: {url}")
+        client = genai.Client(api_key=os.getenv("GOOGLE_API_KEY"))
+        model = "gemini-2.5-flash"
+        response = client.models.generate_content(
+            model=model,
+            contents=SYSTEM_PROMPT + "\n\n" + article + "\n\n" + publish_date.strftime('%Y-%m-%d') + "\n\n" + url,
+            config={
+                "response_mime_type": "application/json"
+            }
+        )
 
-    return response.text if response.text else ""
+        logger.info(f"LLM processing successful for URL: {url}")
+        return response.text if response.text else ""
+    
+    except Exception as e:
+        logger.error(f"LLM API call failed for URL {url}: {e}", exc_info=True)
+        return ""

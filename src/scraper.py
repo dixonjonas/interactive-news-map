@@ -3,15 +3,21 @@ from bs4 import BeautifulSoup
 from bs4.element import Tag
 from newspaper import Article
 import datetime
+import logging
+
+logger = logging.getLogger(__name__)
 
 def scrape_article(url: str) -> list | None:
     try:
         article = Article(url)
         article.download()
         article.parse()
+        if not article.text or not article.publish_date:
+            logger.warning(f"Failed to extract text or date from {url}, skipping.")
+            return None
         return [article.text, article.publish_date, article.url, article.source_url]
     except Exception as e:
-        print(f"Error scraping {url}: {e}")
+        logger.error(f"Error downloading or parsing {url}: {e}", exc_info=True)
         return None
 
 def get_cnn_urls() -> list[str]:
