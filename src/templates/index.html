@@ -5,6 +5,9 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
      crossorigin=""/>
+    
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
 
     <style>
         body { font-family: Arial, sans-serif; margin: 20px; }
@@ -43,17 +46,38 @@
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
      crossorigin=""></script>
+    
+    <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
 
     <script>
         // --- Initialize Map ---
-        const map = L.map('map').setView([50.0, 10.0], 5); // Centered on Europe
+        // Add worldCopyJump: false to prevent endless horizontal scrolling
+        const map = L.map('map', {
+            worldCopyJump: false,
+            maxBoundsViscosity: 1.0 // Optional: Makes sure the user can't pan outside the maxBounds
+        }).setView([50.0, 10.0], 5);
+
         L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
-            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+            // Optional: Add bounds to further restrict vertical panning
+            // For example, to restrict to +/- 85 degrees latitude to avoid polar distortion
+            bounds: [[-85, -180], [85, 180]]
         }).addTo(map);
 
-        // --- Layer to hold all our markers ---
-        // This makes it easy to clear them all at once
-        let markerLayer = L.layerGroup().addTo(map);
+        // If you want to strictly limit the area the user can pan to:
+        // Define the bounds of the "world" or your desired viewable area
+        const southWest = L.latLng(-90, -180);
+        const northEast = L.latLng(90, 180);
+        const bounds = L.latLngBounds(southWest, northEast);
+
+        // Set maxBounds for the map
+        map.setMaxBounds(bounds);
+
+        // --- Initialize Marker Cluster Group ---
+        let markers = L.markerClusterGroup({
+            maxClusterRadius: 15
+        });
+        map.addLayer(markers); 
 
         // --- Get Filter Elements ---
         const dateFilter = document.getElementById('date');
@@ -73,10 +97,10 @@
                 const response = await fetch(apiUrl);
                 const articles = await response.json();
 
-                // Clear existing markers before drawing new ones
-                markerLayer.clearLayers();
+                // Clear existing markers from the cluster group before drawing new ones
+                markers.clearLayers();
 
-                // Loop through articles and add markers
+                // Loop through articles and add markers to the cluster group
                 articles.forEach(article => {
                     if (article.coords && article.coords.length === 2) {
                         // Create the HTML for the popup
@@ -93,9 +117,10 @@
                             </div>
                         `;
 
+                        // Add marker directly to the 'markers' cluster group
                         L.marker(article.coords)
-                            .addTo(markerLayer)
-                            .bindPopup(popupHtml);
+                            .bindPopup(popupHtml)
+                            .addTo(markers); // This is where it gets added to the cluster group
                     }
                 });
                 console.log(`Added ${articles.length} markers to the map.`);
@@ -109,7 +134,6 @@
         sourceFilter.addEventListener('change', updateMap);
 
         // --- Initial Map Load ---
-        // Call the function once on page load to populate the map initially
         document.addEventListener('DOMContentLoaded', updateMap);
     </script>
 

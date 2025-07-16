@@ -4,8 +4,6 @@ import logging
 from logging.handlers import RotatingFileHandler
 import os
 
-# TODO: Fix a better frontend, maybe react, and cluster pins on map, and make map not infinite
-
 app = Flask(__name__)
 
 if not app.debug:
