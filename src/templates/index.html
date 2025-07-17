@@ -21,6 +21,16 @@
 
     <div id="filter-form" class="filters">
         <div>
+            <label for="topic">Filter by Topic:</label>
+            <select name="topic" id="topic">
+                <option value="">-- Show All --</option>
+                {% for topic in all_topics %}
+                    <option value="{{ topic }}">{{ topic }}</option>
+                {% endfor %}
+            </select>
+        </div>
+
+        <div>
             <label for="date">Filter by Date:</label>
             <select name="date" id="date">
                 <option value="">-- Show All --</option>
@@ -80,16 +90,18 @@
         map.addLayer(markers); 
 
         // --- Get Filter Elements ---
+        const topicFilter = document.getElementById('topic');
         const dateFilter = document.getElementById('date');
         const sourceFilter = document.getElementById('source');
 
         // --- Function to Fetch Data and Draw Markers ---
         async function updateMap() {
+            const selectedTopic = topicFilter.value;
             const selectedDate = dateFilter.value;
             const selectedSource = sourceFilter.value;
 
             // Construct the API URL with query parameters
-            const apiUrl = `/api/articles?date=${selectedDate}&source=${selectedSource}`;
+            const apiUrl = `/api/articles?topic=${encodeURIComponent(selectedTopic)}&date=${encodeURIComponent(selectedDate)}&source=${encodeURIComponent(selectedSource)}`;
             
             console.log(`Fetching data from: ${apiUrl}`);
 
@@ -107,6 +119,7 @@
                         const popupHtml = `
                             <div style="width: 250px; font-family: 'Inter', sans-serif;">
                                 <h4 style="margin-top:0; margin-bottom:8px;">${article.title}</h4>
+                                <strong>Topic:</strong> ${article.topic}<br>
                                 <strong>Location:</strong> ${article.info.location}<br>
                                 <strong>Date:</strong> ${article.info.date}<br>
                                 <a href="${article.info.url}" target="_blank" rel="noopener noreferrer">Read article</a>
@@ -130,6 +143,7 @@
         }
 
         // --- Event Listeners for Filters ---
+        topicFilter.addEventListener('change', updateMap);
         dateFilter.addEventListener('change', updateMap);
         sourceFilter.addEventListener('change', updateMap);
 

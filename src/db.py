@@ -10,6 +10,7 @@ class Article(Base):
 
     id = Column(Integer, primary_key=True)
     title = Column(String)
+    topic = Column(String)
     url = Column(String, unique=True)
     summary = Column(Text)
     publish_date = Column(Date)

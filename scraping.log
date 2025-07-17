@@ -496,3 +496,888 @@
 2025-07-17 11:31:04,997 - llm_processor - INFO - Article from 2025-07-16 is not from today, skipping. URL: https://apnews.com/article/china-nvidia-jensen-huang-h20-1d17b1c8440ca51498e2a8ea9b0d85c6
 2025-07-17 11:31:04,997 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/china-nvidia-jensen-huang-h20-1d17b1c8440ca51498e2a8ea9b0d85c6
 2025-07-17 11:31:04,997 - __main__ - INFO - --- Scraping process finished ---
+2025-07-17 14:32:35,139 - __main__ - INFO - --- Starting scraping process ---
+2025-07-17 14:32:36,182 - __main__ - INFO - Found 180 unique articles across all sources.
+2025-07-17 14:32:36,182 - __main__ - INFO - Processing URL: https://apnews.com/article/eeuu-agente-fronterizo-vermont-zizian-secta-cd4907620ace0c2c74f0a108a89acf7c
+2025-07-17 14:32:36,815 - llm_processor - INFO - Article from 2025-07-16 is not from today, skipping. URL: https://apnews.com/article/eeuu-agente-fronterizo-vermont-zizian-secta-cd4907620ace0c2c74f0a108a89acf7c
+2025-07-17 14:32:36,815 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/eeuu-agente-fronterizo-vermont-zizian-secta-cd4907620ace0c2c74f0a108a89acf7c
+2025-07-17 14:32:36,815 - __main__ - INFO - Processing URL: https://apnews.com/article/yemen-houthi-rebels-iran-weapons-red-sea-e282c456e3db6f63fe696cba50e7c864
+2025-07-17 14:32:37,303 - llm_processor - INFO - Article from 2025-07-16 is not from today, skipping. URL: https://apnews.com/article/yemen-houthi-rebels-iran-weapons-red-sea-e282c456e3db6f63fe696cba50e7c864
+2025-07-17 14:32:37,303 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/yemen-houthi-rebels-iran-weapons-red-sea-e282c456e3db6f63fe696cba50e7c864
+2025-07-17 14:32:37,303 - __main__ - INFO - Processing URL: https://www.nbcnews.com/world/asia/moo-deng-pygmy-hippo-birthday-viral-videos-thailand-zoo-rcna217195
+2025-07-17 14:32:38,145 - llm_processor - INFO - Article from 2025-07-10 is not from today, skipping. URL: https://www.nbcnews.com/world/asia/moo-deng-pygmy-hippo-birthday-viral-videos-thailand-zoo-rcna217195
+2025-07-17 14:32:38,145 - __main__ - INFO - Skipped empty processed result for: https://www.nbcnews.com/world/asia/moo-deng-pygmy-hippo-birthday-viral-videos-thailand-zoo-rcna217195
+2025-07-17 14:32:38,145 - __main__ - INFO - Processing URL: https://www.nbcnews.com/news/us-news/gardener-seen-hit-immigration-agents-june-video-released-detention-rcna219251
+2025-07-17 14:32:38,861 - llm_processor - INFO - Sending article to LLM for processing. URL: https://www.nbcnews.com/news/us-news/gardener-seen-hit-immigration-agents-june-video-released-detention-rcna219251
+2025-07-17 14:32:38,978 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-17 14:32:42,894 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-17 14:32:42,898 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-17 14:32:42,899 - llm_processor - INFO - LLM processing successful for URL: https://www.nbcnews.com/news/us-news/gardener-seen-hit-immigration-agents-june-video-released-detention-rcna219251
+2025-07-17 14:32:42,907 - __main__ - INFO - SUCCESS: Added: Immigrant Father of Three Marines Released from Federal Custody in California
+2025-07-17 14:32:49,913 - __main__ - INFO - Processing URL: https://apnews.com/article/un-yemen-houthis-resolution-red-sea-attacks-50c0ba1045fc5c01838a780d05182c9e
+2025-07-17 14:32:50,523 - llm_processor - INFO - Article from 2025-07-16 is not from today, skipping. URL: https://apnews.com/article/un-yemen-houthis-resolution-red-sea-attacks-50c0ba1045fc5c01838a780d05182c9e
+2025-07-17 14:32:50,523 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/un-yemen-houthis-resolution-red-sea-attacks-50c0ba1045fc5c01838a780d05182c9e
+2025-07-17 14:32:50,523 - __main__ - INFO - Processing URL: https://www.nbcnews.com/science/science-news/largest-piece-mars-earth-sells-5-million-auction-dinosaur-steals-show-rcna219226
+2025-07-17 14:32:52,301 - llm_processor - INFO - Article from 2025-07-16 is not from today, skipping. URL: https://www.nbcnews.com/science/science-news/largest-piece-mars-earth-sells-5-million-auction-dinosaur-steals-show-rcna219226
+2025-07-17 14:32:52,301 - __main__ - INFO - Skipped empty processed result for: https://www.nbcnews.com/science/science-news/largest-piece-mars-earth-sells-5-million-auction-dinosaur-steals-show-rcna219226
+2025-07-17 14:32:52,301 - __main__ - INFO - Processing URL: https://apnews.com/article/israel-shas-netanyahu-b58b8705277f27fa41f664c341e5a93e
+2025-07-17 14:32:52,891 - llm_processor - INFO - Article from 2025-07-16 is not from today, skipping. URL: https://apnews.com/article/israel-shas-netanyahu-b58b8705277f27fa41f664c341e5a93e
+2025-07-17 14:32:52,891 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/israel-shas-netanyahu-b58b8705277f27fa41f664c341e5a93e
+2025-07-17 14:32:52,891 - __main__ - INFO - Processing URL: https://apnews.com/article/france-lebanon-palestinians-georges-ibrahim-abdallah-release-e0f850fbfbd913c64031689520728b86
+2025-07-17 14:32:53,415 - llm_processor - INFO - Sending article to LLM for processing. URL: https://apnews.com/article/france-lebanon-palestinians-georges-ibrahim-abdallah-release-e0f850fbfbd913c64031689520728b86
+2025-07-17 14:32:53,426 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-17 14:32:57,637 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-17 14:32:57,641 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-17 14:32:57,642 - llm_processor - INFO - LLM processing successful for URL: https://apnews.com/article/france-lebanon-palestinians-georges-ibrahim-abdallah-release-e0f850fbfbd913c64031689520728b86
+2025-07-17 14:32:57,649 - __main__ - INFO - SUCCESS: Added: French Court Orders Conditional Release of Lebanese Pro-Palestinian Militant After 40 Years
+2025-07-17 14:33:04,655 - __main__ - INFO - Processing URL: https://apnews.com/article/bolivia-sarampion-brote-santa-cruz-vacunas-a01cee70486283b70d649add194adbbb
+2025-07-17 14:33:05,303 - llm_processor - INFO - Article from 2025-06-18 is not from today, skipping. URL: https://apnews.com/article/bolivia-sarampion-brote-santa-cruz-vacunas-a01cee70486283b70d649add194adbbb
+2025-07-17 14:33:05,303 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/bolivia-sarampion-brote-santa-cruz-vacunas-a01cee70486283b70d649add194adbbb
+2025-07-17 14:33:05,303 - __main__ - INFO - Processing URL: https://apnews.com/article/china-tariff-trump-businesses-united-states-244684174cf192e666310a7b5df669a8
+2025-07-17 14:33:05,856 - llm_processor - INFO - Article from 2025-07-16 is not from today, skipping. URL: https://apnews.com/article/china-tariff-trump-businesses-united-states-244684174cf192e666310a7b5df669a8
+2025-07-17 14:33:05,856 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/china-tariff-trump-businesses-united-states-244684174cf192e666310a7b5df669a8
+2025-07-17 14:33:05,856 - __main__ - INFO - Processing URL: https://apnews.com/article/samsung-lee-korea-not-guilty-ec012d7d7d171971810e27bd76528d86
+2025-07-17 14:33:06,338 - llm_processor - INFO - Sending article to LLM for processing. URL: https://apnews.com/article/samsung-lee-korea-not-guilty-ec012d7d7d171971810e27bd76528d86
+2025-07-17 14:33:06,349 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-17 14:33:11,161 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-17 14:33:11,169 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-17 14:33:11,169 - llm_processor - INFO - LLM processing successful for URL: https://apnews.com/article/samsung-lee-korea-not-guilty-ec012d7d7d171971810e27bd76528d86
+2025-07-17 14:33:11,205 - __main__ - INFO - SUCCESS: Added: South Korea's Top Court Upholds Acquittal of Samsung Chairman Lee Jae-yong
+2025-07-17 14:33:18,211 - __main__ - INFO - Processing URL: https://apnews.com/article/japan-canada-retail-couchetard-7eleven-convenience-0bf3e1297098ee3e6f74d34058b89658
+2025-07-17 14:33:18,763 - llm_processor - INFO - Sending article to LLM for processing. URL: https://apnews.com/article/japan-canada-retail-couchetard-7eleven-convenience-0bf3e1297098ee3e6f74d34058b89658
+2025-07-17 14:33:18,774 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-17 14:33:24,671 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-17 14:33:24,676 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-17 14:33:24,676 - llm_processor - INFO - LLM processing successful for URL: https://apnews.com/article/japan-canada-retail-couchetard-7eleven-convenience-0bf3e1297098ee3e6f74d34058b89658
+2025-07-17 14:33:24,683 - __main__ - INFO - SUCCESS: Added: Couche-Tard Withdraws Bid to Acquire 7-Eleven Parent Company Seven & i Holdings
+2025-07-17 14:33:31,688 - __main__ - INFO - Processing URL: https://www.nbcnews.com/news/us-news/iran-nuclear-site-maurene-comey-fired-morning-rundown-rcna219261
+2025-07-17 14:33:32,047 - llm_processor - INFO - Sending article to LLM for processing. URL: https://www.nbcnews.com/news/us-news/iran-nuclear-site-maurene-comey-fired-morning-rundown-rcna219261
+2025-07-17 14:33:32,060 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-17 14:33:36,856 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-17 14:33:36,860 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-17 14:33:36,861 - llm_processor - INFO - LLM processing successful for URL: https://www.nbcnews.com/news/us-news/iran-nuclear-site-maurene-comey-fired-morning-rundown-rcna219261
+2025-07-17 14:33:36,873 - __main__ - INFO - SUCCESS: Added: Iran could resume nuclear enrichment within months, U.S. now assesses
+2025-07-17 14:33:43,878 - __main__ - INFO - Processing URL: https://edition.cnn.com/2025/07/17/style/what-happens-when-an-octopus-engages-with-art
+2025-07-17 14:33:44,976 - llm_processor - INFO - Sending article to LLM for processing. URL: https://edition.cnn.com/2025/07/17/style/what-happens-when-an-octopus-engages-with-art
+2025-07-17 14:33:44,987 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-17 14:33:49,247 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-17 14:33:49,250 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-17 14:33:49,251 - llm_processor - INFO - LLM processing successful for URL: https://edition.cnn.com/2025/07/17/style/what-happens-when-an-octopus-engages-with-art
+2025-07-17 14:33:49,258 - __main__ - INFO - SUCCESS: Added: What happens when an octopus engages with art?
+2025-07-17 14:33:56,264 - __main__ - INFO - Processing URL: https://www.nbcnews.com/world/europe/fire-engulfs-main-stage-belgiums-tomorrowland-music-festival-ahead-fri-rcna219274
+2025-07-17 14:33:56,691 - llm_processor - INFO - Sending article to LLM for processing. URL: https://www.nbcnews.com/world/europe/fire-engulfs-main-stage-belgiums-tomorrowland-music-festival-ahead-fri-rcna219274
+2025-07-17 14:33:56,702 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-17 14:34:00,872 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-17 14:34:00,880 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-17 14:34:00,881 - llm_processor - INFO - LLM processing successful for URL: https://www.nbcnews.com/world/europe/fire-engulfs-main-stage-belgiums-tomorrowland-music-festival-ahead-fri-rcna219274
+2025-07-17 14:34:00,893 - __main__ - INFO - SUCCESS: Added: Fire Severely Damages Main Stage at Belgium's Tomorrowland Festival Days Before Opening
+2025-07-17 14:34:07,899 - __main__ - INFO - Processing URL: https://apnews.com/article/romance-novels-fans-bookstore-community-5a4dc92e116cd2ecebe141c2a6d7307e
+2025-07-17 14:34:08,572 - llm_processor - INFO - Article from 2025-07-16 is not from today, skipping. URL: https://apnews.com/article/romance-novels-fans-bookstore-community-5a4dc92e116cd2ecebe141c2a6d7307e
+2025-07-17 14:34:08,572 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/romance-novels-fans-bookstore-community-5a4dc92e116cd2ecebe141c2a6d7307e
+2025-07-17 14:34:08,572 - __main__ - INFO - Processing URL: https://apnews.com/article/uk-voting-age-16-de7a0dba500ecd4d603d0c4b0756209d
+2025-07-17 14:34:09,200 - llm_processor - INFO - Sending article to LLM for processing. URL: https://apnews.com/article/uk-voting-age-16-de7a0dba500ecd4d603d0c4b0756209d
+2025-07-17 14:34:09,211 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-17 14:34:12,625 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-17 14:34:12,629 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-17 14:34:12,630 - llm_processor - INFO - LLM processing successful for URL: https://apnews.com/article/uk-voting-age-16-de7a0dba500ecd4d603d0c4b0756209d
+2025-07-17 14:34:12,637 - __main__ - INFO - SUCCESS: Added: UK Government to Lower Voting Age to 16, Introduce Wide Electoral Reforms
+2025-07-17 14:34:19,644 - __main__ - INFO - Processing URL: https://www.nbcnews.com/news/us-news/ground-squirrels-are-taking-north-dakota-city-officials-are-not-amused-rcna219266
+2025-07-17 14:34:19,961 - llm_processor - INFO - Sending article to LLM for processing. URL: https://www.nbcnews.com/news/us-news/ground-squirrels-are-taking-north-dakota-city-officials-are-not-amused-rcna219266
+2025-07-17 14:34:19,973 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-17 14:34:23,859 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-17 14:34:23,863 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-17 14:34:23,863 - llm_processor - INFO - LLM processing successful for URL: https://www.nbcnews.com/news/us-news/ground-squirrels-are-taking-north-dakota-city-officials-are-not-amused-rcna219266
+2025-07-17 14:34:23,872 - __main__ - INFO - SUCCESS: Added: Minot, North Dakota Grapples with Overwhelming Ground Squirrel Infestation
+2025-07-17 14:34:30,877 - __main__ - INFO - Processing URL: https://apnews.com/article/california-redadas-veterano-inmigracion-9159ba4577ca7094c7b34ad6c0239147
+2025-07-17 14:34:31,454 - llm_processor - INFO - Sending article to LLM for processing. URL: https://apnews.com/article/california-redadas-veterano-inmigracion-9159ba4577ca7094c7b34ad6c0239147
+2025-07-17 14:34:31,465 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-17 14:34:39,531 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-17 14:34:39,536 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-17 14:34:39,536 - llm_processor - INFO - LLM processing successful for URL: https://apnews.com/article/california-redadas-veterano-inmigracion-9159ba4577ca7094c7b34ad6c0239147
+2025-07-17 14:34:39,543 - __main__ - INFO - SUCCESS: Added: Veterano de EE.UU. detenido en redada migratoria de California denuncia maltrato
+2025-07-17 14:34:46,549 - __main__ - INFO - Processing URL: https://www.nbcnews.com/news/us-news/mom-9-year-old-son-rescued-leaving-sos-notes-california-forest-rcna219243
+2025-07-17 14:34:47,228 - llm_processor - INFO - Sending article to LLM for processing. URL: https://www.nbcnews.com/news/us-news/mom-9-year-old-son-rescued-leaving-sos-notes-california-forest-rcna219243
+2025-07-17 14:34:47,238 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-17 14:34:51,421 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-17 14:34:51,424 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-17 14:34:51,424 - llm_processor - INFO - LLM processing successful for URL: https://www.nbcnews.com/news/us-news/mom-9-year-old-son-rescued-leaving-sos-notes-california-forest-rcna219243
+2025-07-17 14:34:51,431 - __main__ - INFO - SUCCESS: Added: Mom, 9-year-old son rescued after leaving SOS notes in California forest
+2025-07-17 14:34:58,437 - __main__ - INFO - Processing URL: https://apnews.com/article/liquids-tsa-kristi-noem-homeland-security-shoes-297c2890c762c0f9ff76acfd53ca7f53
+2025-07-17 14:34:58,998 - llm_processor - INFO - Article from 2025-07-16 is not from today, skipping. URL: https://apnews.com/article/liquids-tsa-kristi-noem-homeland-security-shoes-297c2890c762c0f9ff76acfd53ca7f53
+2025-07-17 14:34:58,998 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/liquids-tsa-kristi-noem-homeland-security-shoes-297c2890c762c0f9ff76acfd53ca7f53
+2025-07-17 14:34:58,998 - __main__ - INFO - Processing URL: https://www.nbcnews.com/business/business-news/flagging-us-industry-looks-new-life-philadelphia-shipyard-rcna219059
+2025-07-17 14:34:59,300 - llm_processor - INFO - Sending article to LLM for processing. URL: https://www.nbcnews.com/business/business-news/flagging-us-industry-looks-new-life-philadelphia-shipyard-rcna219059
+2025-07-17 14:34:59,310 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-17 14:35:03,489 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-17 14:35:03,496 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-17 14:35:03,497 - llm_processor - INFO - LLM processing successful for URL: https://www.nbcnews.com/business/business-news/flagging-us-industry-looks-new-life-philadelphia-shipyard-rcna219059
+2025-07-17 14:35:03,511 - __main__ - INFO - SUCCESS: Added: U.S. Shipbuilding Industry Seeks Revival with South Korean Investment at Philly Shipyard
+2025-07-17 14:35:10,516 - __main__ - INFO - Processing URL: https://apnews.com/article/suvs-sorento-highlander-kia-toyota-d87492620fa7cfcad4fffa194a1f577e
+2025-07-17 14:35:11,076 - llm_processor - INFO - Article from 2025-07-16 is not from today, skipping. URL: https://apnews.com/article/suvs-sorento-highlander-kia-toyota-d87492620fa7cfcad4fffa194a1f577e
+2025-07-17 14:35:11,076 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/suvs-sorento-highlander-kia-toyota-d87492620fa7cfcad4fffa194a1f577e
+2025-07-17 14:35:11,076 - __main__ - INFO - Processing URL: https://edition.cnn.com/2025/07/17/sport/eugenie-bouchard-canadian-tennis-retire-spt
+2025-07-17 14:35:11,543 - llm_processor - INFO - Sending article to LLM for processing. URL: https://edition.cnn.com/2025/07/17/sport/eugenie-bouchard-canadian-tennis-retire-spt
+2025-07-17 14:35:11,554 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-17 14:35:18,111 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-17 14:35:18,115 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-17 14:35:18,115 - llm_processor - INFO - LLM processing successful for URL: https://edition.cnn.com/2025/07/17/sport/eugenie-bouchard-canadian-tennis-retire-spt
+2025-07-17 14:35:18,123 - __main__ - INFO - SUCCESS: Added: Eugenie Bouchard to Retire From Tennis After National Bank Open in Montreal
+2025-07-17 14:35:25,128 - __main__ - INFO - Processing URL: https://apnews.com/article/israel-netanyahu-government-gaza-war-elections-e207f3519314012df4c489fe1eaafa33
+2025-07-17 14:35:25,668 - llm_processor - INFO - Article from 2025-07-15 is not from today, skipping. URL: https://apnews.com/article/israel-netanyahu-government-gaza-war-elections-e207f3519314012df4c489fe1eaafa33
+2025-07-17 14:35:25,669 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/israel-netanyahu-government-gaza-war-elections-e207f3519314012df4c489fe1eaafa33
+2025-07-17 14:35:25,669 - __main__ - INFO - Processing URL: https://apnews.com/article/texas-flooding-camp-mystic-blame-communications-tragedy-a4f066fe8e244b22e55d94145b80e349
+2025-07-17 14:35:26,177 - llm_processor - INFO - Sending article to LLM for processing. URL: https://apnews.com/article/texas-flooding-camp-mystic-blame-communications-tragedy-a4f066fe8e244b22e55d94145b80e349
+2025-07-17 14:35:26,186 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-17 14:35:30,221 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-17 14:35:30,223 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-17 14:35:30,223 - llm_processor - INFO - LLM processing successful for URL: https://apnews.com/article/texas-flooding-camp-mystic-blame-communications-tragedy-a4f066fe8e244b22e55d94145b80e349
+2025-07-17 14:35:30,227 - __main__ - INFO - SUCCESS: Added: Uncertainty Over Weather Alerts Amid Deadly Texas Camp Flood
+2025-07-17 14:35:37,232 - __main__ - INFO - Processing URL: https://apnews.com/article/gaza-israel-airstrikes-catholic-church-3a53c46a464a7ef9d7123bdea6996d8a
+2025-07-17 14:35:37,862 - llm_processor - INFO - Sending article to LLM for processing. URL: https://apnews.com/article/gaza-israel-airstrikes-catholic-church-3a53c46a464a7ef9d7123bdea6996d8a
+2025-07-17 14:35:37,873 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-17 14:35:43,016 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-17 14:35:43,020 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-17 14:35:43,020 - llm_processor - INFO - LLM processing successful for URL: https://apnews.com/article/gaza-israel-airstrikes-catholic-church-3a53c46a464a7ef9d7123bdea6996d8a
+2025-07-17 14:35:43,028 - __main__ - INFO - SUCCESS: Added: Israeli shell hits Gaza’s only Catholic church, killing 2 and wounding priest close to Pope Francis
+2025-07-17 14:35:50,034 - __main__ - INFO - Processing URL: https://www.nbcnews.com/world/middle-east/palestinians-gaza-killed-israeli-airstrikes-seeking-aid-rcna218446
+2025-07-17 14:35:50,813 - llm_processor - INFO - Article from 2025-07-12 is not from today, skipping. URL: https://www.nbcnews.com/world/middle-east/palestinians-gaza-killed-israeli-airstrikes-seeking-aid-rcna218446
+2025-07-17 14:35:50,814 - __main__ - INFO - Skipped empty processed result for: https://www.nbcnews.com/world/middle-east/palestinians-gaza-killed-israeli-airstrikes-seeking-aid-rcna218446
+2025-07-17 14:35:50,814 - __main__ - INFO - Processing URL: https://apnews.com/article/trump-turnberry-british-open-muirfield-983ac7d795bbf1fa2d51910a10b5ba63
+2025-07-17 14:35:51,353 - llm_processor - INFO - Article from 2025-07-16 is not from today, skipping. URL: https://apnews.com/article/trump-turnberry-british-open-muirfield-983ac7d795bbf1fa2d51910a10b5ba63
+2025-07-17 14:35:51,353 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/trump-turnberry-british-open-muirfield-983ac7d795bbf1fa2d51910a10b5ba63
+2025-07-17 14:35:51,353 - __main__ - INFO - Processing URL: https://apnews.com/article/nigeria-attack-gunmen-6fc2ceb4775a56e6219295e53dbec8ed
+2025-07-17 14:35:51,815 - llm_processor - INFO - Article from 2025-07-16 is not from today, skipping. URL: https://apnews.com/article/nigeria-attack-gunmen-6fc2ceb4775a56e6219295e53dbec8ed
+2025-07-17 14:35:51,815 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/nigeria-attack-gunmen-6fc2ceb4775a56e6219295e53dbec8ed
+2025-07-17 14:35:51,815 - __main__ - INFO - --- Scraping process finished ---
+2025-07-17 15:06:45,526 - __main__ - INFO - --- Starting scraping process ---
+2025-07-17 15:06:46,653 - __main__ - INFO - Found 180 unique articles across all sources.
+2025-07-17 15:06:46,654 - __main__ - INFO - Processing URL: https://edition.cnn.com/2025/07/17/sport/wyndham-clark-banned-oakmont-us-open-spt
+2025-07-17 15:06:47,424 - llm_processor - INFO - Sending article to LLM for processing. URL: https://edition.cnn.com/2025/07/17/sport/wyndham-clark-banned-oakmont-us-open-spt
+2025-07-17 15:06:47,488 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-17 15:06:51,346 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-17 15:06:51,350 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-17 15:06:51,351 - llm_processor - INFO - LLM processing successful for URL: https://edition.cnn.com/2025/07/17/sport/wyndham-clark-banned-oakmont-us-open-spt
+2025-07-17 15:06:51,360 - __main__ - INFO - SUCCESS: Added: Wyndham Clark reportedly banned from Oakmont Country Club after alleged locker room damage
+2025-07-17 15:06:58,366 - __main__ - INFO - Processing URL: https://apnews.com/article/ivf-mitochondria-dna-three-person-baby-d1c9ac0a6c2c6ab0efd5f0d73db4fde4
+2025-07-17 15:06:59,000 - llm_processor - INFO - Article from 2025-07-16 is not from today, skipping. URL: https://apnews.com/article/ivf-mitochondria-dna-three-person-baby-d1c9ac0a6c2c6ab0efd5f0d73db4fde4
+2025-07-17 15:06:59,000 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/ivf-mitochondria-dna-three-person-baby-d1c9ac0a6c2c6ab0efd5f0d73db4fde4
+2025-07-17 15:06:59,000 - __main__ - INFO - Processing URL: https://apnews.com/article/brazil-movement-capoeira-parkinsons-disease-c74cb0817dbd48d7d1caf9ad7b35684a
+2025-07-17 15:06:59,554 - llm_processor - INFO - Article from 2025-07-16 is not from today, skipping. URL: https://apnews.com/article/brazil-movement-capoeira-parkinsons-disease-c74cb0817dbd48d7d1caf9ad7b35684a
+2025-07-17 15:06:59,554 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/brazil-movement-capoeira-parkinsons-disease-c74cb0817dbd48d7d1caf9ad7b35684a
+2025-07-17 15:06:59,554 - __main__ - INFO - Processing URL: https://apnews.com/article/poll-trump-approval-policies-economy-health-immigration-45681b8cd07782ba7a143d323efe9dd7
+2025-07-17 15:07:00,166 - llm_processor - INFO - Sending article to LLM for processing. URL: https://apnews.com/article/poll-trump-approval-policies-economy-health-immigration-45681b8cd07782ba7a143d323efe9dd7
+2025-07-17 15:07:00,178 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-17 15:07:07,310 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-17 15:07:07,315 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-17 15:07:07,316 - llm_processor - INFO - LLM processing successful for URL: https://apnews.com/article/poll-trump-approval-policies-economy-health-immigration-45681b8cd07782ba7a143d323efe9dd7
+2025-07-17 15:07:07,326 - __main__ - INFO - SUCCESS: Added: Poll Shows Most U.S. Adults Not Benefiting from Trump's Policies
+2025-07-17 15:07:14,332 - __main__ - INFO - Processing URL: https://apnews.com/article/fact-check-george-floyd-autopsy-new-892530421961
+2025-07-17 15:07:14,925 - llm_processor - INFO - Article from 2023-05-26 is not from today, skipping. URL: https://apnews.com/article/fact-check-george-floyd-autopsy-new-892530421961
+2025-07-17 15:07:14,925 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/fact-check-george-floyd-autopsy-new-892530421961
+2025-07-17 15:07:14,925 - __main__ - INFO - Processing URL: https://www.nbcnews.com/world/middle-east/trump-administration-terrorist-killing-american-west-bank-israel-rcna219028
+2025-07-17 15:07:15,633 - llm_processor - INFO - Article from 2025-07-16 is not from today, skipping. URL: https://www.nbcnews.com/world/middle-east/trump-administration-terrorist-killing-american-west-bank-israel-rcna219028
+2025-07-17 15:07:15,633 - __main__ - INFO - Skipped empty processed result for: https://www.nbcnews.com/world/middle-east/trump-administration-terrorist-killing-american-west-bank-israel-rcna219028
+2025-07-17 15:07:15,633 - __main__ - INFO - Processing URL: https://apnews.com/article/donald-trump-arab-gulf-bahrain-qatar-ea987929b42c411a35fedbb49e694148
+2025-07-17 15:07:16,236 - llm_processor - INFO - Article from 2025-07-16 is not from today, skipping. URL: https://apnews.com/article/donald-trump-arab-gulf-bahrain-qatar-ea987929b42c411a35fedbb49e694148
+2025-07-17 15:07:16,237 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/donald-trump-arab-gulf-bahrain-qatar-ea987929b42c411a35fedbb49e694148
+2025-07-17 15:07:16,237 - __main__ - INFO - Processing URL: https://apnews.com/article/energized-democrats-conservative-villages-harris-emhoff-320a1cff9d66d806c41bc3dee9210975
+2025-07-17 15:07:16,962 - llm_processor - INFO - Article from 2024-09-24 is not from today, skipping. URL: https://apnews.com/article/energized-democrats-conservative-villages-harris-emhoff-320a1cff9d66d806c41bc3dee9210975
+2025-07-17 15:07:16,963 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/energized-democrats-conservative-villages-harris-emhoff-320a1cff9d66d806c41bc3dee9210975
+2025-07-17 15:07:16,963 - __main__ - INFO - Processing URL: https://apnews.com/article/audun-gronvold-lightning-strike-d4e1004e80fe3f32ec19eea1b2696ffa
+2025-07-17 15:07:17,480 - llm_processor - INFO - Article from 2025-07-16 is not from today, skipping. URL: https://apnews.com/article/audun-gronvold-lightning-strike-d4e1004e80fe3f32ec19eea1b2696ffa
+2025-07-17 15:07:17,480 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/audun-gronvold-lightning-strike-d4e1004e80fe3f32ec19eea1b2696ffa
+2025-07-17 15:07:17,480 - __main__ - INFO - Processing URL: https://www.nbcnews.com/news/us-news/ground-squirrels-are-taking-north-dakota-city-officials-are-not-amused-rcna219266
+2025-07-17 15:07:17,481 - __main__ - INFO - Already in DB skipping: https://www.nbcnews.com/news/us-news/ground-squirrels-are-taking-north-dakota-city-officials-are-not-amused-rcna219266
+2025-07-17 15:07:17,482 - __main__ - INFO - Processing URL: https://apnews.com/article/healthy-snacking-workplace-nutrition-eating-chips-fruits-vegetables-protein-436535e7e6b942cbe542cc3e1b9738dd
+2025-07-17 15:07:17,996 - llm_processor - INFO - Article from 2025-07-10 is not from today, skipping. URL: https://apnews.com/article/healthy-snacking-workplace-nutrition-eating-chips-fruits-vegetables-protein-436535e7e6b942cbe542cc3e1b9738dd
+2025-07-17 15:07:17,996 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/healthy-snacking-workplace-nutrition-eating-chips-fruits-vegetables-protein-436535e7e6b942cbe542cc3e1b9738dd
+2025-07-17 15:07:17,996 - __main__ - INFO - Processing URL: https://apnews.com/article/us-philippines-palawan-boats-south-china-sea-37f8012c949f40cf043478a9c8cc7cc1
+2025-07-17 15:07:18,518 - llm_processor - INFO - Article from 2025-07-16 is not from today, skipping. URL: https://apnews.com/article/us-philippines-palawan-boats-south-china-sea-37f8012c949f40cf043478a9c8cc7cc1
+2025-07-17 15:07:18,518 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/us-philippines-palawan-boats-south-china-sea-37f8012c949f40cf043478a9c8cc7cc1
+2025-07-17 15:07:18,518 - __main__ - INFO - Processing URL: https://apnews.com/article/russia-ukraine-attack-trump-ultimatum-50-days-7388ae351bc78e42c9ab844be6b93942
+2025-07-17 15:07:19,134 - llm_processor - INFO - Article from 2025-07-16 is not from today, skipping. URL: https://apnews.com/article/russia-ukraine-attack-trump-ultimatum-50-days-7388ae351bc78e42c9ab844be6b93942
+2025-07-17 15:07:19,134 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/russia-ukraine-attack-trump-ultimatum-50-days-7388ae351bc78e42c9ab844be6b93942
+2025-07-17 15:07:19,134 - __main__ - INFO - Processing URL: https://apnews.com/article/meta-privacy-cambridge-analytica-zuckerberg-4942257082030772915591d336c6a599
+2025-07-17 15:07:19,704 - llm_processor - INFO - Article from 2025-07-16 is not from today, skipping. URL: https://apnews.com/article/meta-privacy-cambridge-analytica-zuckerberg-4942257082030772915591d336c6a599
+2025-07-17 15:07:19,704 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/meta-privacy-cambridge-analytica-zuckerberg-4942257082030772915591d336c6a599
+2025-07-17 15:07:19,704 - __main__ - INFO - Processing URL: https://apnews.com/article/eswatini-migrants-deportees-trump-540d544fd85dcd3ebc3719f7ba4a009a
+2025-07-17 15:07:20,277 - llm_processor - INFO - Article from 2025-07-16 is not from today, skipping. URL: https://apnews.com/article/eswatini-migrants-deportees-trump-540d544fd85dcd3ebc3719f7ba4a009a
+2025-07-17 15:07:20,277 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/eswatini-migrants-deportees-trump-540d544fd85dcd3ebc3719f7ba4a009a
+2025-07-17 15:07:20,277 - __main__ - INFO - Processing URL: https://www.nbcnews.com/politics/trump-administration/trump-pulls-4-billion-funding-california-bullet-train-project-rcna219248
+2025-07-17 15:07:21,023 - llm_processor - INFO - Sending article to LLM for processing. URL: https://www.nbcnews.com/politics/trump-administration/trump-pulls-4-billion-funding-california-bullet-train-project-rcna219248
+2025-07-17 15:07:21,033 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-17 15:07:27,372 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-17 15:07:27,376 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-17 15:07:27,376 - llm_processor - INFO - LLM processing successful for URL: https://www.nbcnews.com/politics/trump-administration/trump-pulls-4-billion-funding-california-bullet-train-project-rcna219248
+2025-07-17 15:07:27,384 - __main__ - INFO - SUCCESS: Added: Trump Administration Revokes $4 Billion in Funding for California High-Speed Rail Project
+2025-07-17 15:07:34,390 - __main__ - INFO - Processing URL: https://apnews.com/article/rev-john-macarthur-dead-grace-church-obituary-88294be69ccac78ce6015a498fe6fe25
+2025-07-17 15:07:34,947 - llm_processor - INFO - Article from 2025-07-15 is not from today, skipping. URL: https://apnews.com/article/rev-john-macarthur-dead-grace-church-obituary-88294be69ccac78ce6015a498fe6fe25
+2025-07-17 15:07:34,948 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/rev-john-macarthur-dead-grace-church-obituary-88294be69ccac78ce6015a498fe6fe25
+2025-07-17 15:07:34,948 - __main__ - INFO - Processing URL: https://www.nbcnews.com/world/middle-east/syria-sharaa-vows-protect-druze-israeli-strikes-sectarian-violence-rcna219260
+2025-07-17 15:07:35,259 - llm_processor - INFO - Sending article to LLM for processing. URL: https://www.nbcnews.com/world/middle-east/syria-sharaa-vows-protect-druze-israeli-strikes-sectarian-violence-rcna219260
+2025-07-17 15:07:35,269 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-17 15:07:39,869 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-17 15:07:39,873 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-17 15:07:39,873 - llm_processor - INFO - LLM processing successful for URL: https://www.nbcnews.com/world/middle-east/syria-sharaa-vows-protect-druze-israeli-strikes-sectarian-violence-rcna219260
+2025-07-17 15:07:39,880 - __main__ - INFO - SUCCESS: Added: Syria Accuses Israel of Sowing Discord Amid Sectarian Clashes
+2025-07-17 15:07:46,885 - __main__ - INFO - Processing URL: https://www.nbcnews.com/sports/sports/simone-biles-wins-two-espy-awards-shane-gillis-tough-monologue-grabs-a-rcna219245
+2025-07-17 15:07:47,183 - llm_processor - INFO - Sending article to LLM for processing. URL: https://www.nbcnews.com/sports/sports/simone-biles-wins-two-espy-awards-shane-gillis-tough-monologue-grabs-a-rcna219245
+2025-07-17 15:07:47,193 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-17 15:07:50,922 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-17 15:07:50,924 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-17 15:07:50,924 - llm_processor - INFO - LLM processing successful for URL: https://www.nbcnews.com/sports/sports/simone-biles-wins-two-espy-awards-shane-gillis-tough-monologue-grabs-a-rcna219245
+2025-07-17 15:07:50,927 - __main__ - INFO - SUCCESS: Added: Simone Biles Wins Two ESPY Awards, Shane Gillis's Monologue Grabs Attention
+2025-07-17 15:07:57,932 - __main__ - INFO - Processing URL: https://edition.cnn.com/2025/07/17/asia/taiwan-china-war-drills-hnk-intl
+2025-07-17 15:07:58,483 - llm_processor - INFO - Sending article to LLM for processing. URL: https://edition.cnn.com/2025/07/17/asia/taiwan-china-war-drills-hnk-intl
+2025-07-17 15:07:58,492 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-17 15:08:03,111 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-17 15:08:03,116 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-17 15:08:03,116 - llm_processor - INFO - LLM processing successful for URL: https://edition.cnn.com/2025/07/17/asia/taiwan-china-war-drills-hnk-intl
+2025-07-17 15:08:03,126 - __main__ - INFO - SUCCESS: Added: Taipei Rehearses for War Amid Rising Tensions with China
+2025-07-17 15:08:10,132 - __main__ - INFO - Processing URL: https://apnews.com/article/bangladesh-clashes-hasina-students-1e58562a6c9e766c760af9b577189504
+2025-07-17 15:08:10,781 - llm_processor - INFO - Article from 2025-07-16 is not from today, skipping. URL: https://apnews.com/article/bangladesh-clashes-hasina-students-1e58562a6c9e766c760af9b577189504
+2025-07-17 15:08:10,781 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/bangladesh-clashes-hasina-students-1e58562a6c9e766c760af9b577189504
+2025-07-17 15:08:10,781 - __main__ - INFO - Processing URL: https://apnews.com/article/gaza-israel-airstrikes-catholic-church-3a53c46a464a7ef9d7123bdea6996d8a
+2025-07-17 15:08:10,781 - __main__ - INFO - Already in DB skipping: https://apnews.com/article/gaza-israel-airstrikes-catholic-church-3a53c46a464a7ef9d7123bdea6996d8a
+2025-07-17 15:08:10,781 - __main__ - INFO - Processing URL: https://apnews.com/article/myanmar-military-recapture-nawnghkio-105c19ae525948f9c7a0a7000a2f2e4d
+2025-07-17 15:08:11,754 - llm_processor - INFO - Sending article to LLM for processing. URL: https://apnews.com/article/myanmar-military-recapture-nawnghkio-105c19ae525948f9c7a0a7000a2f2e4d
+2025-07-17 15:08:11,765 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-17 15:08:16,940 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-17 15:08:16,943 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-17 15:08:16,943 - llm_processor - INFO - LLM processing successful for URL: https://apnews.com/article/myanmar-military-recapture-nawnghkio-105c19ae525948f9c7a0a7000a2f2e4d
+2025-07-17 15:08:16,950 - __main__ - INFO - SUCCESS: Added: Myanmar Military Recaptures Strategic Gateway Town from Rebels
+2025-07-17 15:08:23,955 - __main__ - INFO - Processing URL: https://apnews.com/article/netherlands-teacher-stabbing-police-alblasserdam-school-afe36fffed8d36d8245c45657abca204
+2025-07-17 15:08:25,004 - llm_processor - INFO - Sending article to LLM for processing. URL: https://apnews.com/article/netherlands-teacher-stabbing-police-alblasserdam-school-afe36fffed8d36d8245c45657abca204
+2025-07-17 15:08:25,014 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-17 15:08:27,786 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-17 15:08:27,789 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-17 15:08:27,789 - llm_processor - INFO - LLM processing successful for URL: https://apnews.com/article/netherlands-teacher-stabbing-police-alblasserdam-school-afe36fffed8d36d8245c45657abca204
+2025-07-17 15:08:27,797 - __main__ - INFO - SUCCESS: Added: Teacher Stabbed at Elementary School Performance in Dutch Town of Alblasserdam, Three Arrested
+2025-07-17 15:08:34,802 - __main__ - INFO - Processing URL: https://apnews.com/article/china-nvidia-jensen-huang-h20-1d17b1c8440ca51498e2a8ea9b0d85c6
+2025-07-17 15:08:35,477 - llm_processor - INFO - Article from 2025-07-16 is not from today, skipping. URL: https://apnews.com/article/china-nvidia-jensen-huang-h20-1d17b1c8440ca51498e2a8ea9b0d85c6
+2025-07-17 15:08:35,477 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/china-nvidia-jensen-huang-h20-1d17b1c8440ca51498e2a8ea9b0d85c6
+2025-07-17 15:08:35,477 - __main__ - INFO - Processing URL: https://www.nbcnews.com/news/nbcblk/arkansas-can-enforce-critical-race-theory-ban-classrooms-federal-court-rcna219228
+2025-07-17 15:08:35,769 - llm_processor - INFO - Article from 2025-07-16 is not from today, skipping. URL: https://www.nbcnews.com/news/nbcblk/arkansas-can-enforce-critical-race-theory-ban-classrooms-federal-court-rcna219228
+2025-07-17 15:08:35,769 - __main__ - INFO - Skipped empty processed result for: https://www.nbcnews.com/news/nbcblk/arkansas-can-enforce-critical-race-theory-ban-classrooms-federal-court-rcna219228
+2025-07-17 15:08:35,769 - __main__ - INFO - Processing URL: https://www.nbcnews.com/world/europe/russian-attack-ukraines-energy-infrastructure-injures-least-15-rcna219263
+2025-07-17 15:08:36,017 - llm_processor - INFO - Sending article to LLM for processing. URL: https://www.nbcnews.com/world/europe/russian-attack-ukraines-energy-infrastructure-injures-least-15-rcna219263
+2025-07-17 15:08:36,026 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-17 15:08:40,793 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-17 15:08:40,797 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-17 15:08:40,798 - llm_processor - INFO - LLM processing successful for URL: https://www.nbcnews.com/world/europe/russian-attack-ukraines-energy-infrastructure-injures-least-15-rcna219263
+2025-07-17 15:08:40,806 - __main__ - INFO - SUCCESS: Added: Russia Pummels Ukrainian Cities, Targets Energy Infrastructure Amid Peace Deadline
+2025-07-17 15:08:47,811 - __main__ - INFO - Processing URL: https://edition.cnn.com/2025/07/17/uk/uk-lowers-voting-age-intl
+2025-07-17 15:08:48,415 - llm_processor - INFO - Sending article to LLM for processing. URL: https://edition.cnn.com/2025/07/17/uk/uk-lowers-voting-age-intl
+2025-07-17 15:08:48,425 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-17 15:08:52,772 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-17 15:08:52,774 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-17 15:08:52,775 - llm_processor - INFO - LLM processing successful for URL: https://edition.cnn.com/2025/07/17/uk/uk-lowers-voting-age-intl
+2025-07-17 15:08:52,782 - __main__ - INFO - SUCCESS: Added: UK Government Announces Major Electoral Reforms, Including Lowering Voting Age
+2025-07-17 15:08:59,788 - __main__ - INFO - Processing URL: https://apnews.com/article/trump-coca-cola-real-sugar-corn-syrup-be3111be856dcffea8c5e004259c37c8
+2025-07-17 15:09:00,374 - llm_processor - INFO - Article from 2025-07-16 is not from today, skipping. URL: https://apnews.com/article/trump-coca-cola-real-sugar-corn-syrup-be3111be856dcffea8c5e004259c37c8
+2025-07-17 15:09:00,374 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/trump-coca-cola-real-sugar-corn-syrup-be3111be856dcffea8c5e004259c37c8
+2025-07-17 15:09:00,374 - __main__ - INFO - Processing URL: https://apnews.com/article/one-tech-tip-drying-phones-2a173bc38f2f188e35e3487b27f9da32
+2025-07-17 15:09:00,951 - llm_processor - INFO - Article from 2024-02-29 is not from today, skipping. URL: https://apnews.com/article/one-tech-tip-drying-phones-2a173bc38f2f188e35e3487b27f9da32
+2025-07-17 15:09:00,951 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/one-tech-tip-drying-phones-2a173bc38f2f188e35e3487b27f9da32
+2025-07-17 15:09:00,951 - __main__ - INFO - Processing URL: https://apnews.com/article/eeuu-agente-fronterizo-vermont-zizian-secta-cd4907620ace0c2c74f0a108a89acf7c
+2025-07-17 15:09:01,488 - llm_processor - INFO - Article from 2025-07-16 is not from today, skipping. URL: https://apnews.com/article/eeuu-agente-fronterizo-vermont-zizian-secta-cd4907620ace0c2c74f0a108a89acf7c
+2025-07-17 15:09:01,488 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/eeuu-agente-fronterizo-vermont-zizian-secta-cd4907620ace0c2c74f0a108a89acf7c
+2025-07-17 15:09:01,488 - __main__ - INFO - Processing URL: https://apnews.com/article/trump-turnberry-british-open-muirfield-983ac7d795bbf1fa2d51910a10b5ba63
+2025-07-17 15:09:01,996 - llm_processor - INFO - Article from 2025-07-16 is not from today, skipping. URL: https://apnews.com/article/trump-turnberry-british-open-muirfield-983ac7d795bbf1fa2d51910a10b5ba63
+2025-07-17 15:09:01,996 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/trump-turnberry-british-open-muirfield-983ac7d795bbf1fa2d51910a10b5ba63
+2025-07-17 15:09:01,996 - __main__ - INFO - Processing URL: https://apnews.com/article/disney-lawsuit-mickey-mouse-trademark-jewelry-dd53e47f25943f595d8b651e4d896e20
+2025-07-17 15:09:02,525 - llm_processor - INFO - Article from 2025-07-16 is not from today, skipping. URL: https://apnews.com/article/disney-lawsuit-mickey-mouse-trademark-jewelry-dd53e47f25943f595d8b651e4d896e20
+2025-07-17 15:09:02,525 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/disney-lawsuit-mickey-mouse-trademark-jewelry-dd53e47f25943f595d8b651e4d896e20
+2025-07-17 15:09:02,525 - __main__ - INFO - Processing URL: https://www.nbcnews.com/news/us-news/gardener-seen-hit-immigration-agents-june-video-released-detention-rcna219251
+2025-07-17 15:09:02,526 - __main__ - INFO - Already in DB skipping: https://www.nbcnews.com/news/us-news/gardener-seen-hit-immigration-agents-june-video-released-detention-rcna219251
+2025-07-17 15:09:02,526 - __main__ - INFO - Processing URL: https://apnews.com/article/americans-voters-2024-election-ae4587c3b109bc9c0e2d39074ea62d6c
+2025-07-17 15:09:03,200 - llm_processor - INFO - Article from 2024-08-30 is not from today, skipping. URL: https://apnews.com/article/americans-voters-2024-election-ae4587c3b109bc9c0e2d39074ea62d6c
+2025-07-17 15:09:03,200 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/americans-voters-2024-election-ae4587c3b109bc9c0e2d39074ea62d6c
+2025-07-17 15:09:03,200 - __main__ - INFO - Processing URL: https://apnews.com/article/israel-netanyahu-government-gaza-war-elections-e207f3519314012df4c489fe1eaafa33
+2025-07-17 15:09:03,758 - llm_processor - INFO - Article from 2025-07-15 is not from today, skipping. URL: https://apnews.com/article/israel-netanyahu-government-gaza-war-elections-e207f3519314012df4c489fe1eaafa33
+2025-07-17 15:09:03,758 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/israel-netanyahu-government-gaza-war-elections-e207f3519314012df4c489fe1eaafa33
+2025-07-17 15:09:03,758 - __main__ - INFO - Processing URL: https://www.nbcnews.com/world/asia/hong-kong-opens-criminal-probe-ai-generated-porn-scandal-citys-oldest-rcna219046
+2025-07-17 15:09:04,082 - llm_processor - INFO - Sending article to LLM for processing. URL: https://www.nbcnews.com/world/asia/hong-kong-opens-criminal-probe-ai-generated-porn-scandal-citys-oldest-rcna219046
+2025-07-17 15:09:04,094 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-17 15:09:11,243 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-17 15:09:11,248 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-17 15:09:11,248 - llm_processor - INFO - LLM processing successful for URL: https://www.nbcnews.com/world/asia/hong-kong-opens-criminal-probe-ai-generated-porn-scandal-citys-oldest-rcna219046
+2025-07-17 15:09:11,256 - __main__ - INFO - SUCCESS: Added: Hong Kong Authorities Launch Criminal Probe into University Deepfake Porn Scandal
+2025-07-17 15:09:18,262 - __main__ - INFO - Processing URL: https://www.nbcnews.com/science/science-news/largest-piece-mars-earth-sells-5-million-auction-dinosaur-steals-show-rcna219226
+2025-07-17 15:09:19,006 - llm_processor - INFO - Article from 2025-07-16 is not from today, skipping. URL: https://www.nbcnews.com/science/science-news/largest-piece-mars-earth-sells-5-million-auction-dinosaur-steals-show-rcna219226
+2025-07-17 15:09:19,006 - __main__ - INFO - Skipped empty processed result for: https://www.nbcnews.com/science/science-news/largest-piece-mars-earth-sells-5-million-auction-dinosaur-steals-show-rcna219226
+2025-07-17 15:09:19,006 - __main__ - INFO - Processing URL: https://www.nbcnews.com/world/asia/moo-deng-pygmy-hippo-birthday-viral-videos-thailand-zoo-rcna217195
+2025-07-17 15:09:19,645 - llm_processor - INFO - Article from 2025-07-10 is not from today, skipping. URL: https://www.nbcnews.com/world/asia/moo-deng-pygmy-hippo-birthday-viral-videos-thailand-zoo-rcna217195
+2025-07-17 15:09:19,645 - __main__ - INFO - Skipped empty processed result for: https://www.nbcnews.com/world/asia/moo-deng-pygmy-hippo-birthday-viral-videos-thailand-zoo-rcna217195
+2025-07-17 15:09:19,645 - __main__ - INFO - Processing URL: https://www.nbcnews.com/weather/storms/dead-injured-lightning-strike-new-jersey-storms-archery-range-rcna219240
+2025-07-17 15:09:20,244 - llm_processor - INFO - Sending article to LLM for processing. URL: https://www.nbcnews.com/weather/storms/dead-injured-lightning-strike-new-jersey-storms-archery-range-rcna219240
+2025-07-17 15:09:20,255 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-17 15:09:23,903 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-17 15:09:23,907 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-17 15:09:23,907 - llm_processor - INFO - LLM processing successful for URL: https://www.nbcnews.com/weather/storms/dead-injured-lightning-strike-new-jersey-storms-archery-range-rcna219240
+2025-07-17 15:09:23,914 - __main__ - INFO - SUCCESS: Added: Fatal Lightning Strike at New Jersey Archery Range Kills One, Injures 13
+2025-07-17 15:09:30,919 - __main__ - INFO - Processing URL: https://apnews.com/article/psychedelics-rfk-jr-kennedy-ibogaine-mdma-4e59a3eb2d23d98f2579d25c73c34e9b
+2025-07-17 15:09:31,486 - llm_processor - INFO - Article from 2025-07-16 is not from today, skipping. URL: https://apnews.com/article/psychedelics-rfk-jr-kennedy-ibogaine-mdma-4e59a3eb2d23d98f2579d25c73c34e9b
+2025-07-17 15:09:31,486 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/psychedelics-rfk-jr-kennedy-ibogaine-mdma-4e59a3eb2d23d98f2579d25c73c34e9b
+2025-07-17 15:09:31,487 - __main__ - INFO - Processing URL: https://www.nbcnews.com/world/middle-east/iraq-market-fire-al-kut-kills-rcna219259
+2025-07-17 15:09:31,928 - llm_processor - INFO - Sending article to LLM for processing. URL: https://www.nbcnews.com/world/middle-east/iraq-market-fire-al-kut-kills-rcna219259
+2025-07-17 15:09:31,940 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-17 15:09:37,214 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-17 15:09:37,218 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-17 15:09:37,219 - llm_processor - INFO - LLM processing successful for URL: https://www.nbcnews.com/world/middle-east/iraq-market-fire-al-kut-kills-rcna219259
+2025-07-17 15:09:37,227 - __main__ - INFO - SUCCESS: Added: Deadly Fire Engulfs Hypermarket in Al-Kut, Iraq
+2025-07-17 15:09:44,232 - __main__ - INFO - Processing URL: https://apnews.com/article/russia-ukraine-war-putin-trump-zelenskyy-eb878d323d03656d9496d927ebb9e1c4
+2025-07-17 15:09:44,808 - llm_processor - INFO - Article from 2025-07-16 is not from today, skipping. URL: https://apnews.com/article/russia-ukraine-war-putin-trump-zelenskyy-eb878d323d03656d9496d927ebb9e1c4
+2025-07-17 15:09:44,808 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/russia-ukraine-war-putin-trump-zelenskyy-eb878d323d03656d9496d927ebb9e1c4
+2025-07-17 15:09:44,808 - __main__ - INFO - Processing URL: https://apnews.com/article/russia-ukraine-war-weapons-patriots-zelenskyy-146ada6ec9ee16d23fc9a6ef1a8039ef
+2025-07-17 15:09:45,354 - llm_processor - INFO - Sending article to LLM for processing. URL: https://apnews.com/article/russia-ukraine-war-weapons-patriots-zelenskyy-146ada6ec9ee16d23fc9a6ef1a8039ef
+2025-07-17 15:09:45,365 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-17 15:09:50,345 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-17 15:09:50,349 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-17 15:09:50,349 - llm_processor - INFO - LLM processing successful for URL: https://apnews.com/article/russia-ukraine-war-weapons-patriots-zelenskyy-146ada6ec9ee16d23fc9a6ef1a8039ef
+2025-07-17 15:09:50,358 - __main__ - INFO - SUCCESS: Added: Ukraine to Boost Domestic Arms Production as US Diverts Patriot Systems
+2025-07-17 15:09:57,364 - __main__ - INFO - Processing URL: https://apnews.com/article/pakistan-uk-airlines-ban-safety-cf710c2b96da57525c0a2994c193aff1
+2025-07-17 15:09:57,904 - llm_processor - INFO - Article from 2025-07-16 is not from today, skipping. URL: https://apnews.com/article/pakistan-uk-airlines-ban-safety-cf710c2b96da57525c0a2994c193aff1
+2025-07-17 15:09:57,904 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/pakistan-uk-airlines-ban-safety-cf710c2b96da57525c0a2994c193aff1
+2025-07-17 15:09:57,904 - __main__ - INFO - Processing URL: https://www.nbcnews.com/world/asia/cambodia-makes-1000-arrests-latest-crackdown-cybercrime-rcna219141
+2025-07-17 15:09:58,137 - llm_processor - INFO - Article from 2025-07-16 is not from today, skipping. URL: https://www.nbcnews.com/world/asia/cambodia-makes-1000-arrests-latest-crackdown-cybercrime-rcna219141
+2025-07-17 15:09:58,137 - __main__ - INFO - Skipped empty processed result for: https://www.nbcnews.com/world/asia/cambodia-makes-1000-arrests-latest-crackdown-cybercrime-rcna219141
+2025-07-17 15:09:58,137 - __main__ - INFO - Processing URL: https://apnews.com/article/japan-canada-retail-couchetard-7eleven-convenience-0bf3e1297098ee3e6f74d34058b89658
+2025-07-17 15:09:58,138 - __main__ - INFO - Already in DB skipping: https://apnews.com/article/japan-canada-retail-couchetard-7eleven-convenience-0bf3e1297098ee3e6f74d34058b89658
+2025-07-17 15:09:58,138 - __main__ - INFO - Processing URL: https://apnews.com/article/fact-check-apeel-fruit-produce-safety-sheet-867075775325
+2025-07-17 15:09:58,625 - llm_processor - INFO - Article from 2023-04-18 is not from today, skipping. URL: https://apnews.com/article/fact-check-apeel-fruit-produce-safety-sheet-867075775325
+2025-07-17 15:09:58,625 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/fact-check-apeel-fruit-produce-safety-sheet-867075775325
+2025-07-17 15:09:58,625 - __main__ - INFO - Processing URL: https://www.nbcnews.com/news/us-news/first-shoes-went-back-now-us-airport-security-liquid-carry-ons-may-han-rcna219283
+2025-07-17 15:09:58,924 - llm_processor - INFO - Sending article to LLM for processing. URL: https://www.nbcnews.com/news/us-news/first-shoes-went-back-now-us-airport-security-liquid-carry-ons-may-han-rcna219283
+2025-07-17 15:09:58,935 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-17 15:10:04,662 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-17 15:10:04,669 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-17 15:10:04,669 - llm_processor - INFO - LLM processing successful for URL: https://www.nbcnews.com/news/us-news/first-shoes-went-back-now-us-airport-security-liquid-carry-ons-may-han-rcna219283
+2025-07-17 15:10:04,692 - __main__ - INFO - SUCCESS: Added: US Airport Security: Liquid Carry-On Rules May Change After Shoes-On Policy
+2025-07-17 15:10:11,697 - __main__ - INFO - Processing URL: https://apnews.com/article/uk-afghanistan-data-leak-super-injunction-explainer-124e10937ebb9abe0fc0bb3aa036e410
+2025-07-17 15:10:12,284 - llm_processor - INFO - Article from 2025-07-16 is not from today, skipping. URL: https://apnews.com/article/uk-afghanistan-data-leak-super-injunction-explainer-124e10937ebb9abe0fc0bb3aa036e410
+2025-07-17 15:10:12,284 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/uk-afghanistan-data-leak-super-injunction-explainer-124e10937ebb9abe0fc0bb3aa036e410
+2025-07-17 15:10:12,284 - __main__ - INFO - Processing URL: https://apnews.com/article/growing-degree-days-gardening-pest-control-1d509dce9ad9e9e3a029c6a31e715ce4
+2025-07-17 15:10:12,877 - llm_processor - INFO - Article from 2025-07-15 is not from today, skipping. URL: https://apnews.com/article/growing-degree-days-gardening-pest-control-1d509dce9ad9e9e3a029c6a31e715ce4
+2025-07-17 15:10:12,877 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/growing-degree-days-gardening-pest-control-1d509dce9ad9e9e3a029c6a31e715ce4
+2025-07-17 15:10:12,877 - __main__ - INFO - Processing URL: https://www.nbcnews.com/business/business-news/coca-cola-dodges-trump-says-soda-will-switch-back-cane-sugar-rcna219225
+2025-07-17 15:10:13,093 - llm_processor - INFO - Article from 2025-07-16 is not from today, skipping. URL: https://www.nbcnews.com/business/business-news/coca-cola-dodges-trump-says-soda-will-switch-back-cane-sugar-rcna219225
+2025-07-17 15:10:13,093 - __main__ - INFO - Skipped empty processed result for: https://www.nbcnews.com/business/business-news/coca-cola-dodges-trump-says-soda-will-switch-back-cane-sugar-rcna219225
+2025-07-17 15:10:13,093 - __main__ - INFO - Processing URL: https://www.nbcnews.com/business/business-news/flagging-us-industry-looks-new-life-philadelphia-shipyard-rcna219059
+2025-07-17 15:10:13,094 - __main__ - INFO - Already in DB skipping: https://www.nbcnews.com/business/business-news/flagging-us-industry-looks-new-life-philadelphia-shipyard-rcna219059
+2025-07-17 15:10:13,094 - __main__ - INFO - Processing URL: https://www.nbcnews.com/news/nbc-news-now-live-audio-listen-live-news-audio-day-rcna70163
+2025-07-17 15:10:13,299 - llm_processor - INFO - Article from 2023-02-16 is not from today, skipping. URL: https://www.nbcnews.com/news/nbc-news-now-live-audio-listen-live-news-audio-day-rcna70163
+2025-07-17 15:10:13,299 - __main__ - INFO - Skipped empty processed result for: https://www.nbcnews.com/news/nbc-news-now-live-audio-listen-live-news-audio-day-rcna70163
+2025-07-17 15:10:13,299 - __main__ - INFO - Processing URL: https://apnews.com/article/stocks-markets-rates-powell-trump-ee3ff3ef24f5054fb0550605a922df83
+2025-07-17 15:10:13,829 - llm_processor - INFO - Sending article to LLM for processing. URL: https://apnews.com/article/stocks-markets-rates-powell-trump-ee3ff3ef24f5054fb0550605a922df83
+2025-07-17 15:10:13,840 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-17 15:10:18,380 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-17 15:10:18,384 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-17 15:10:18,384 - llm_processor - INFO - LLM processing successful for URL: https://apnews.com/article/stocks-markets-rates-powell-trump-ee3ff3ef24f5054fb0550605a922df83
+2025-07-17 15:10:18,392 - __main__ - INFO - SUCCESS: Added: Wall Street Remains Calm After Trump Retracts Fed Chair Firing Threats
+2025-07-17 15:10:25,397 - __main__ - INFO - Processing URL: https://apnews.com/article/syria-druze-clashes-explainer-sweida-bedouin-b591788d6573d48cc6aebc2edef4d649
+2025-07-17 15:10:26,240 - llm_processor - INFO - Article from 2025-07-14 is not from today, skipping. URL: https://apnews.com/article/syria-druze-clashes-explainer-sweida-bedouin-b591788d6573d48cc6aebc2edef4d649
+2025-07-17 15:10:26,240 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/syria-druze-clashes-explainer-sweida-bedouin-b591788d6573d48cc6aebc2edef4d649
+2025-07-17 15:10:26,240 - __main__ - INFO - Processing URL: https://apnews.com/article/colombia-palestinians-conference-genocide-israel-south-africa-7292dcc347407bbd5ad76f54fab3c619
+2025-07-17 15:10:26,854 - llm_processor - INFO - Article from 2025-07-15 is not from today, skipping. URL: https://apnews.com/article/colombia-palestinians-conference-genocide-israel-south-africa-7292dcc347407bbd5ad76f54fab3c619
+2025-07-17 15:10:26,854 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/colombia-palestinians-conference-genocide-israel-south-africa-7292dcc347407bbd5ad76f54fab3c619
+2025-07-17 15:10:26,854 - __main__ - INFO - Processing URL: https://apnews.com/article/hud-section-8-vouchers-trump-budget-cuts-1e1896d3e1335ec7552bf3faf5edcefa
+2025-07-17 15:10:27,572 - llm_processor - INFO - Sending article to LLM for processing. URL: https://apnews.com/article/hud-section-8-vouchers-trump-budget-cuts-1e1896d3e1335ec7552bf3faf5edcefa
+2025-07-17 15:10:27,582 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-17 15:10:34,252 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-17 15:10:34,256 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-17 15:10:34,257 - llm_processor - INFO - LLM processing successful for URL: https://apnews.com/article/hud-section-8-vouchers-trump-budget-cuts-1e1896d3e1335ec7552bf3faf5edcefa
+2025-07-17 15:10:34,263 - __main__ - INFO - SUCCESS: Added: Federal Plan to Limit Housing Assistance for the Poor Threatens to Destabilize Millions, Report Finds
+2025-07-17 15:10:41,269 - __main__ - INFO - Processing URL: https://apnews.com/article/russia-ukraine-war-mariupol-descends-into-despair-708cb8f4a171ce3f1c1b0b8d090e38e3
+2025-07-17 15:10:42,348 - llm_processor - INFO - Article from 2022-03-16 is not from today, skipping. URL: https://apnews.com/article/russia-ukraine-war-mariupol-descends-into-despair-708cb8f4a171ce3f1c1b0b8d090e38e3
+2025-07-17 15:10:42,348 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/russia-ukraine-war-mariupol-descends-into-despair-708cb8f4a171ce3f1c1b0b8d090e38e3
+2025-07-17 15:10:42,348 - __main__ - INFO - Processing URL: https://apnews.com/article/syria-clashes-druze-israel-92a72655b85fba1d0b12cc36ffe2cef3
+2025-07-17 15:10:43,032 - llm_processor - INFO - Article from 2025-07-16 is not from today, skipping. URL: https://apnews.com/article/syria-clashes-druze-israel-92a72655b85fba1d0b12cc36ffe2cef3
+2025-07-17 15:10:43,032 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/syria-clashes-druze-israel-92a72655b85fba1d0b12cc36ffe2cef3
+2025-07-17 15:10:43,032 - __main__ - INFO - Processing URL: https://apnews.com/article/china-tariff-trump-businesses-united-states-244684174cf192e666310a7b5df669a8
+2025-07-17 15:10:43,526 - llm_processor - INFO - Article from 2025-07-16 is not from today, skipping. URL: https://apnews.com/article/china-tariff-trump-businesses-united-states-244684174cf192e666310a7b5df669a8
+2025-07-17 15:10:43,527 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/china-tariff-trump-businesses-united-states-244684174cf192e666310a7b5df669a8
+2025-07-17 15:10:43,527 - __main__ - INFO - Processing URL: https://edition.cnn.com/2025/07/17/asia/south-korea-lee-investigation-halloween-crush-intl-hnk
+2025-07-17 15:10:44,157 - llm_processor - INFO - Sending article to LLM for processing. URL: https://edition.cnn.com/2025/07/17/asia/south-korea-lee-investigation-halloween-crush-intl-hnk
+2025-07-17 15:10:44,167 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-17 15:10:48,062 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-17 15:10:48,065 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-17 15:10:48,066 - llm_processor - INFO - LLM processing successful for URL: https://edition.cnn.com/2025/07/17/asia/south-korea-lee-investigation-halloween-crush-intl-hnk
+2025-07-17 15:10:48,074 - __main__ - INFO - SUCCESS: Added: South Korean President Orders New Investigation Into Deadly Halloween Crowd Crush
+2025-07-17 15:10:55,079 - __main__ - INFO - Processing URL: https://apnews.com/article/world-cup-canada-wildfires-smoke-615754286caffbac7f8cb28fc3dc0400
+2025-07-17 15:10:55,601 - llm_processor - INFO - Article from 2025-07-16 is not from today, skipping. URL: https://apnews.com/article/world-cup-canada-wildfires-smoke-615754286caffbac7f8cb28fc3dc0400
+2025-07-17 15:10:55,601 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/world-cup-canada-wildfires-smoke-615754286caffbac7f8cb28fc3dc0400
+2025-07-17 15:10:55,601 - __main__ - INFO - Processing URL: https://apnews.com/article/mars-rock-meteorite-auction-dinosaur-sothebys-01d7ccfc8dc580ad86f8e97a305fc8fa
+2025-07-17 15:10:56,131 - llm_processor - INFO - Article from 2025-07-16 is not from today, skipping. URL: https://apnews.com/article/mars-rock-meteorite-auction-dinosaur-sothebys-01d7ccfc8dc580ad86f8e97a305fc8fa
+2025-07-17 15:10:56,131 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/mars-rock-meteorite-auction-dinosaur-sothebys-01d7ccfc8dc580ad86f8e97a305fc8fa
+2025-07-17 15:10:56,131 - __main__ - INFO - Processing URL: https://www.nbcnews.com/information/nbc-news-info/closed-captioning-n1307063
+2025-07-17 15:10:56,368 - llm_processor - INFO - Article from 2023-08-21 is not from today, skipping. URL: https://www.nbcnews.com/information/nbc-news-info/closed-captioning-n1307063
+2025-07-17 15:10:56,368 - __main__ - INFO - Skipped empty processed result for: https://www.nbcnews.com/information/nbc-news-info/closed-captioning-n1307063
+2025-07-17 15:10:56,368 - __main__ - INFO - Processing URL: https://apnews.com/article/peru-indigenous-wampis-guards-ambushed-gold-d70f77f34016084ff529d4aa471b42f5
+2025-07-17 15:10:56,906 - llm_processor - INFO - Article from 2025-07-16 is not from today, skipping. URL: https://apnews.com/article/peru-indigenous-wampis-guards-ambushed-gold-d70f77f34016084ff529d4aa471b42f5
+2025-07-17 15:10:56,906 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/peru-indigenous-wampis-guards-ambushed-gold-d70f77f34016084ff529d4aa471b42f5
+2025-07-17 15:10:56,906 - __main__ - INFO - Processing URL: https://edition.cnn.com/2025/07/17/sport/liverpool-diogo-jota-bacary-sagna-spt
+2025-07-17 15:10:57,313 - llm_processor - INFO - Sending article to LLM for processing. URL: https://edition.cnn.com/2025/07/17/sport/liverpool-diogo-jota-bacary-sagna-spt
+2025-07-17 15:10:57,325 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-17 15:11:01,884 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-17 15:11:01,890 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-17 15:11:01,890 - llm_processor - INFO - LLM processing successful for URL: https://edition.cnn.com/2025/07/17/sport/liverpool-diogo-jota-bacary-sagna-spt
+2025-07-17 15:11:01,902 - __main__ - INFO - SUCCESS: Added: Bacary Sagna Urges Liverpool Players to Seek Grief Counseling After Diogo Jota's Death
+2025-07-17 15:11:08,908 - __main__ - INFO - Processing URL: https://apnews.com/article/israel-palestinians-aid-organization-gaza-stampede-5c7b1562c8faecd127fd0050b2fa52a8
+2025-07-17 15:11:09,550 - llm_processor - INFO - Article from 2025-07-16 is not from today, skipping. URL: https://apnews.com/article/israel-palestinians-aid-organization-gaza-stampede-5c7b1562c8faecd127fd0050b2fa52a8
+2025-07-17 15:11:09,550 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/israel-palestinians-aid-organization-gaza-stampede-5c7b1562c8faecd127fd0050b2fa52a8
+2025-07-17 15:11:09,550 - __main__ - INFO - Processing URL: https://apnews.com/article/china-australia-albanese-pandas-3548d7d85a4f7dafd0411729d39d70c8
+2025-07-17 15:11:10,088 - llm_processor - INFO - Sending article to LLM for processing. URL: https://apnews.com/article/china-australia-albanese-pandas-3548d7d85a4f7dafd0411729d39d70c8
+2025-07-17 15:11:10,099 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-17 15:11:15,823 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-17 15:11:15,826 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-17 15:11:15,826 - llm_processor - INFO - LLM processing successful for URL: https://apnews.com/article/china-australia-albanese-pandas-3548d7d85a4f7dafd0411729d39d70c8
+2025-07-17 15:11:15,834 - __main__ - INFO - SUCCESS: Added: Australian PM Albanese Concludes Extended China Visit, Emphasizing Fair Trade and Panda Diplomacy
+2025-07-17 15:11:22,839 - __main__ - INFO - Processing URL: https://apnews.com/article/connie-francis-died-87-singer-pretty-little-baby-785646a658c66d61f4263eeb5b5d5d42
+2025-07-17 15:11:23,366 - llm_processor - INFO - Sending article to LLM for processing. URL: https://apnews.com/article/connie-francis-died-87-singer-pretty-little-baby-785646a658c66d61f4263eeb5b5d5d42
+2025-07-17 15:11:23,376 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-17 15:11:28,422 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-17 15:11:28,424 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-17 15:11:28,424 - llm_processor - INFO - LLM processing successful for URL: https://apnews.com/article/connie-francis-died-87-singer-pretty-little-baby-785646a658c66d61f4263eeb5b5d5d42
+2025-07-17 15:11:28,432 - __main__ - INFO - SUCCESS: Added: Connie Francis, 1950s-60s Pop Star, Dies at 87
+2025-07-17 15:11:35,439 - __main__ - INFO - Processing URL: https://apnews.com/article/uganda-africa-politics-fear-of-witchcraft-752bc4f2bacca959ddbedfd35f65f570
+2025-07-17 15:11:36,027 - llm_processor - INFO - Article from 2025-07-16 is not from today, skipping. URL: https://apnews.com/article/uganda-africa-politics-fear-of-witchcraft-752bc4f2bacca959ddbedfd35f65f570
+2025-07-17 15:11:36,028 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/uganda-africa-politics-fear-of-witchcraft-752bc4f2bacca959ddbedfd35f65f570
+2025-07-17 15:11:36,028 - __main__ - INFO - Processing URL: https://apnews.com/article/suvs-sorento-highlander-kia-toyota-d87492620fa7cfcad4fffa194a1f577e
+2025-07-17 15:11:36,575 - llm_processor - INFO - Article from 2025-07-16 is not from today, skipping. URL: https://apnews.com/article/suvs-sorento-highlander-kia-toyota-d87492620fa7cfcad4fffa194a1f577e
+2025-07-17 15:11:36,575 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/suvs-sorento-highlander-kia-toyota-d87492620fa7cfcad4fffa194a1f577e
+2025-07-17 15:11:36,575 - __main__ - INFO - Processing URL: https://edition.cnn.com/2025/07/17/africa/kenya-femicide-female-police-officer-as-equals-intl-cmd
+2025-07-17 15:11:37,306 - llm_processor - INFO - Sending article to LLM for processing. URL: https://edition.cnn.com/2025/07/17/africa/kenya-femicide-female-police-officer-as-equals-intl-cmd
+2025-07-17 15:11:37,317 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-17 15:11:44,411 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-17 15:11:44,416 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-17 15:11:44,416 - llm_processor - INFO - LLM processing successful for URL: https://edition.cnn.com/2025/07/17/africa/kenya-femicide-female-police-officer-as-equals-intl-cmd
+2025-07-17 15:11:44,424 - __main__ - INFO - SUCCESS: Added: Kenya's Femicide Crisis Impacts Even Female Police Officers
+2025-07-17 15:11:51,430 - __main__ - INFO - Processing URL: https://www.nbcnews.com/news/us-news/surrogate-was-horrified-learn-couple-bore-baby-21-children-rcna219212
+2025-07-17 15:11:51,782 - llm_processor - INFO - Sending article to LLM for processing. URL: https://www.nbcnews.com/news/us-news/surrogate-was-horrified-learn-couple-bore-baby-21-children-rcna219212
+2025-07-17 15:11:51,792 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-17 15:11:57,081 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-17 15:11:57,084 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-17 15:11:57,084 - llm_processor - INFO - LLM processing successful for URL: https://www.nbcnews.com/news/us-news/surrogate-was-horrified-learn-couple-bore-baby-21-children-rcna219212
+2025-07-17 15:11:57,092 - __main__ - INFO - SUCCESS: Added: Surrogate Discovers 21 Children, Abuse at California Couple's Home
+2025-07-17 15:12:04,103 - __main__ - INFO - Processing URL: https://apnews.com/article/japan-trade-automakers-trump-tariffs-exports-a50244fd666de40c468db1768a8bb62b
+2025-07-17 15:12:04,674 - llm_processor - INFO - Sending article to LLM for processing. URL: https://apnews.com/article/japan-trade-automakers-trump-tariffs-exports-a50244fd666de40c468db1768a8bb62b
+2025-07-17 15:12:04,693 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-17 15:12:09,941 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-17 15:12:09,946 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-17 15:12:09,947 - llm_processor - INFO - LLM processing successful for URL: https://apnews.com/article/japan-trade-automakers-trump-tariffs-exports-a50244fd666de40c468db1768a8bb62b
+2025-07-17 15:12:09,954 - __main__ - INFO - SUCCESS: Added: Japan Sinks into Trade Deficit Amid US Tariffs
+2025-07-17 15:12:16,957 - __main__ - INFO - Processing URL: https://apnews.com/article/texas-flooding-camp-mystic-blame-communications-tragedy-a4f066fe8e244b22e55d94145b80e349
+2025-07-17 15:12:16,962 - __main__ - INFO - Already in DB skipping: https://apnews.com/article/texas-flooding-camp-mystic-blame-communications-tragedy-a4f066fe8e244b22e55d94145b80e349
+2025-07-17 15:12:16,962 - __main__ - INFO - Processing URL: https://www.nbcnews.com/world/asia/fuel-switches-cut-air-india-plane-crashed-preliminary-report-says-rcna218208
+2025-07-17 15:12:17,821 - llm_processor - INFO - Article from 2025-07-12 is not from today, skipping. URL: https://www.nbcnews.com/world/asia/fuel-switches-cut-air-india-plane-crashed-preliminary-report-says-rcna218208
+2025-07-17 15:12:17,821 - __main__ - INFO - Skipped empty processed result for: https://www.nbcnews.com/world/asia/fuel-switches-cut-air-india-plane-crashed-preliminary-report-says-rcna218208
+2025-07-17 15:12:17,821 - __main__ - INFO - Processing URL: https://www.nbcnews.com/world/middle-east/israel-bombs-syria-defense-ministry-druze-minority-clashes-rcna219065
+2025-07-17 15:12:18,361 - llm_processor - INFO - Article from 2025-07-16 is not from today, skipping. URL: https://www.nbcnews.com/world/middle-east/israel-bombs-syria-defense-ministry-druze-minority-clashes-rcna219065
+2025-07-17 15:12:18,361 - __main__ - INFO - Skipped empty processed result for: https://www.nbcnews.com/world/middle-east/israel-bombs-syria-defense-ministry-druze-minority-clashes-rcna219065
+2025-07-17 15:12:18,361 - __main__ - INFO - Processing URL: https://edition.cnn.com/2025/07/17/middleeast/iraq-kut-building-deadly-fire-intl-hnk
+2025-07-17 15:12:18,758 - llm_processor - INFO - Sending article to LLM for processing. URL: https://edition.cnn.com/2025/07/17/middleeast/iraq-kut-building-deadly-fire-intl-hnk
+2025-07-17 15:12:18,768 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-17 15:12:26,060 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-17 15:12:26,064 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-17 15:12:26,064 - llm_processor - INFO - LLM processing successful for URL: https://edition.cnn.com/2025/07/17/middleeast/iraq-kut-building-deadly-fire-intl-hnk
+2025-07-17 15:12:26,069 - __main__ - INFO - SUCCESS: Added: Deadly Fire Engulfs Shopping Center in Iraq's Eastern City of Kut, Killing Dozens
+2025-07-17 15:12:33,077 - __main__ - INFO - Processing URL: https://www.nbcnews.com/politics/national-security/new-us-assessment-finds-american-strikes-destroyed-only-one-three-iran-rcna218761
+2025-07-17 15:12:33,423 - llm_processor - INFO - Sending article to LLM for processing. URL: https://www.nbcnews.com/politics/national-security/new-us-assessment-finds-american-strikes-destroyed-only-one-three-iran-rcna218761
+2025-07-17 15:12:33,433 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-17 15:12:38,095 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-17 15:12:38,099 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-17 15:12:38,099 - llm_processor - INFO - LLM processing successful for URL: https://www.nbcnews.com/politics/national-security/new-us-assessment-finds-american-strikes-destroyed-only-one-three-iran-rcna218761
+2025-07-17 15:12:38,107 - __main__ - INFO - SUCCESS: Added: New US Assessment Finds American Strikes Destroyed Only One of Three Iran Nuclear Sites
+2025-07-17 15:12:45,116 - __main__ - INFO - Processing URL: https://apnews.com/article/espys-awards-09d699641c06cac363f4a06142d42f35
+2025-07-17 15:12:45,703 - llm_processor - INFO - Sending article to LLM for processing. URL: https://apnews.com/article/espys-awards-09d699641c06cac363f4a06142d42f35
+2025-07-17 15:12:45,715 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-17 15:12:50,221 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-17 15:12:50,225 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-17 15:12:50,225 - llm_processor - INFO - LLM processing successful for URL: https://apnews.com/article/espys-awards-09d699641c06cac363f4a06142d42f35
+2025-07-17 15:12:50,233 - __main__ - INFO - SUCCESS: Added: Shai Gilgeous-Alexander, Simone Biles Win Top Honors at ESPYS
+2025-07-17 15:12:57,243 - __main__ - INFO - Processing URL: https://apnews.com/article/california-redadas-veterano-inmigracion-9159ba4577ca7094c7b34ad6c0239147
+2025-07-17 15:12:57,247 - __main__ - INFO - Already in DB skipping: https://apnews.com/article/california-redadas-veterano-inmigracion-9159ba4577ca7094c7b34ad6c0239147
+2025-07-17 15:12:57,247 - __main__ - INFO - Processing URL: https://apnews.com/article/nigeria-attack-gunmen-6fc2ceb4775a56e6219295e53dbec8ed
+2025-07-17 15:12:57,855 - llm_processor - INFO - Article from 2025-07-16 is not from today, skipping. URL: https://apnews.com/article/nigeria-attack-gunmen-6fc2ceb4775a56e6219295e53dbec8ed
+2025-07-17 15:12:57,855 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/nigeria-attack-gunmen-6fc2ceb4775a56e6219295e53dbec8ed
+2025-07-17 15:12:57,855 - __main__ - INFO - Processing URL: https://apnews.com/article/romance-novels-fans-bookstore-community-5a4dc92e116cd2ecebe141c2a6d7307e
+2025-07-17 15:12:58,433 - llm_processor - INFO - Article from 2025-07-16 is not from today, skipping. URL: https://apnews.com/article/romance-novels-fans-bookstore-community-5a4dc92e116cd2ecebe141c2a6d7307e
+2025-07-17 15:12:58,434 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/romance-novels-fans-bookstore-community-5a4dc92e116cd2ecebe141c2a6d7307e
+2025-07-17 15:12:58,434 - __main__ - INFO - Processing URL: https://apnews.com/article/vaccines-measles-children-un-who-unicef-02aa5d5296e8609f5004f88950af3a0c
+2025-07-17 15:12:58,955 - llm_processor - INFO - Article from 2025-07-15 is not from today, skipping. URL: https://apnews.com/article/vaccines-measles-children-un-who-unicef-02aa5d5296e8609f5004f88950af3a0c
+2025-07-17 15:12:58,955 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/vaccines-measles-children-un-who-unicef-02aa5d5296e8609f5004f88950af3a0c
+2025-07-17 15:12:58,955 - __main__ - INFO - Processing URL: https://apnews.com/article/uk-germany-starmer-merz-treaty-defense-ce3262ca8a2dba4b7472465ee6d87514
+2025-07-17 15:12:59,523 - llm_processor - INFO - Sending article to LLM for processing. URL: https://apnews.com/article/uk-germany-starmer-merz-treaty-defense-ce3262ca8a2dba4b7472465ee6d87514
+2025-07-17 15:12:59,534 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-17 15:13:05,106 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-17 15:13:05,111 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-17 15:13:05,111 - llm_processor - INFO - LLM processing successful for URL: https://apnews.com/article/uk-germany-starmer-merz-treaty-defense-ce3262ca8a2dba4b7472465ee6d87514
+2025-07-17 15:13:05,122 - __main__ - INFO - SUCCESS: Added: UK and Germany to Sign Treaty on Defense and Migrant Smuggling
+2025-07-17 15:13:12,133 - __main__ - INFO - Processing URL: https://apnews.com/article/native-american-klamath-river-dams-kayak-a25d8289473942e503b451581415a006
+2025-07-17 15:13:12,774 - llm_processor - INFO - Article from 2025-07-15 is not from today, skipping. URL: https://apnews.com/article/native-american-klamath-river-dams-kayak-a25d8289473942e503b451581415a006
+2025-07-17 15:13:12,774 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/native-american-klamath-river-dams-kayak-a25d8289473942e503b451581415a006
+2025-07-17 15:13:12,774 - __main__ - INFO - Processing URL: https://apnews.com/article/bald-eagles-native-americans-graduation-feathers-minnesota-714aa18fedee126adb299b280b392d97
+2025-07-17 15:13:13,360 - llm_processor - INFO - Article from 2025-07-13 is not from today, skipping. URL: https://apnews.com/article/bald-eagles-native-americans-graduation-feathers-minnesota-714aa18fedee126adb299b280b392d97
+2025-07-17 15:13:13,361 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/bald-eagles-native-americans-graduation-feathers-minnesota-714aa18fedee126adb299b280b392d97
+2025-07-17 15:13:13,361 - __main__ - INFO - Processing URL: https://apnews.com/article/iran-un-sanctions-snapback-uk-france-germany-f9458505b67698935625185532fa5a0f
+2025-07-17 15:13:13,864 - llm_processor - INFO - Article from 2025-07-16 is not from today, skipping. URL: https://apnews.com/article/iran-un-sanctions-snapback-uk-france-germany-f9458505b67698935625185532fa5a0f
+2025-07-17 15:13:13,864 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/iran-un-sanctions-snapback-uk-france-germany-f9458505b67698935625185532fa5a0f
+2025-07-17 15:13:13,864 - __main__ - INFO - Processing URL: https://apnews.com/article/yemen-houthi-rebels-iran-weapons-red-sea-e282c456e3db6f63fe696cba50e7c864
+2025-07-17 15:13:14,409 - llm_processor - INFO - Article from 2025-07-16 is not from today, skipping. URL: https://apnews.com/article/yemen-houthi-rebels-iran-weapons-red-sea-e282c456e3db6f63fe696cba50e7c864
+2025-07-17 15:13:14,409 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/yemen-houthi-rebels-iran-weapons-red-sea-e282c456e3db6f63fe696cba50e7c864
+2025-07-17 15:13:14,409 - __main__ - INFO - Processing URL: https://apnews.com/article/belgium-festival-fire-tomorrowland-main-stage-6b923eb3da20340096425b796285d946
+2025-07-17 15:13:14,949 - llm_processor - INFO - Article from 2025-07-16 is not from today, skipping. URL: https://apnews.com/article/belgium-festival-fire-tomorrowland-main-stage-6b923eb3da20340096425b796285d946
+2025-07-17 15:13:14,949 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/belgium-festival-fire-tomorrowland-main-stage-6b923eb3da20340096425b796285d946
+2025-07-17 15:13:14,949 - __main__ - INFO - Processing URL: https://edition.cnn.com/2025/07/17/weather/gulf-coast-storm-flood-threat-climate-hnk
+2025-07-17 15:13:15,360 - llm_processor - INFO - Sending article to LLM for processing. URL: https://edition.cnn.com/2025/07/17/weather/gulf-coast-storm-flood-threat-climate-hnk
+2025-07-17 15:13:15,370 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-17 15:13:21,250 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-17 15:13:21,254 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-17 15:13:21,254 - llm_processor - INFO - LLM processing successful for URL: https://edition.cnn.com/2025/07/17/weather/gulf-coast-storm-flood-threat-climate-hnk
+2025-07-17 15:13:21,262 - __main__ - INFO - SUCCESS: Added: Tropical System Threatens US Gulf Coast with Heavy Rains and Flooding
+2025-07-17 15:13:28,272 - __main__ - INFO - Processing URL: https://apnews.com/article/india-russian-woman-cave-4ed3fe116ffadd79a44eb2c11429dbb5
+2025-07-17 15:13:28,869 - llm_processor - INFO - Article from 2025-07-16 is not from today, skipping. URL: https://apnews.com/article/india-russian-woman-cave-4ed3fe116ffadd79a44eb2c11429dbb5
+2025-07-17 15:13:28,869 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/india-russian-woman-cave-4ed3fe116ffadd79a44eb2c11429dbb5
+2025-07-17 15:13:28,869 - __main__ - INFO - Processing URL: https://apnews.com/article/trump-supporters-epstein-sex-trafficking-investigation-bondi-47370e63060d79af64b0b8ac70b970a4
+2025-07-17 15:13:29,469 - llm_processor - INFO - Article from 2025-07-16 is not from today, skipping. URL: https://apnews.com/article/trump-supporters-epstein-sex-trafficking-investigation-bondi-47370e63060d79af64b0b8ac70b970a4
+2025-07-17 15:13:29,469 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/trump-supporters-epstein-sex-trafficking-investigation-bondi-47370e63060d79af64b0b8ac70b970a4
+2025-07-17 15:13:29,469 - __main__ - INFO - Processing URL: https://apnews.com/article/fact-check-trump-shooting-ear-damage-photo-470220313611
+2025-07-17 15:13:29,970 - llm_processor - INFO - Article from 2024-07-16 is not from today, skipping. URL: https://apnews.com/article/fact-check-trump-shooting-ear-damage-photo-470220313611
+2025-07-17 15:13:29,970 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/fact-check-trump-shooting-ear-damage-photo-470220313611
+2025-07-17 15:13:29,970 - __main__ - INFO - Processing URL: https://www.nbcnews.com/news/us-news/iran-nuclear-site-maurene-comey-fired-morning-rundown-rcna219261
+2025-07-17 15:13:29,971 - __main__ - INFO - Already in DB skipping: https://www.nbcnews.com/news/us-news/iran-nuclear-site-maurene-comey-fired-morning-rundown-rcna219261
+2025-07-17 15:13:29,971 - __main__ - INFO - Processing URL: https://apnews.com/article/olympics-usa-bobsled-skeleton-honda-120e9baa86eda53782b422d3b04a43ab
+2025-07-17 15:13:30,519 - llm_processor - INFO - Article from 2025-07-16 is not from today, skipping. URL: https://apnews.com/article/olympics-usa-bobsled-skeleton-honda-120e9baa86eda53782b422d3b04a43ab
+2025-07-17 15:13:30,519 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/olympics-usa-bobsled-skeleton-honda-120e9baa86eda53782b422d3b04a43ab
+2025-07-17 15:13:30,519 - __main__ - INFO - Processing URL: https://apnews.com/article/music-streams-2025-midyear-report-luminate-4ae716d9a7a8a4b7a003bec3955f5664
+2025-07-17 15:13:31,016 - llm_processor - INFO - Article from 2025-07-16 is not from today, skipping. URL: https://apnews.com/article/music-streams-2025-midyear-report-luminate-4ae716d9a7a8a4b7a003bec3955f5664
+2025-07-17 15:13:31,016 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/music-streams-2025-midyear-report-luminate-4ae716d9a7a8a4b7a003bec3955f5664
+2025-07-17 15:13:31,016 - __main__ - INFO - Processing URL: https://apnews.com/article/pakistan-monsoon-rains-deaths-flooding-708baaf43d0d3b530f4507e8c116c754
+2025-07-17 15:13:31,574 - llm_processor - INFO - Sending article to LLM for processing. URL: https://apnews.com/article/pakistan-monsoon-rains-deaths-flooding-708baaf43d0d3b530f4507e8c116c754
+2025-07-17 15:13:31,585 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-17 15:13:35,267 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-17 15:13:35,272 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-17 15:13:35,272 - llm_processor - INFO - LLM processing successful for URL: https://apnews.com/article/pakistan-monsoon-rains-deaths-flooding-708baaf43d0d3b530f4507e8c116c754
+2025-07-17 15:13:35,280 - __main__ - INFO - SUCCESS: Added: Heavy Monsoon Rains Kill Dozens in Pakistan, Raising Flood Concerns
+2025-07-17 15:13:42,291 - __main__ - INFO - Processing URL: https://apnews.com/article/samsung-lee-korea-not-guilty-ec012d7d7d171971810e27bd76528d86
+2025-07-17 15:13:42,298 - __main__ - INFO - Already in DB skipping: https://apnews.com/article/samsung-lee-korea-not-guilty-ec012d7d7d171971810e27bd76528d86
+2025-07-17 15:13:42,298 - __main__ - INFO - Processing URL: https://apnews.com/article/haiti-saut-deau-vodou-pilgrimage-waterfall-85c8a7ca12b0040c556f94928ec576cd
+2025-07-17 15:13:42,911 - llm_processor - INFO - Article from 2025-07-16 is not from today, skipping. URL: https://apnews.com/article/haiti-saut-deau-vodou-pilgrimage-waterfall-85c8a7ca12b0040c556f94928ec576cd
+2025-07-17 15:13:42,911 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/haiti-saut-deau-vodou-pilgrimage-waterfall-85c8a7ca12b0040c556f94928ec576cd
+2025-07-17 15:13:42,911 - __main__ - INFO - Processing URL: https://apnews.com/article/michigan-bear-neck-lid-31cfc1e0e19186f2ac666bbac8034cc4
+2025-07-17 15:13:43,468 - llm_processor - INFO - Article from 2025-06-18 is not from today, skipping. URL: https://apnews.com/article/michigan-bear-neck-lid-31cfc1e0e19186f2ac666bbac8034cc4
+2025-07-17 15:13:43,469 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/michigan-bear-neck-lid-31cfc1e0e19186f2ac666bbac8034cc4
+2025-07-17 15:13:43,469 - __main__ - INFO - Processing URL: https://www.nbcnews.com/world/europe/swedish-bodyguards-fitness-app-data-revealed-private-locations-royal-f-rcna217943
+2025-07-17 15:13:44,058 - llm_processor - INFO - Article from 2025-07-10 is not from today, skipping. URL: https://www.nbcnews.com/world/europe/swedish-bodyguards-fitness-app-data-revealed-private-locations-royal-f-rcna217943
+2025-07-17 15:13:44,058 - __main__ - INFO - Skipped empty processed result for: https://www.nbcnews.com/world/europe/swedish-bodyguards-fitness-app-data-revealed-private-locations-royal-f-rcna217943
+2025-07-17 15:13:44,058 - __main__ - INFO - Processing URL: https://www.nbcnews.com/world/asia/indian-police-find-woman-living-cave-daughters-rcna219269
+2025-07-17 15:13:44,392 - llm_processor - INFO - Sending article to LLM for processing. URL: https://www.nbcnews.com/world/asia/indian-police-find-woman-living-cave-daughters-rcna219269
+2025-07-17 15:13:44,403 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-17 15:13:49,614 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-17 15:13:49,616 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-17 15:13:49,616 - llm_processor - INFO - LLM processing successful for URL: https://www.nbcnews.com/world/asia/indian-police-find-woman-living-cave-daughters-rcna219269
+2025-07-17 15:13:49,622 - __main__ - INFO - SUCCESS: Added: Indian Police Find Russian Woman and Daughters Living in Forest Cave
+2025-07-17 15:13:56,630 - __main__ - INFO - Processing URL: https://apnews.com/article/alaska-earthquake-tsunami-warning-9c6a09a2105cba1e5fa27a2bb96c8e54
+2025-07-17 15:13:57,206 - llm_processor - INFO - Article from 2025-07-16 is not from today, skipping. URL: https://apnews.com/article/alaska-earthquake-tsunami-warning-9c6a09a2105cba1e5fa27a2bb96c8e54
+2025-07-17 15:13:57,206 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/alaska-earthquake-tsunami-warning-9c6a09a2105cba1e5fa27a2bb96c8e54
+2025-07-17 15:13:57,206 - __main__ - INFO - Processing URL: https://edition.cnn.com/2025/07/17/sport/eugenie-bouchard-canadian-tennis-retire-spt
+2025-07-17 15:13:57,206 - __main__ - INFO - Already in DB skipping: https://edition.cnn.com/2025/07/17/sport/eugenie-bouchard-canadian-tennis-retire-spt
+2025-07-17 15:13:57,206 - __main__ - INFO - Processing URL: https://apnews.com/article/us-army-veteran-immigration-raid-53cb22251a01599a0c4d1a8d5650d050
+2025-07-17 15:13:57,825 - llm_processor - INFO - Sending article to LLM for processing. URL: https://apnews.com/article/us-army-veteran-immigration-raid-53cb22251a01599a0c4d1a8d5650d050
+2025-07-17 15:13:57,836 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-17 15:14:03,952 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-17 15:14:03,958 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-17 15:14:03,958 - llm_processor - INFO - LLM processing successful for URL: https://apnews.com/article/us-army-veteran-immigration-raid-53cb22251a01599a0c4d1a8d5650d050
+2025-07-17 15:14:03,968 - __main__ - INFO - SUCCESS: Added: Veteran Details Violent Arrest in Southern California Immigration Raid
+2025-07-17 15:14:10,978 - __main__ - INFO - Processing URL: https://www.nbcnews.com/world/europe/french-pms-plan-scrap-two-holidays-stirs-outcry-memories-toppled-prede-rcna219270
+2025-07-17 15:14:11,267 - llm_processor - INFO - Sending article to LLM for processing. URL: https://www.nbcnews.com/world/europe/french-pms-plan-scrap-two-holidays-stirs-outcry-memories-toppled-prede-rcna219270
+2025-07-17 15:14:11,278 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-17 15:14:15,809 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-17 15:14:15,813 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-17 15:14:15,813 - llm_processor - INFO - LLM processing successful for URL: https://www.nbcnews.com/world/europe/french-pms-plan-scrap-two-holidays-stirs-outcry-memories-toppled-prede-rcna219270
+2025-07-17 15:14:15,822 - __main__ - INFO - SUCCESS: Added: French PM Bayrou Proposes Scrapping Public Holidays, Sparks Outcry
+2025-07-17 15:14:22,832 - __main__ - INFO - Processing URL: https://apnews.com/article/liquids-tsa-kristi-noem-homeland-security-shoes-297c2890c762c0f9ff76acfd53ca7f53
+2025-07-17 15:14:23,404 - llm_processor - INFO - Article from 2025-07-16 is not from today, skipping. URL: https://apnews.com/article/liquids-tsa-kristi-noem-homeland-security-shoes-297c2890c762c0f9ff76acfd53ca7f53
+2025-07-17 15:14:23,404 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/liquids-tsa-kristi-noem-homeland-security-shoes-297c2890c762c0f9ff76acfd53ca7f53
+2025-07-17 15:14:23,404 - __main__ - INFO - Processing URL: https://www.nbcnews.com/news/us-news/trump-admin-restarts-third-country-deportations-flight-eswatini-rcna219041
+2025-07-17 15:14:23,628 - llm_processor - INFO - Article from 2025-07-16 is not from today, skipping. URL: https://www.nbcnews.com/news/us-news/trump-admin-restarts-third-country-deportations-flight-eswatini-rcna219041
+2025-07-17 15:14:23,628 - __main__ - INFO - Skipped empty processed result for: https://www.nbcnews.com/news/us-news/trump-admin-restarts-third-country-deportations-flight-eswatini-rcna219041
+2025-07-17 15:14:23,628 - __main__ - INFO - Processing URL: https://apnews.com/article/chile-kayaking-tourism-whale-b0cafde4b640326f20a9da28003d6c26
+2025-07-17 15:14:24,135 - llm_processor - INFO - Article from 2025-02-13 is not from today, skipping. URL: https://apnews.com/article/chile-kayaking-tourism-whale-b0cafde4b640326f20a9da28003d6c26
+2025-07-17 15:14:24,135 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/chile-kayaking-tourism-whale-b0cafde4b640326f20a9da28003d6c26
+2025-07-17 15:14:24,135 - __main__ - INFO - Processing URL: https://apnews.com/article/japan-china-espionage-sentence-astellas-2852e3a3658c3201711e9464a9fc5b65
+2025-07-17 15:14:24,665 - llm_processor - INFO - Article from 2025-07-16 is not from today, skipping. URL: https://apnews.com/article/japan-china-espionage-sentence-astellas-2852e3a3658c3201711e9464a9fc5b65
+2025-07-17 15:14:24,665 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/japan-china-espionage-sentence-astellas-2852e3a3658c3201711e9464a9fc5b65
+2025-07-17 15:14:24,665 - __main__ - INFO - Processing URL: https://apnews.com/article/minot-city-north-dakota-ground-squirrels-dde22d2fa10140191a168687a5aa4daa
+2025-07-17 15:14:25,224 - llm_processor - INFO - Sending article to LLM for processing. URL: https://apnews.com/article/minot-city-north-dakota-ground-squirrels-dde22d2fa10140191a168687a5aa4daa
+2025-07-17 15:14:25,235 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-17 15:14:30,882 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-17 15:14:30,885 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-17 15:14:30,886 - llm_processor - INFO - LLM processing successful for URL: https://apnews.com/article/minot-city-north-dakota-ground-squirrels-dde22d2fa10140191a168687a5aa4daa
+2025-07-17 15:14:30,893 - __main__ - INFO - SUCCESS: Added: Minot, North Dakota, Struggles with Overpopulation of Richardson's Ground Squirrels
+2025-07-17 15:14:37,903 - __main__ - INFO - Processing URL: https://apnews.com/article/virgin-australia-snake-plane-melbourne-brisbane-9fec54edc5a7c7f6f9734fa76e0d3e45
+2025-07-17 15:14:38,472 - llm_processor - INFO - Article from 2025-07-02 is not from today, skipping. URL: https://apnews.com/article/virgin-australia-snake-plane-melbourne-brisbane-9fec54edc5a7c7f6f9734fa76e0d3e45
+2025-07-17 15:14:38,472 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/virgin-australia-snake-plane-melbourne-brisbane-9fec54edc5a7c7f6f9734fa76e0d3e45
+2025-07-17 15:14:38,472 - __main__ - INFO - Processing URL: https://apnews.com/article/iceland-volcano-eruption-blue-lagoon-grindavik-c72f44eb9ecb5f2d87e87fd53ed3b26d
+2025-07-17 15:14:39,015 - llm_processor - INFO - Article from 2025-07-16 is not from today, skipping. URL: https://apnews.com/article/iceland-volcano-eruption-blue-lagoon-grindavik-c72f44eb9ecb5f2d87e87fd53ed3b26d
+2025-07-17 15:14:39,015 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/iceland-volcano-eruption-blue-lagoon-grindavik-c72f44eb9ecb5f2d87e87fd53ed3b26d
+2025-07-17 15:14:39,015 - __main__ - INFO - Processing URL: https://www.nbcnews.com/health/health-news/researchers-try-new-ways-preserving-hearts-transplants-rcna219229
+2025-07-17 15:14:39,322 - llm_processor - INFO - Sending article to LLM for processing. URL: https://www.nbcnews.com/health/health-news/researchers-try-new-ways-preserving-hearts-transplants-rcna219229
+2025-07-17 15:14:39,333 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-17 15:14:44,443 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-17 15:14:44,448 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-17 15:14:44,448 - llm_processor - INFO - LLM processing successful for URL: https://www.nbcnews.com/health/health-news/researchers-try-new-ways-preserving-hearts-transplants-rcna219229
+2025-07-17 15:14:44,459 - __main__ - INFO - SUCCESS: Added: Researchers Try New Ways of Preserving Hearts for Transplants
+2025-07-17 15:14:51,469 - __main__ - INFO - Processing URL: https://apnews.com/article/prince-harry-angola-land-mines-diana-royal-969a283834e3975252aab7536a62c56e
+2025-07-17 15:14:52,046 - llm_processor - INFO - Article from 2025-07-16 is not from today, skipping. URL: https://apnews.com/article/prince-harry-angola-land-mines-diana-royal-969a283834e3975252aab7536a62c56e
+2025-07-17 15:14:52,046 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/prince-harry-angola-land-mines-diana-royal-969a283834e3975252aab7536a62c56e
+2025-07-17 15:14:52,046 - __main__ - INFO - Processing URL: https://apnews.com/article/work-life-stress-reduction-breathing-techniques-8c0636a09d605ef0c56e529e8be0f2f9
+2025-07-17 15:14:52,567 - llm_processor - INFO - Article from 2024-11-14 is not from today, skipping. URL: https://apnews.com/article/work-life-stress-reduction-breathing-techniques-8c0636a09d605ef0c56e529e8be0f2f9
+2025-07-17 15:14:52,567 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/work-life-stress-reduction-breathing-techniques-8c0636a09d605ef0c56e529e8be0f2f9
+2025-07-17 15:14:52,567 - __main__ - INFO - Processing URL: https://edition.cnn.com/2025/07/17/middleeast/pope-leo-israel-strike-gaza-church-intl
+2025-07-17 15:14:52,970 - llm_processor - INFO - Sending article to LLM for processing. URL: https://edition.cnn.com/2025/07/17/middleeast/pope-leo-israel-strike-gaza-church-intl
+2025-07-17 15:14:52,982 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-17 15:14:56,891 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-17 15:14:56,894 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-17 15:14:56,895 - llm_processor - INFO - LLM processing successful for URL: https://edition.cnn.com/2025/07/17/middleeast/pope-leo-israel-strike-gaza-church-intl
+2025-07-17 15:14:56,902 - __main__ - INFO - SUCCESS: Added: Pope Leo XIV 'Deeply Saddened' After Strike Kills Two at Gaza Catholic Church
+2025-07-17 15:15:03,913 - __main__ - INFO - Processing URL: https://apnews.com/article/tour-france-protest-gaza-israel-b999515c8d6f0c256c21b30e3a789722
+2025-07-17 15:15:04,564 - llm_processor - INFO - Article from 2025-07-16 is not from today, skipping. URL: https://apnews.com/article/tour-france-protest-gaza-israel-b999515c8d6f0c256c21b30e3a789722
+2025-07-17 15:15:04,564 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/tour-france-protest-gaza-israel-b999515c8d6f0c256c21b30e3a789722
+2025-07-17 15:15:04,564 - __main__ - INFO - Processing URL: https://apnews.com/article/iraq-mall-fire-96e368d468ab86568ad605216e9f0589
+2025-07-17 15:15:05,144 - llm_processor - INFO - Sending article to LLM for processing. URL: https://apnews.com/article/iraq-mall-fire-96e368d468ab86568ad605216e9f0589
+2025-07-17 15:15:05,155 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-17 15:15:10,698 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-17 15:15:10,704 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-17 15:15:10,704 - llm_processor - INFO - LLM processing successful for URL: https://apnews.com/article/iraq-mall-fire-96e368d468ab86568ad605216e9f0589
+2025-07-17 15:15:10,712 - __main__ - INFO - SUCCESS: Added: Deadly Fire Engulfs Shopping Center in Iraq, Killing Over 60
+2025-07-17 15:15:17,722 - __main__ - INFO - Processing URL: https://apnews.com/article/bolivia-sarampion-brote-santa-cruz-vacunas-a01cee70486283b70d649add194adbbb
+2025-07-17 15:15:18,275 - llm_processor - INFO - Article from 2025-06-18 is not from today, skipping. URL: https://apnews.com/article/bolivia-sarampion-brote-santa-cruz-vacunas-a01cee70486283b70d649add194adbbb
+2025-07-17 15:15:18,275 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/bolivia-sarampion-brote-santa-cruz-vacunas-a01cee70486283b70d649add194adbbb
+2025-07-17 15:15:18,275 - __main__ - INFO - Processing URL: https://www.nbcnews.com/world/gaza/gaza-israel-babies-fuel-hospital-at-risk-blockade-rcna218201
+2025-07-17 15:15:18,784 - llm_processor - INFO - Article from 2025-07-11 is not from today, skipping. URL: https://www.nbcnews.com/world/gaza/gaza-israel-babies-fuel-hospital-at-risk-blockade-rcna218201
+2025-07-17 15:15:18,784 - __main__ - INFO - Skipped empty processed result for: https://www.nbcnews.com/world/gaza/gaza-israel-babies-fuel-hospital-at-risk-blockade-rcna218201
+2025-07-17 15:15:18,784 - __main__ - INFO - Processing URL: https://www.nbcnews.com/world/ireland/message-in-a-bottle-canadian-lovers-married-found-ireland-rcna218211
+2025-07-17 15:15:19,446 - llm_processor - INFO - Article from 2025-07-11 is not from today, skipping. URL: https://www.nbcnews.com/world/ireland/message-in-a-bottle-canadian-lovers-married-found-ireland-rcna218211
+2025-07-17 15:15:19,446 - __main__ - INFO - Skipped empty processed result for: https://www.nbcnews.com/world/ireland/message-in-a-bottle-canadian-lovers-married-found-ireland-rcna218211
+2025-07-17 15:15:19,446 - __main__ - INFO - Processing URL: https://apnews.com/article/grabagun-stock-trading-donald-trump-jr-79f5286dc75bbe5f90e75b8fb994e7fa
+2025-07-17 15:15:19,967 - llm_processor - INFO - Article from 2025-07-16 is not from today, skipping. URL: https://apnews.com/article/grabagun-stock-trading-donald-trump-jr-79f5286dc75bbe5f90e75b8fb994e7fa
+2025-07-17 15:15:19,968 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/grabagun-stock-trading-donald-trump-jr-79f5286dc75bbe5f90e75b8fb994e7fa
+2025-07-17 15:15:19,968 - __main__ - INFO - Processing URL: https://apnews.com/article/cuba-pobreza-ministra-vulnerabilidad-polemica-c6480f0f9c566b6b7c409b43b647bd94
+2025-07-17 15:15:20,481 - llm_processor - INFO - Article from 2025-07-15 is not from today, skipping. URL: https://apnews.com/article/cuba-pobreza-ministra-vulnerabilidad-polemica-c6480f0f9c566b6b7c409b43b647bd94
+2025-07-17 15:15:20,481 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/cuba-pobreza-ministra-vulnerabilidad-polemica-c6480f0f9c566b6b7c409b43b647bd94
+2025-07-17 15:15:20,481 - __main__ - INFO - Processing URL: https://apnews.com/article/yu-12-year-old-swim-china-worlds-d29e2e16908130174b85fbc2cde53c90
+2025-07-17 15:15:21,094 - llm_processor - INFO - Sending article to LLM for processing. URL: https://apnews.com/article/yu-12-year-old-swim-china-worlds-d29e2e16908130174b85fbc2cde53c90
+2025-07-17 15:15:21,105 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-17 15:15:28,912 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-17 15:15:28,917 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-17 15:15:28,917 - llm_processor - INFO - LLM processing successful for URL: https://apnews.com/article/yu-12-year-old-swim-china-worlds-d29e2e16908130174b85fbc2cde53c90
+2025-07-17 15:15:28,924 - __main__ - INFO - SUCCESS: Added: 12-Year-Old Chinese Swimmer Yu Zidi Set to Make Waves at World Championships
+2025-07-17 15:15:35,934 - __main__ - INFO - Processing URL: https://apnews.com/article/trump-epstein-archivos-revelacion-opiniones-8759220474f1f9ee3cf196978d6f0947
+2025-07-17 15:15:36,446 - llm_processor - INFO - Article from 2025-07-16 is not from today, skipping. URL: https://apnews.com/article/trump-epstein-archivos-revelacion-opiniones-8759220474f1f9ee3cf196978d6f0947
+2025-07-17 15:15:36,446 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/trump-epstein-archivos-revelacion-opiniones-8759220474f1f9ee3cf196978d6f0947
+2025-07-17 15:15:36,446 - __main__ - INFO - Processing URL: https://apnews.com/article/eating-fast-tips-to-slow-down-4ba7e9760ac5903fe29dc38a4205d701
+2025-07-17 15:15:36,996 - llm_processor - INFO - Article from 2025-03-24 is not from today, skipping. URL: https://apnews.com/article/eating-fast-tips-to-slow-down-4ba7e9760ac5903fe29dc38a4205d701
+2025-07-17 15:15:36,997 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/eating-fast-tips-to-slow-down-4ba7e9760ac5903fe29dc38a4205d701
+2025-07-17 15:15:36,997 - __main__ - INFO - Processing URL: https://www.nbcnews.com/information/nbc-news-info/about-nbc-news-digital-n1232178
+2025-07-17 15:15:37,230 - llm_processor - INFO - Article from 2020-06-26 is not from today, skipping. URL: https://www.nbcnews.com/information/nbc-news-info/about-nbc-news-digital-n1232178
+2025-07-17 15:15:37,230 - __main__ - INFO - Skipped empty processed result for: https://www.nbcnews.com/information/nbc-news-info/about-nbc-news-digital-n1232178
+2025-07-17 15:15:37,230 - __main__ - INFO - Processing URL: https://apnews.com/article/cooling-products-wearables-heat-relief-49bd5c8253321844fa027a57c4050da6
+2025-07-17 15:15:37,750 - llm_processor - INFO - Article from 2025-07-12 is not from today, skipping. URL: https://apnews.com/article/cooling-products-wearables-heat-relief-49bd5c8253321844fa027a57c4050da6
+2025-07-17 15:15:37,750 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/cooling-products-wearables-heat-relief-49bd5c8253321844fa027a57c4050da6
+2025-07-17 15:15:37,750 - __main__ - INFO - Processing URL: https://www.nbcnews.com/politics/justice-department/maurene-comey-daughter-james-comey-fired-sean-combs-ghislaine-maxwell-rcna219236
+2025-07-17 15:15:38,064 - llm_processor - INFO - Sending article to LLM for processing. URL: https://www.nbcnews.com/politics/justice-department/maurene-comey-daughter-james-comey-fired-sean-combs-ghislaine-maxwell-rcna219236
+2025-07-17 15:15:38,075 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-17 15:15:42,971 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-17 15:15:42,975 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-17 15:15:42,975 - llm_processor - INFO - LLM processing successful for URL: https://www.nbcnews.com/politics/justice-department/maurene-comey-daughter-james-comey-fired-sean-combs-ghislaine-maxwell-rcna219236
+2025-07-17 15:15:42,982 - __main__ - INFO - SUCCESS: Added: Federal Prosecutor Maurene Comey Fired by Justice Department
+2025-07-17 15:15:49,992 - __main__ - INFO - Processing URL: https://www.nbcnews.com/politics/donald-trump/trump-epstein-questions-maga-ideas-rcna219160
+2025-07-17 15:15:50,288 - llm_processor - INFO - Sending article to LLM for processing. URL: https://www.nbcnews.com/politics/donald-trump/trump-epstein-questions-maga-ideas-rcna219160
+2025-07-17 15:15:50,298 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-17 15:15:55,642 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-17 15:15:55,646 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-17 15:15:55,646 - llm_processor - INFO - LLM processing successful for URL: https://www.nbcnews.com/politics/donald-trump/trump-epstein-questions-maga-ideas-rcna219160
+2025-07-17 15:15:55,653 - __main__ - INFO - SUCCESS: Added: Trump Faces Growing Pressure for Transparency on Jeffrey Epstein Case Amid Calls for More Info
+2025-07-17 15:16:02,666 - __main__ - INFO - Processing URL: https://apnews.com/article/europe-budget-ursula-leyen-farmers-b7287e1a88321fbde92709303adb3ad1
+2025-07-17 15:16:03,217 - llm_processor - INFO - Article from 2025-07-16 is not from today, skipping. URL: https://apnews.com/article/europe-budget-ursula-leyen-farmers-b7287e1a88321fbde92709303adb3ad1
+2025-07-17 15:16:03,217 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/europe-budget-ursula-leyen-farmers-b7287e1a88321fbde92709303adb3ad1
+2025-07-17 15:16:03,217 - __main__ - INFO - Processing URL: https://apnews.com/article/hud-section-8-vouchers-congress-budget-cuts-1947bef65f4d47e28584f03a051455e7
+2025-07-17 15:16:03,870 - llm_processor - INFO - Sending article to LLM for processing. URL: https://apnews.com/article/hud-section-8-vouchers-congress-budget-cuts-1947bef65f4d47e28584f03a051455e7
+2025-07-17 15:16:03,881 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-17 15:16:09,819 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-17 15:16:09,823 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-17 15:16:09,823 - llm_processor - INFO - LLM processing successful for URL: https://apnews.com/article/hud-section-8-vouchers-congress-budget-cuts-1947bef65f4d47e28584f03a051455e7
+2025-07-17 15:16:09,831 - __main__ - INFO - SUCCESS: Added: Trump Administration Proposal Puts 1 Million Low-Income Households at Risk of Losing Housing Aid
+2025-07-17 15:16:16,842 - __main__ - INFO - Processing URL: https://apnews.com/article/israel-shas-netanyahu-b58b8705277f27fa41f664c341e5a93e
+2025-07-17 15:16:17,392 - llm_processor - INFO - Article from 2025-07-16 is not from today, skipping. URL: https://apnews.com/article/israel-shas-netanyahu-b58b8705277f27fa41f664c341e5a93e
+2025-07-17 15:16:17,392 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/israel-shas-netanyahu-b58b8705277f27fa41f664c341e5a93e
+2025-07-17 15:16:17,392 - __main__ - INFO - Processing URL: https://edition.cnn.com/2025/07/17/style/what-happens-when-an-octopus-engages-with-art
+2025-07-17 15:16:17,392 - __main__ - INFO - Already in DB skipping: https://edition.cnn.com/2025/07/17/style/what-happens-when-an-octopus-engages-with-art
+2025-07-17 15:16:17,392 - __main__ - INFO - Processing URL: https://apnews.com/article/shower-basics-tiktok-social-media-dermatologist-8a96743d7b86c329703f7736a7306961
+2025-07-17 15:16:17,898 - llm_processor - INFO - Article from 2025-07-09 is not from today, skipping. URL: https://apnews.com/article/shower-basics-tiktok-social-media-dermatologist-8a96743d7b86c329703f7736a7306961
+2025-07-17 15:16:17,898 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/shower-basics-tiktok-social-media-dermatologist-8a96743d7b86c329703f7736a7306961
+2025-07-17 15:16:17,898 - __main__ - INFO - Processing URL: https://apnews.com/article/economia-comercio-labubu-juguetes-populares-37542c4312a1dc0a43e0630b627a3fe6
+2025-07-17 15:16:18,428 - llm_processor - INFO - Article from 2025-07-16 is not from today, skipping. URL: https://apnews.com/article/economia-comercio-labubu-juguetes-populares-37542c4312a1dc0a43e0630b627a3fe6
+2025-07-17 15:16:18,428 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/economia-comercio-labubu-juguetes-populares-37542c4312a1dc0a43e0630b627a3fe6
+2025-07-17 15:16:18,428 - __main__ - INFO - Processing URL: https://www.nbcnews.com/world/middle-east/palestinians-gaza-killed-israeli-airstrikes-seeking-aid-rcna218446
+2025-07-17 15:16:19,245 - llm_processor - INFO - Article from 2025-07-12 is not from today, skipping. URL: https://www.nbcnews.com/world/middle-east/palestinians-gaza-killed-israeli-airstrikes-seeking-aid-rcna218446
+2025-07-17 15:16:19,245 - __main__ - INFO - Skipped empty processed result for: https://www.nbcnews.com/world/middle-east/palestinians-gaza-killed-israeli-airstrikes-seeking-aid-rcna218446
+2025-07-17 15:16:19,245 - __main__ - INFO - Processing URL: https://apnews.com/article/heart-transplants-donation-dcd-11a296d03631aef6ff6d84099463a586
+2025-07-17 15:16:19,773 - llm_processor - INFO - Article from 2025-07-16 is not from today, skipping. URL: https://apnews.com/article/heart-transplants-donation-dcd-11a296d03631aef6ff6d84099463a586
+2025-07-17 15:16:19,773 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/heart-transplants-donation-dcd-11a296d03631aef6ff6d84099463a586
+2025-07-17 15:16:19,773 - __main__ - INFO - Processing URL: https://www.nbcnews.com/health/health-news/day-care-measles-exposure-forces-iowa-family-take-weeks-work-baby-only-rcna218899
+2025-07-17 15:16:20,042 - llm_processor - INFO - Sending article to LLM for processing. URL: https://www.nbcnews.com/health/health-news/day-care-measles-exposure-forces-iowa-family-take-weeks-work-baby-only-rcna218899
+2025-07-17 15:16:20,053 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-17 15:16:24,442 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-17 15:16:24,447 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-17 15:16:24,447 - llm_processor - INFO - LLM processing successful for URL: https://www.nbcnews.com/health/health-news/day-care-measles-exposure-forces-iowa-family-take-weeks-work-baby-only-rcna218899
+2025-07-17 15:16:24,455 - __main__ - INFO - SUCCESS: Added: Day care measles exposure forces Iowa family to take weeks off work, baby only 9 months old
+2025-07-17 15:16:31,466 - __main__ - INFO - Processing URL: https://apnews.com/article/swans-stolen-eaten-new-york-manlius-602b5235ef3a055992cafd79a895ccd5
+2025-07-17 15:16:32,091 - llm_processor - INFO - Article from 2023-05-31 is not from today, skipping. URL: https://apnews.com/article/swans-stolen-eaten-new-york-manlius-602b5235ef3a055992cafd79a895ccd5
+2025-07-17 15:16:32,091 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/swans-stolen-eaten-new-york-manlius-602b5235ef3a055992cafd79a895ccd5
+2025-07-17 15:16:32,092 - __main__ - INFO - Processing URL: https://www.nbcnews.com/sports/wnba/caitlin-clark-wnba-all-star-injury-rcna219281
+2025-07-17 15:16:32,339 - llm_processor - INFO - Sending article to LLM for processing. URL: https://www.nbcnews.com/sports/wnba/caitlin-clark-wnba-all-star-injury-rcna219281
+2025-07-17 15:16:32,352 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-17 15:16:36,220 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-17 15:16:36,225 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-17 15:16:36,225 - llm_processor - INFO - LLM processing successful for URL: https://www.nbcnews.com/sports/wnba/caitlin-clark-wnba-all-star-injury-rcna219281
+2025-07-17 15:16:36,234 - __main__ - INFO - SUCCESS: Added: Caitlin Clark's All-Star Weekend Status Uncertain Due to Groin Injury
+2025-07-17 15:16:43,244 - __main__ - INFO - Processing URL: https://www.nbcnews.com/news/us-news/mom-9-year-old-son-rescued-leaving-sos-notes-california-forest-rcna219243
+2025-07-17 15:16:43,252 - __main__ - INFO - Already in DB skipping: https://www.nbcnews.com/news/us-news/mom-9-year-old-son-rescued-leaving-sos-notes-california-forest-rcna219243
+2025-07-17 15:16:43,252 - __main__ - INFO - Processing URL: https://edition.cnn.com/2025/07/17/europe/ukraine-russia-frontline-summer-offensive-intl
+2025-07-17 15:16:43,740 - llm_processor - INFO - Sending article to LLM for processing. URL: https://edition.cnn.com/2025/07/17/europe/ukraine-russia-frontline-summer-offensive-intl
+2025-07-17 15:16:43,750 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-17 15:16:49,634 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-17 15:16:49,638 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-17 15:16:49,638 - llm_processor - INFO - LLM processing successful for URL: https://edition.cnn.com/2025/07/17/europe/ukraine-russia-frontline-summer-offensive-intl
+2025-07-17 15:16:49,646 - __main__ - INFO - SUCCESS: Added: Russia Poised to Exploit Trump's Sanctions Pause on Ukraine Front Line
+2025-07-17 15:16:56,657 - __main__ - INFO - Processing URL: https://apnews.com/article/solar-system-planet-formation-e668251436f90af0fc9462e208550187
+2025-07-17 15:16:57,207 - llm_processor - INFO - Article from 2025-07-16 is not from today, skipping. URL: https://apnews.com/article/solar-system-planet-formation-e668251436f90af0fc9462e208550187
+2025-07-17 15:16:57,207 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/solar-system-planet-formation-e668251436f90af0fc9462e208550187
+2025-07-17 15:16:57,207 - __main__ - INFO - Processing URL: https://apnews.com/article/uk-voting-age-16-de7a0dba500ecd4d603d0c4b0756209d
+2025-07-17 15:16:57,208 - __main__ - INFO - Already in DB skipping: https://apnews.com/article/uk-voting-age-16-de7a0dba500ecd4d603d0c4b0756209d
+2025-07-17 15:16:57,208 - __main__ - INFO - Processing URL: https://apnews.com/article/cybercrime-scams-poipet-sihanoukville-dc7be0c338265e7e8e21de686ee52b45
+2025-07-17 15:16:57,737 - llm_processor - INFO - Article from 2025-07-16 is not from today, skipping. URL: https://apnews.com/article/cybercrime-scams-poipet-sihanoukville-dc7be0c338265e7e8e21de686ee52b45
+2025-07-17 15:16:57,737 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/cybercrime-scams-poipet-sihanoukville-dc7be0c338265e7e8e21de686ee52b45
+2025-07-17 15:16:57,737 - __main__ - INFO - Processing URL: https://apnews.com/article/france-lebanon-palestinians-georges-ibrahim-abdallah-release-e0f850fbfbd913c64031689520728b86
+2025-07-17 15:16:57,737 - __main__ - INFO - Already in DB skipping: https://apnews.com/article/france-lebanon-palestinians-georges-ibrahim-abdallah-release-e0f850fbfbd913c64031689520728b86
+2025-07-17 15:16:57,737 - __main__ - INFO - Processing URL: https://apnews.com/article/nuclear-energy-uranium-reactor-fuel-xenergy-trump-b60efd5433ca4f336e2f7f035cd37538
+2025-07-17 15:16:58,304 - llm_processor - INFO - Article from 2025-07-16 is not from today, skipping. URL: https://apnews.com/article/nuclear-energy-uranium-reactor-fuel-xenergy-trump-b60efd5433ca4f336e2f7f035cd37538
+2025-07-17 15:16:58,304 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/nuclear-energy-uranium-reactor-fuel-xenergy-trump-b60efd5433ca4f336e2f7f035cd37538
+2025-07-17 15:16:58,304 - __main__ - INFO - Processing URL: https://apnews.com/article/pakistan-gunmen-attack-passenger-bus-balochistan-cd18fc088b688624f3983d91c901ad58
+2025-07-17 15:16:58,825 - llm_processor - INFO - Article from 2025-07-16 is not from today, skipping. URL: https://apnews.com/article/pakistan-gunmen-attack-passenger-bus-balochistan-cd18fc088b688624f3983d91c901ad58
+2025-07-17 15:16:58,825 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/pakistan-gunmen-attack-passenger-bus-balochistan-cd18fc088b688624f3983d91c901ad58
+2025-07-17 15:16:58,825 - __main__ - INFO - Processing URL: https://www.nbcnews.com/news/us-news/janes-addiction-bandmates-sue-onstage-fight-ended-tour-rcna219265
+2025-07-17 15:16:59,416 - llm_processor - INFO - Sending article to LLM for processing. URL: https://www.nbcnews.com/news/us-news/janes-addiction-bandmates-sue-onstage-fight-ended-tour-rcna219265
+2025-07-17 15:16:59,428 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-17 15:17:04,893 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-17 15:17:04,899 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-17 15:17:04,899 - llm_processor - INFO - LLM processing successful for URL: https://www.nbcnews.com/news/us-news/janes-addiction-bandmates-sue-onstage-fight-ended-tour-rcna219265
+2025-07-17 15:17:04,910 - __main__ - INFO - SUCCESS: Added: Jane's Addiction Members File Dueling Lawsuits Over Onstage Fight and Canceled Tour
+2025-07-17 15:17:11,921 - __main__ - INFO - Processing URL: https://apnews.com/article/wyndham-clark-oakmont-locker-damage-us-open-b212100aa290ee7b117f1cb4e40c8881
+2025-07-17 15:17:12,465 - llm_processor - INFO - Article from 2025-07-16 is not from today, skipping. URL: https://apnews.com/article/wyndham-clark-oakmont-locker-damage-us-open-b212100aa290ee7b117f1cb4e40c8881
+2025-07-17 15:17:12,465 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/wyndham-clark-oakmont-locker-damage-us-open-b212100aa290ee7b117f1cb4e40c8881
+2025-07-17 15:17:12,465 - __main__ - INFO - Processing URL: https://apnews.com/article/labubu-cabbage-patch-fidget-beanie-tamagotchi-c56f188cbd2009dad58490e5fce22d6a
+2025-07-17 15:17:13,076 - llm_processor - INFO - Article from 2025-07-16 is not from today, skipping. URL: https://apnews.com/article/labubu-cabbage-patch-fidget-beanie-tamagotchi-c56f188cbd2009dad58490e5fce22d6a
+2025-07-17 15:17:13,077 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/labubu-cabbage-patch-fidget-beanie-tamagotchi-c56f188cbd2009dad58490e5fce22d6a
+2025-07-17 15:17:13,077 - __main__ - INFO - Processing URL: https://apnews.com/article/arcadia-children-removed-surrogacy-082ebf2d66498a38c3c65d10c4ff86b6
+2025-07-17 15:17:13,640 - llm_processor - INFO - Article from 2025-07-16 is not from today, skipping. URL: https://apnews.com/article/arcadia-children-removed-surrogacy-082ebf2d66498a38c3c65d10c4ff86b6
+2025-07-17 15:17:13,640 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/arcadia-children-removed-surrogacy-082ebf2d66498a38c3c65d10c4ff86b6
+2025-07-17 15:17:13,640 - __main__ - INFO - Processing URL: https://apnews.com/article/louisiana-visa-fraud-police-chiefs-charges-5b186fac2a61cb7266087c8cd7f00621
+2025-07-17 15:17:14,267 - llm_processor - INFO - Article from 2025-07-16 is not from today, skipping. URL: https://apnews.com/article/louisiana-visa-fraud-police-chiefs-charges-5b186fac2a61cb7266087c8cd7f00621
+2025-07-17 15:17:14,268 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/louisiana-visa-fraud-police-chiefs-charges-5b186fac2a61cb7266087c8cd7f00621
+2025-07-17 15:17:14,268 - __main__ - INFO - Processing URL: https://apnews.com/article/pete-davidson-elsie-hewitt-baby-07ee9dc72de73f43870b8d2cfb4749d1
+2025-07-17 15:17:14,750 - llm_processor - INFO - Article from 2025-07-16 is not from today, skipping. URL: https://apnews.com/article/pete-davidson-elsie-hewitt-baby-07ee9dc72de73f43870b8d2cfb4749d1
+2025-07-17 15:17:14,750 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/pete-davidson-elsie-hewitt-baby-07ee9dc72de73f43870b8d2cfb4749d1
+2025-07-17 15:17:14,750 - __main__ - INFO - Processing URL: https://apnews.com/article/fact-check-misinformation-migrant-children-missing-7ab0cea2fd2238346197429e952baa8b
+2025-07-17 15:17:15,247 - llm_processor - INFO - Article from 2024-10-02 is not from today, skipping. URL: https://apnews.com/article/fact-check-misinformation-migrant-children-missing-7ab0cea2fd2238346197429e952baa8b
+2025-07-17 15:17:15,247 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/fact-check-misinformation-migrant-children-missing-7ab0cea2fd2238346197429e952baa8b
+2025-07-17 15:17:15,247 - __main__ - INFO - Processing URL: https://apnews.com/article/antichoking-devices-heimlich-maneuver-1c066a11ce6b794927456720d97023f9
+2025-07-17 15:17:15,844 - llm_processor - INFO - Article from 2025-07-14 is not from today, skipping. URL: https://apnews.com/article/antichoking-devices-heimlich-maneuver-1c066a11ce6b794927456720d97023f9
+2025-07-17 15:17:15,844 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/antichoking-devices-heimlich-maneuver-1c066a11ce6b794927456720d97023f9
+2025-07-17 15:17:15,844 - __main__ - INFO - Processing URL: https://apnews.com/article/bedouin-homemade-bomb-shelters-war-mideast
+2025-07-17 15:17:16,432 - llm_processor - INFO - Article from 2025-07-16 is not from today, skipping. URL: https://apnews.com/article/bedouin-homemade-bomb-shelters-war-mideast
+2025-07-17 15:17:16,432 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/bedouin-homemade-bomb-shelters-war-mideast
+2025-07-17 15:17:16,432 - __main__ - INFO - Processing URL: https://www.nbcnews.com/world/middle-east/israel-strike-catholic-church-gaza-pope-francis-gabriele-romanelli-rcna219268
+2025-07-17 15:17:16,756 - llm_processor - INFO - Sending article to LLM for processing. URL: https://www.nbcnews.com/world/middle-east/israel-strike-catholic-church-gaza-pope-francis-gabriele-romanelli-rcna219268
+2025-07-17 15:17:16,768 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-17 15:17:20,044 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-17 15:17:20,048 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-17 15:17:20,048 - llm_processor - INFO - LLM processing successful for URL: https://www.nbcnews.com/world/middle-east/israel-strike-catholic-church-gaza-pope-francis-gabriele-romanelli-rcna219268
+2025-07-17 15:17:20,055 - __main__ - INFO - SUCCESS: Added: Strike Hits Catholic Church in Northern Gaza, Injuring Priest and Others
+2025-07-17 15:17:27,065 - __main__ - INFO - Processing URL: https://apnews.com/article/kaye-deluca-american-idol-killing-la-d09280e9f5be40612ecdf347912e82ac
+2025-07-17 15:17:27,722 - llm_processor - INFO - Article from 2025-07-16 is not from today, skipping. URL: https://apnews.com/article/kaye-deluca-american-idol-killing-la-d09280e9f5be40612ecdf347912e82ac
+2025-07-17 15:17:27,722 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/kaye-deluca-american-idol-killing-la-d09280e9f5be40612ecdf347912e82ac
+2025-07-17 15:17:27,722 - __main__ - INFO - Processing URL: https://apnews.com/article/tech-cleaning-smartphone-computer-48a98c0de897e5280a5fd83b072e6284
+2025-07-17 15:17:28,355 - llm_processor - INFO - Sending article to LLM for processing. URL: https://apnews.com/article/tech-cleaning-smartphone-computer-48a98c0de897e5280a5fd83b072e6284
+2025-07-17 15:17:28,364 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-17 15:17:33,871 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-17 15:17:33,874 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-17 15:17:33,874 - llm_processor - INFO - LLM processing successful for URL: https://apnews.com/article/tech-cleaning-smartphone-computer-48a98c0de897e5280a5fd83b072e6284
+2025-07-17 15:17:33,882 - __main__ - INFO - SUCCESS: Added: Expert Tips for Cleaning Your Tech Gadgets
+2025-07-17 15:17:40,892 - __main__ - INFO - Processing URL: https://apnews.com/article/tiktok-ban-trump-delay-executive-order-3211a98113615be44cf92b32dca69a8e
+2025-07-17 15:17:41,516 - llm_processor - INFO - Article from 2025-06-19 is not from today, skipping. URL: https://apnews.com/article/tiktok-ban-trump-delay-executive-order-3211a98113615be44cf92b32dca69a8e
+2025-07-17 15:17:41,516 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/tiktok-ban-trump-delay-executive-order-3211a98113615be44cf92b32dca69a8e
+2025-07-17 15:17:41,516 - __main__ - INFO - Processing URL: https://apnews.com/article/syria-druze-israel-clashes-sweida-ceasefire-sharaa-67fdcbd1be73c4890a4ce81bd954d447
+2025-07-17 15:17:42,252 - llm_processor - INFO - Sending article to LLM for processing. URL: https://apnews.com/article/syria-druze-israel-clashes-sweida-ceasefire-sharaa-67fdcbd1be73c4890a4ce81bd954d447
+2025-07-17 15:17:42,262 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-17 15:17:46,930 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-17 15:17:46,934 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-17 15:17:46,934 - llm_processor - INFO - LLM processing successful for URL: https://apnews.com/article/syria-druze-israel-clashes-sweida-ceasefire-sharaa-67fdcbd1be73c4890a4ce81bd954d447
+2025-07-17 15:17:46,942 - __main__ - INFO - SUCCESS: Added: Syrian Forces Withdraw from Sweida After Clashes with Druze Militias; Sectarian Violence and Israeli Strikes Reported
+2025-07-17 15:17:53,952 - __main__ - INFO - Processing URL: https://apnews.com/article/turkey-istanbul-mayor-trial-c56f77e647a500c39770e6cc34d00326
+2025-07-17 15:17:54,523 - llm_processor - INFO - Article from 2025-07-16 is not from today, skipping. URL: https://apnews.com/article/turkey-istanbul-mayor-trial-c56f77e647a500c39770e6cc34d00326
+2025-07-17 15:17:54,523 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/turkey-istanbul-mayor-trial-c56f77e647a500c39770e6cc34d00326
+2025-07-17 15:17:54,523 - __main__ - INFO - Processing URL: https://apnews.com/article/iraq-oil-field-kurdistan-drone-attack-ccf0db3e1f9844b48c6e4463d83b14bb
+2025-07-17 15:17:55,075 - llm_processor - INFO - Article from 2025-07-16 is not from today, skipping. URL: https://apnews.com/article/iraq-oil-field-kurdistan-drone-attack-ccf0db3e1f9844b48c6e4463d83b14bb
+2025-07-17 15:17:55,075 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/iraq-oil-field-kurdistan-drone-attack-ccf0db3e1f9844b48c6e4463d83b14bb
+2025-07-17 15:17:55,075 - __main__ - INFO - Processing URL: https://www.nbcnews.com/world/gaza/gaza-children-dying-israel-strikes-palestine-offensive-idf-rcna218202
+2025-07-17 15:17:55,629 - llm_processor - INFO - Article from 2025-07-16 is not from today, skipping. URL: https://www.nbcnews.com/world/gaza/gaza-children-dying-israel-strikes-palestine-offensive-idf-rcna218202
+2025-07-17 15:17:55,629 - __main__ - INFO - Skipped empty processed result for: https://www.nbcnews.com/world/gaza/gaza-children-dying-israel-strikes-palestine-offensive-idf-rcna218202
+2025-07-17 15:17:55,629 - __main__ - INFO - Processing URL: https://www.nbcnews.com/world/europe/fire-engulfs-main-stage-belgiums-tomorrowland-music-festival-ahead-fri-rcna219274
+2025-07-17 15:17:55,630 - __main__ - INFO - Already in DB skipping: https://www.nbcnews.com/world/europe/fire-engulfs-main-stage-belgiums-tomorrowland-music-festival-ahead-fri-rcna219274
+2025-07-17 15:17:55,630 - __main__ - INFO - Processing URL: https://apnews.com/article/archive-fact-checking-9233643423
+2025-07-17 15:17:56,167 - llm_processor - INFO - Article from 2020-08-24 is not from today, skipping. URL: https://apnews.com/article/archive-fact-checking-9233643423
+2025-07-17 15:17:56,167 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/archive-fact-checking-9233643423
+2025-07-17 15:17:56,167 - __main__ - INFO - Processing URL: https://apnews.com/article/mexico-mass-tourism-gentrification-f8b0aeee11954be5004715e29fa0cf47
+2025-07-17 15:17:56,925 - llm_processor - INFO - Article from 2025-07-16 is not from today, skipping. URL: https://apnews.com/article/mexico-mass-tourism-gentrification-f8b0aeee11954be5004715e29fa0cf47
+2025-07-17 15:17:56,925 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/mexico-mass-tourism-gentrification-f8b0aeee11954be5004715e29fa0cf47
+2025-07-17 15:17:56,925 - __main__ - INFO - Processing URL: https://edition.cnn.com/2025/07/17/sport/scottie-scheffler-open-championship-spt
+2025-07-17 15:17:57,422 - llm_processor - INFO - Sending article to LLM for processing. URL: https://edition.cnn.com/2025/07/17/sport/scottie-scheffler-open-championship-spt
+2025-07-17 15:17:57,432 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-17 15:18:04,190 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-17 15:18:04,197 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-17 15:18:04,197 - llm_processor - INFO - LLM processing successful for URL: https://edition.cnn.com/2025/07/17/sport/scottie-scheffler-open-championship-spt
+2025-07-17 15:18:04,207 - __main__ - INFO - SUCCESS: Added: Scottie Scheffler Aims for Fourth Major at Open Championship, Reflecting on Success
+2025-07-17 15:18:11,217 - __main__ - INFO - Processing URL: https://www.nbcnews.com/news/obituaries/pretty-little-baby-singer-connie-francis-dies-87-rcna219279
+2025-07-17 15:18:11,453 - llm_processor - INFO - Sending article to LLM for processing. URL: https://www.nbcnews.com/news/obituaries/pretty-little-baby-singer-connie-francis-dies-87-rcna219279
+2025-07-17 15:18:11,465 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-17 15:18:14,833 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-17 15:18:14,835 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-17 15:18:14,835 - llm_processor - INFO - LLM processing successful for URL: https://www.nbcnews.com/news/obituaries/pretty-little-baby-singer-connie-francis-dies-87-rcna219279
+2025-07-17 15:18:14,842 - __main__ - INFO - SUCCESS: Added: Singer Connie Francis, known for "Pretty Little Baby," dies at 87
+2025-07-17 15:18:21,852 - __main__ - INFO - Processing URL: https://apnews.com/article/russia-ukraine-war-government-reshuffle-zelenskyy-svyrydenko-c64ec1fd2475ad85c6a54a50c63076eb
+2025-07-17 15:18:22,480 - llm_processor - INFO - Sending article to LLM for processing. URL: https://apnews.com/article/russia-ukraine-war-government-reshuffle-zelenskyy-svyrydenko-c64ec1fd2475ad85c6a54a50c63076eb
+2025-07-17 15:18:22,491 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-17 15:18:26,966 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-17 15:18:26,971 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-17 15:18:26,971 - llm_processor - INFO - LLM processing successful for URL: https://apnews.com/article/russia-ukraine-war-government-reshuffle-zelenskyy-svyrydenko-c64ec1fd2475ad85c6a54a50c63076eb
+2025-07-17 15:18:26,980 - __main__ - INFO - SUCCESS: Added: Ukraine Appoints New Prime Minister Amid Cabinet Reshuffle to Bolster War Effort
+2025-07-17 15:18:33,990 - __main__ - INFO - Processing URL: https://apnews.com/article/pepfar-explainer-trump-hiv-aids-funding-health-96fec7b6f04b8ca848eda3b64d708bb6
+2025-07-17 15:18:34,513 - llm_processor - INFO - Article from 2025-07-16 is not from today, skipping. URL: https://apnews.com/article/pepfar-explainer-trump-hiv-aids-funding-health-96fec7b6f04b8ca848eda3b64d708bb6
+2025-07-17 15:18:34,513 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/pepfar-explainer-trump-hiv-aids-funding-health-96fec7b6f04b8ca848eda3b64d708bb6
+2025-07-17 15:18:34,513 - __main__ - INFO - Processing URL: https://apnews.com/article/stocks-markets-rates-bonds-nvidia-916c6569c6e486c82ca82acfc49fe552
+2025-07-17 15:18:35,080 - llm_processor - INFO - Article from 2025-07-16 is not from today, skipping. URL: https://apnews.com/article/stocks-markets-rates-bonds-nvidia-916c6569c6e486c82ca82acfc49fe552
+2025-07-17 15:18:35,080 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/stocks-markets-rates-bonds-nvidia-916c6569c6e486c82ca82acfc49fe552
+2025-07-17 15:18:35,080 - __main__ - INFO - Processing URL: https://apnews.com/article/deportees-trump-africa-eswatini-migrant-africa-8d10c5a1de7ba50cbea9712b6b5fbfbc
+2025-07-17 15:18:35,601 - llm_processor - INFO - Article from 2025-07-16 is not from today, skipping. URL: https://apnews.com/article/deportees-trump-africa-eswatini-migrant-africa-8d10c5a1de7ba50cbea9712b6b5fbfbc
+2025-07-17 15:18:35,602 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/deportees-trump-africa-eswatini-migrant-africa-8d10c5a1de7ba50cbea9712b6b5fbfbc
+2025-07-17 15:18:35,602 - __main__ - INFO - Processing URL: https://apnews.com/article/europol-hackers-cybercrime-russia-ukraine-42d98dabdc0182dac4bd4c80d880cdb4
+2025-07-17 15:18:36,112 - llm_processor - INFO - Article from 2025-07-16 is not from today, skipping. URL: https://apnews.com/article/europol-hackers-cybercrime-russia-ukraine-42d98dabdc0182dac4bd4c80d880cdb4
+2025-07-17 15:18:36,112 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/europol-hackers-cybercrime-russia-ukraine-42d98dabdc0182dac4bd4c80d880cdb4
+2025-07-17 15:18:36,112 - __main__ - INFO - Processing URL: https://apnews.com/article/israel-gaza-mideast-wars-latest-july-2025-25843c0eb9dcaae624de39cf383d186d
+2025-07-17 15:18:36,754 - llm_processor - INFO - Article from 2025-07-16 is not from today, skipping. URL: https://apnews.com/article/israel-gaza-mideast-wars-latest-july-2025-25843c0eb9dcaae624de39cf383d186d
+2025-07-17 15:18:36,755 - __main__ - INFO - Skipped empty processed result for: https://apnews.com/article/israel-gaza-mideast-wars-latest-july-2025-25843c0eb9dcaae624de39cf383d186d
+2025-07-17 15:18:36,755 - __main__ - INFO - --- Scraping process finished ---

@@ -24,7 +24,7 @@ try:
     scraped_urls = get_all_article_urls()
     logger.info(f"Found {len(scraped_urls)} unique articles across all sources.")
 
-    for url in scraped_urls[:30]:
+    for url in scraped_urls:
         logger.info(f"Processing URL: {url}")
 
         if session.query(Article).filter_by(url=url).first():
@@ -50,6 +50,7 @@ try:
 
                 new_article = Article(
                     title=article_data["title"],
+                    topic=article_data["topic"],
                     url=final_url,
                     summary=article_data["info"].get("summary", ""),
                     publish_date=publish_date,
