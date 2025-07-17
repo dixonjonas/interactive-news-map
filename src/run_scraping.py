@@ -22,15 +22,19 @@ session = Session()
 logger.info("--- Starting scraping process ---")
 try:
     scraped_urls = get_all_article_urls()
-    print(scraped_urls)
     logger.info(f"Found {len(scraped_urls)} unique articles across all sources.")
 
     for url in scraped_urls[:30]:
         logger.info(f"Processing URL: {url}")
 
+        if session.query(Article).filter_by(url=url).first():
+            logger.info(f"Already in DB skipping: {url}")
+            continue
+
         result = scrape_article(url)
         if result:
             text, publish_date, final_url, source_url = result
+            
             try:
                 processed = process_article(text, publish_date, final_url)
                 if not processed or (isinstance(processed, str) and processed.strip() == ""):
@@ -42,10 +46,6 @@ try:
                 except json.JSONDecodeError:
                     logger.error(f"Invalid JSON returned from process_article for: {url}")
                     logger.debug(f"Received content: {processed}")
-                    continue
-        
-                if session.query(Article).filter_by(url=final_url).first():
-                    logger.info(f"Already in DB: {final_url}")
                     continue
 
                 new_article = Article(
